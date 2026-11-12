@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 114,
+    "exam_id": 2,
+    "passage_id": null,
+    "number": 114,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "John Clarke, who is in the prime of his career, has been ranked ------- the top 10 players in tennis history by Sports Daily.",
+    "raw_text": "John Clarke, who is in the prime of his career, has been ranked ------- the top\n10 players in tennis history by Sports Daily.\n(A) at\n(B) into\n(C) among\n(D) from",
+    "page_start": 64,
+    "page_end": 64,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "C",
+    "answer_page": 523,
+    "explanation": "由备选答案可以看出，本题考查介词。谓语has been ranked\n后用the top 10 players in tennis history(网球史上的十佳选手)限制了\n具体范围，因此(C)among(在…之中)最恰当。",
+    "explanation_start": 530,
+    "explanation_end": 530,
+    "options": {
+      "A": "at",
+      "B": "into",
+      "C": "among",
+      "D": "from"
+    }
+  },
+  "independent_checks": {
+    "id": 114,
+    "exam": 2,
+    "number": 114,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 907,
+    "exam_id": 10,
+    "passage_id": null,
+    "number": 107,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "------- leaving school, she has worked in a variety of positions but has not yet found one which suits her talents or interests.",
+    "raw_text": "------- leaving school, she has worked in a variety of positions but has not yet\nfound one which suits her talents or interests.\n(A) Despite\n(B) Since\n(C) In spite\n(D) If",
+    "page_start": 407,
+    "page_end": 407,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "B",
+    "answer_page": 1130,
+    "explanation": "横线前后没有leaving的主语，因此______ leaving school\n是主语被省略的分词短语，故横线处应填入引导状语从句的从属连词。句意\n应为“自从学校毕业后”，故选 (B) since。since leaving school=since\nshe left school。",
+    "explanation_start": 1133,
+    "explanation_end": 1133,
+    "options": {
+      "A": "Despite",
+      "B": "Since",
+      "C": "In spite",
+      "D": "If"
+    }
+  },
+  "independent_checks": {
+    "id": 907,
+    "exam": 10,
+    "number": 107,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

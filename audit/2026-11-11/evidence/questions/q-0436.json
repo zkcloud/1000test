@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 436,
+    "exam_id": 5,
+    "passage_id": 78,
+    "number": 136,
+    "part": 6,
+    "type": "single_choice",
+    "stem": "选择第 136 空的最佳答案。",
+    "raw_text": "(A) decrease\n(B) lift\n(C) reduction\n(D) increase",
+    "page_start": 200,
+    "page_end": 200,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "D",
+    "answer_page": 749,
+    "explanation": "本句主要是在说明销售量增长的原因，因此最恰当的是 (D)\nincrease (增加，增长)。",
+    "explanation_start": 770,
+    "explanation_end": 770,
+    "options": {
+      "A": "decrease",
+      "B": "lift",
+      "C": "reduction",
+      "D": "increase"
+    },
+    "passage": {
+      "id": 78,
+      "exam_id": 5,
+      "part": 6,
+      "first_number": 135,
+      "last_number": 138,
+      "instruction": "Questions 135-138 refer to the following news article.",
+      "content": "Thornhill Sales\nIncreased 124% in June\nTrimart’s Housing Report gave Thornhill the number one ranking in sales for\nthe month of June.\nSales in Thornhill increased by 124%, with 330 sales (135) -------- to a\nMay tally of 147. This dramatic (136) -------- was the result of the outstanding\nsuccess of the Saxton Group’s launch of their new, affordable subdivision Home\nSweet Home.\nIn its first weekend, Home Sweet Home completely sold out its 152-unit\ninventory in the Thornhill area. A more (137) -------- increase of 16% was\nrecorded in the Toronto region, comprised of North York, East York, Etobicoke,\nYork, and Central Toronto. (138) --------.",
+      "page_start": 199,
+      "page_end": 199
+    },
+    "assets": [
+      {
+        "id": 147,
+        "page": 199,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          357.4044189453125,
+          595.2755737304688,
+          739.74072265625
+        ],
+        "sha256": "ad948b6402bdf3679c1b2ab7d96c1057a1bc7df7ebab250670743fd24184a6a7"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 436,
+    "exam": 5,
+    "number": 136,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

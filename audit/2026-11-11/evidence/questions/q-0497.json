@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 497,
+    "exam_id": 5,
+    "passage_id": 95,
+    "number": 197,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is true about the Crompton, Inc. research center?",
+    "raw_text": "What is true about the Crompton, Inc. research center?\n(A) It has space for more than 200 workers.\n(B) It will be in Hathaway Business Park.\n(C) It is scheduled to open in May.\n(D) Its employees will be from several countries.",
+    "page_start": 232,
+    "page_end": 232,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "B",
+    "answer_page": 749,
+    "explanation": "由第一篇文章可知，康普顿公司将在菲尔德贝格的哈萨韦商业园区开\n办新的机构，由第二段的官网新闻可知，康普顿公司要在菲尔德贝格开办的\n是一家研究机构，故选项 (B) 正确。",
+    "explanation_start": 823,
+    "explanation_end": 823,
+    "options": {
+      "A": "It has space for more than 200 workers.",
+      "B": "It will be in Hathaway Business Park.",
+      "C": "It is scheduled to open in May.",
+      "D": "Its employees will be from several countries."
+    },
+    "passage": {
+      "id": 95,
+      "exam_id": 5,
+      "part": 7,
+      "first_number": 196,
+      "last_number": 200,
+      "instruction": "Questions 196-200 rrefer to the following article, information, and e-mail.",
+      "content": "Crompton Semiconductors Coming to City\nFeldberg (August 9) – Global semiconductor giant Crompton, Inc. will open\nits newest facility in Feldberg next March. On August 8, a Crompton\nspokesperson announced that management had selected Feldberg from among\neight potential sites.\nThe spokesperson commented on several reasons Feldberg was selected.\nMost notable among them was the fact that Feldberg is constructing an area called\nHathaway Business Park on the city’s eastern edges. It will be completed in\nDecember of this year, and several companies have already committed to opening\noffices and other facilities there.\nIn addition, the highly educated workforce in the city was singled out for\nbeing an attractive feature. The low cost of living and pleasant climate were also\nmentioned.\nhttp://www.cromptonsemiconductors.com\nCrompton, Inc. is opening a research facility in the city of Feldberg. More\nthan 70 full-time and 100 part-time positions still must be filled there. There are a\nwide variety of positions available. All of them require a bachelor or master\ndegree in mathematics, computer science, engineering, or physics. For a complete\nlisting of the jobs and their requirements, click here. The average salary of the\nremaining jobs available is $96,500. Relocation assistance will be provided by\nthe company.\nCrompton, Inc. is the country’s largest manufacturer of semiconductors. It\nhas facilities in 22 states as well as in Australia, England, France, Russia, and\nTurkey. More information about Crompton, Inc. can be obtained here.\nTo: Laurel Flannagan\nFrom: Fred Sweitzer\nSubject: Congratulations\nDate: January 11\nLaurel,\nI was reading a list of the individuals who have been hired at the facility set\nto open in March. I was pleasantly surprised to see your name on it. It will be a\npleasure to work with you once again. While I’ve spent the past five years in the\nSan Diego office, I’ve been named the head of the R&D Department, so it looks\nlike we’ll be seeing a lot of each other.\nI noticed on your application that you worked at Gerona, Inc. for three years.\nI’m sure you must have acquired some impressive skills there. Hopefully, you can\nput them to good use on a few of research projects we’re going to be involved in.\nI’m looking forward to seeing you again on the second of March.\nSincerely,\nFred Sweitzer",
+      "page_start": 230,
+      "page_end": 232
+    },
+    "assets": [
+      {
+        "id": 180,
+        "page": 230,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          436.8703918457031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "c90bd6b7c2d4fdeb84f5791bf2358644f7ab271525f102b469c280bfe4f67e15"
+      },
+      {
+        "id": 181,
+        "page": 231,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "fcd034c2865f7849287ee4fc859a84485742c8c0e1c06b12b50676f50767e40a"
+      },
+      {
+        "id": 182,
+        "page": 232,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          148.24395751953125
+        ],
+        "sha256": "e6b53f982b7e76e4697006fc713422a7d14c39851389bbe134819b2458af8175"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 497,
+    "exam": 5,
+    "number": 197,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

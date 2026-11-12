@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 884,
+    "exam_id": 9,
+    "passage_id": 168,
+    "number": 184,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What does the e-mail imply?",
+    "raw_text": "What does the e-mail imply?\n(A) The tour has already taken place.\n(B) Too many tourists have misbehaved in the past.\n(C) People should prepare themselves for chilly weather.\n(D) A group this large has never been put together before.",
+    "page_start": 395,
+    "page_end": 395,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "C",
+    "answer_page": 1055,
+    "explanation": "参考183题。答案是 (C)。",
+    "explanation_start": 1114,
+    "explanation_end": 1114,
+    "options": {
+      "A": "The tour has already taken place.",
+      "B": "Too many tourists have misbehaved in the past.",
+      "C": "People should prepare themselves for chilly weather.",
+      "D": "A group this large has never been put together before."
+    },
+    "passage": {
+      "id": 168,
+      "exam_id": 9,
+      "part": 7,
+      "first_number": 181,
+      "last_number": 185,
+      "instruction": "Questions 181-185 refer to the following e-mail message and itinerary.",
+      "content": "To: ALL TRAVELERS\nFrom: lisawilliams@westcoasttravels.com\nSubject: May 1-May 5 Tour\nTo everyone,\nThe west coast tour has finally arrived. I hope everyone is looking forward\nto some great sightseeing we have planned for you. On this West Coast Adventure\nTour, there will be two destinations: LA and Las Vegas.\nSince there are 25 members who will be in attendance, we request that each\npassenger only bring one bag due to limited space on the bus. The weather is\nforecast to be bright, warm, and sunny throughout the entire trip. Remember that\nwe will be spending a night in Dodgers’ Stadium to watch a baseball game in the\nevening. So please remember to pack a jacket since the nights in LA get a bit\ncool.\nWe have many events planned. So please refer to the schedule attached with\nthis e-mail. If there are any questions regarding the itinerary or anything about our\ntrip, please call me at my office during business hours. Also, please arrive at\nKennedy Airport at least two hours before the 8 o’clock flight to LA. Thank you\nand I look forward to seeing you at the airport on the 1st of May.\nLisa Williams",
+      "page_start": 393,
+      "page_end": 394
+    },
+    "assets": [
+      {
+        "id": 316,
+        "page": 393,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          354.40570068359375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "bdc9d4dd3e8311a3e3226e5fa74810ad5f656d20ca98b9fb411419689c62391f"
+      },
+      {
+        "id": 317,
+        "page": 394,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          562.8164672851562
+        ],
+        "sha256": "bbc5afef6acff2c9379114e4d27110178669b21099edf80a46cd042796a7c25e"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 884,
+    "exam": 9,
+    "number": 184,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

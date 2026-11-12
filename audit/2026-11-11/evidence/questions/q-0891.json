@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 891,
+    "exam_id": 9,
+    "passage_id": 170,
+    "number": 191,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is indicated about the Book Depot?",
+    "raw_text": "What is indicated about the Book Depot?\n(A) It is the owner of several bookstores.\n(B) It provides membership for free.\n(C) It is having a sale for all customers in March.\n(D) It delivers books to other countries.",
+    "page_start": 400,
+    "page_end": 400,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "D",
+    "answer_page": 1055,
+    "explanation": "“书之家”是一家在线售书平台，会员在网上购书，不管下单者在世\n界的哪个地方，书籍都可邮寄到家。答案是(D)。",
+    "explanation_start": 1122,
+    "explanation_end": 1122,
+    "options": {
+      "A": "It is the owner of several bookstores.",
+      "B": "It provides membership for free.",
+      "C": "It is having a sale for all customers in March.",
+      "D": "It delivers books to other countries."
+    },
+    "passage": {
+      "id": 170,
+      "exam_id": 9,
+      "part": 7,
+      "first_number": 191,
+      "last_number": 195,
+      "instruction": "Questions 191-195 refer to the following e-mail, invoice, and survey.",
+      "content": "To: Dennis Shepherd <dennis_shepherd@wondermail.com>\nFrom: Karen Cross <kcross@bookdepot.com>\nSubject: Welcome\nDate: February 12\nDear Mr. Shepherd,\nPayment for your annual membership to the Book Depot has been received.\nFor the next twelve months, you will get 10% off every purchase you make with\nus. You’ll also gain access to special offers exclusively for our members.\nThe Book Depot has more than 20 million used books for sale at bookstores\naround the world. We work with some of the finest used bookstores everywhere\nand make their collections available online when you shop with us. After you\nplace an order, individual bookstores will send the items you want wherever in\nthe world you are.\nAs a special bonus, the delivery of each book you purchase will be\ncompletely free until March 15. Finally, should you spend more than $80 on your\nfirst purchase as a new member, you will receive a complimentary grab bag of 10\nused books selected at random.\nSincerely,\nKaren Cross\nINVOICE\nCustomer Name: Dennis Shepherd\nMembership Number: 234952\nAddress: 78 Mangrove Street, Columbia, SC\nPhone Number: (393) 348-2836\nE-mail Address: dennis_shepherd@wondermail.com\nOrder Date: February 18\nIf ordering from multiple bookstores, your items will be sent separately. You\nwill receive an e-mail from each bookseller regarding the status of your purchase.\nThe Book Depot\nCustomer Survey\nPlease let us know how you felt about your most recent order. Your\ncomments will help us improve the customer experience for our members.\nHow would you rate the following (1 = very unsatisfied / 5 =very satisfied):\nComments: I was mostly satisfied with everything, especially the grab bag\nwhich I received. I was e-mailed about every book I ordered except for\nWandering the Wastelands. Nevertheless, it still arrived, so there were no\nproblems.\n— Dennis Shepherd",
+      "page_start": 398,
+      "page_end": 400
+    },
+    "assets": [
+      {
+        "id": 321,
+        "page": 398,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "3a41f258e1a1598dfbc4f8df4920cef2238305e7843192166fe05588319a8b47"
+      },
+      {
+        "id": 322,
+        "page": 399,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "5a1734a3e58682d5c280bdaacc0cffc8c2b57fb27ad5a88ec6f1a73e2edffd68"
+      },
+      {
+        "id": 323,
+        "page": 400,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          536.5776977539062
+        ],
+        "sha256": "0de4b499fc8a41d3647f86e22f93ce3287e50b14da4337c59df7b0df9843a174"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 891,
+    "exam": 9,
+    "number": 191,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 801,
+    "exam_id": 9,
+    "passage_id": null,
+    "number": 101,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "Mrs. Szubanska has made a great contribution to our company through ------- wide knowledge and practical, down-to-earth approach.",
+    "raw_text": "Mrs. Szubanska has made a great contribution to our company through -------\nwide knowledge and practical, down-to-earth approach.\n(A) she\n(B) hers\n(C) herself\n(D) her",
+    "page_start": 363,
+    "page_end": 363,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "D",
+    "answer_page": 1055,
+    "explanation": "备选答案均为同一人称的不同人称代词，因此需要分析横线\n前后的具体结构。横线后有名词短语wide knowledge (形容词+名词)，因此\n横线处所填代词应和wide一起修饰knowledge。故选形容词性物主代词 (D)\nher。",
+    "explanation_start": 1056,
+    "explanation_end": 1056,
+    "options": {
+      "A": "she",
+      "B": "hers",
+      "C": "herself",
+      "D": "her"
+    }
+  },
+  "independent_checks": {
+    "id": 801,
+    "exam": 9,
+    "number": 101,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

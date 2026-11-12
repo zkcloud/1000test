@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 686,
+    "exam_id": 7,
+    "passage_id": 131,
+    "number": 186,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is NOT mentioned about Camden Grounds?",
+    "raw_text": "What is NOT mentioned about Camden Grounds?\n(A) People stay there for personal and business reasons.\n(B) There are several buildings at the facility.\n(C) It is possible to learn to ride a horse there.\n(D) The resort is located near some mountains.",
+    "page_start": 312,
+    "page_end": 313,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "C",
+    "answer_page": 904,
+    "explanation": "卡姆登广场的设施中包括一个室内游泳池、一个温泉浴场和一个马\n厩。客人可以在森林小径中徒步旅行，还可以爬山、游泳、骑马。但并没提\n到人们可能在那里学会骑马。答案为 (C)。",
+    "explanation_start": 966,
+    "explanation_end": 966,
+    "options": {
+      "A": "People stay there for personal and business reasons.",
+      "B": "There are several buildings at the facility.",
+      "C": "It is possible to learn to ride a horse there.",
+      "D": "The resort is located near some mountains."
+    },
+    "passage": {
+      "id": 131,
+      "exam_id": 7,
+      "part": 7,
+      "first_number": 186,
+      "last_number": 190,
+      "instruction": "Questions 186-190 refer to the following brochure, article, and review.",
+      "content": "Camden Grounds is a resort in the Shenandoah Valley within sight of the\nscenic Blue Ridge Mountains. Located approximately twenty kilometers from\nRoanoke, Camden Grounds is in a secluded region and occupies more than 120\nacres of land. The main building has 42 rooms for guests to stay in along with a\nfour-star restaurant. Other buildings contain various facilities, including an\nindoor swimming pool, a spa, and a stable for horses. Guests can go hiking on the\ntrails in the forests, climb mountains, swim, and ride horses. Camden Grounds is\npopular as a getaway site for families, and companies frequently take advantage\nof its conference rooms and high-tech facilities to host negotiations, seminars,\nand workshops here. For more information or to make a booking, contact Philip\nBusch at pbusch@camdengrounds.com.\nhttp://www.harpermanufacturing.com\nAugust 21 – Two days ago, the sales team returned from its annual trip to\nCamden Grounds, where everyone can do some bonding with colleagues in the\nbeautiful Shenandoah Valley. This year, Christine Felt organized the trip.“While\nI’ve visited Camden Grounds before, this was my first time to arrange everything\nfor the trip. Fortunately, the contact person there did a great job and helped us\nhave a wonderful time.”\nDuring the three-day trip there, staffers rode on horses and participated in\nother outdoor activities. It wasn’t all fun and games though as they attended\nseveral workshops and listened to lectures by guest speakers.\nhttp://www.camdengrounds.com\nI visited Camden Grounds for the first time with my colleagues from Harper\nManufacturing two weeks ago. I had heard many positive remarks about it from\nthem, and it turns out that they hadn’t been exaggerating. Visiting Camden\nGrounds was a truly amazing experience. I particularly enjoyed the hikes, the spa,\nand the food at the restaurant. The only drawback was that the prices were\nsomewhat out of my range. My company paid for everything, so I didn’t have to\nworry about the cost of this trip, but I doubt I can afford to stay there on my own\nin the future.\n- Marybeth Simmons",
+      "page_start": 311,
+      "page_end": 312
+    },
+    "assets": [
+      {
+        "id": 247,
+        "page": 311,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "2b57d48176b219203ed536563a9e6e547cafc1c9245d8414fd7243c749fa0cd6"
+      },
+      {
+        "id": 248,
+        "page": 312,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          699.258056640625
+        ],
+        "sha256": "b67ceb92c243a7425efe1be1cdc9a8e2accc15829109445aa836b02ef421deac"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 686,
+    "exam": 7,
+    "number": 186,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 192,
+    "exam_id": 2,
+    "passage_id": 37,
+    "number": 192,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Who most likely is Mr. Morris?",
+    "raw_text": "Who most likely is Mr. Morris?\n(A) A travel agent\n(B) A manager\n(C) An accountant\n(D) A negotiator",
+    "page_start": 100,
+    "page_end": 100,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "A",
+    "answer_page": 523,
+    "explanation": "莫里斯先生会为哈特菲尔德女士安排行程并预订酒店，所以他可能是\n一名旅行社代理人。答案为(A)。",
+    "explanation_start": 591,
+    "explanation_end": 591,
+    "options": {
+      "A": "A travel agent",
+      "B": "A manager",
+      "C": "An accountant",
+      "D": "A negotiator"
+    },
+    "passage": {
+      "id": 37,
+      "exam_id": 2,
+      "part": 7,
+      "first_number": 191,
+      "last_number": 195,
+      "instruction": "Questions 191-195. refer to the following e-mail, text message, and article.",
+      "content": "To: Deborah Hatfield <deborah_h@dresden.com>\nFrom: Ronald Salt <rsalt@dresden.com>\nRe: Scofield Manufacturing\nDate: September 18\nDeborah,\nSince Marty Winger handed in his resignation, we are assigning his work\nprojects to other members of his department. You’ve been chosen to represent us\nwith Scofield Manufacturing. It just so happens that Marty was planning to fly to\nZurich to discuss an issue in our contract with them. You need to fly there in his\nplace. I’ll have Zachary Morris make your travel arrangements and book a room\nfor you. He’ll get in touch with you within the hour. In addition, you should be in\nmy office today at 1:00 P.M. so that I can tell you everything I know about\nScofield. You’ll have to review several files prior to meeting with them. It won’t\nbe easy, but I’m sure you’re up for the challenge.\nRegards,\nRon\nRonald Salt [11:04 A.M.]\nHi, Deborah. Anything to report?\nDeborah Hatfield [11:06 A.M.]\nI’ve been meeting with the people at Scofield for the past two days. They’re\nmostly happy with the work we’re doing, but they want to renegotiate the contract.\nRonald Salt [11:07 A.M.]\nDid they say why?\nDeborah Hatfield [11:08 A.M.]\nThey’re convinced they’re being overcharged. They’re threatening to cancel\nthe entire contract if we don’t lower the price.\nRonald Salt [11:09 A.M.]\nOkay, tell them to wait a bit. I’m sending Lon Meadows there. He’s our lead\naccountant and is familiar with the contract. He should be there sometime\ntomorrow morning.\nDeborah Hatfield [11:10 A.M.]\nThanks. I’ll inform Mr. Jurgen and ask him to be patient.\nhttp://www.dresden.com\nSeveral Employees Receive Promotions\n(November 19) – Several Dresden, Inc. employees were recently promoted\nfor their outstanding performances. Deborah Hatfield was promoted to senior\nmanager and was transferred to headquarters in Duluth. Andrea Copperfield\nreceived a promotion to the head of the R&D Department at the El Paso branch.\nShe will remain at the same place at her request. Lon Meadows, who was also\nselected as the employee of the quarter for the third quarter of this year thanks to\nthe stellar work he did abroad, was promoted to senior accountant. He will\nremain at his branch as he’s replacing Erwin Peters, who’s retiring at the end of\nthe year.",
+      "page_start": 98,
+      "page_end": 100
+    },
+    "assets": [
+      {
+        "id": 72,
+        "page": 98,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "6183ca1bc0203b23a67eb3621700d561b1a56bd9a8535ab41b99103332a8b8e6"
+      },
+      {
+        "id": 73,
+        "page": 99,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "6af8068bed4da7b1c4937fde70b2aa9538f20f7b7e4b9feb08d93417c08cf2b7"
+      },
+      {
+        "id": 74,
+        "page": 100,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          133.25038146972656
+        ],
+        "sha256": "42d68cf9e7174c2a67ca884745e3b1115d25dcea51ec5c0c845bedc7bf79a1d6"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 192,
+    "exam": 2,
+    "number": 192,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

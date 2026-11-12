@@ -1,0 +1,13 @@
+test_all_material_crops_include_complete_source_text (test_question_bank.QuestionBankTests.test_all_material_crops_include_complete_source_text) ... ok
+test_answers_match_printed_key (test_question_bank.QuestionBankTests.test_answers_match_printed_key) ... ok
+test_complete_bank (test_question_bank.QuestionBankTests.test_complete_bank) ... ok
+test_delayed_explanations_are_assigned_to_right_question (test_question_bank.QuestionBankTests.test_delayed_explanations_are_assigned_to_right_question) ... ok
+test_image_only_material_is_preserved (test_question_bank.QuestionBankTests.test_image_only_material_is_preserved) ... ok
+test_no_encoding_damage_or_empty_explanation (test_question_bank.QuestionBankTests.test_no_encoding_damage_or_empty_explanation) ... ok
+test_original_range_typo_is_corrected_with_audit (test_question_bank.QuestionBankTests.test_original_range_typo_is_corrected_with_audit) ... ok
+test_wrapped_blank_is_joined (test_question_bank.QuestionBankTests.test_wrapped_blank_is_joined) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.942s
+
+OK

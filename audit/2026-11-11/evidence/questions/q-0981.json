@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 981,
+    "exam_id": 10,
+    "passage_id": 187,
+    "number": 181,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is the purpose of the schedule?",
+    "raw_text": "What is the purpose of the schedule?\n(A) To provide detailed information of the talks\n(B) To give an outline of the speakers’ backgrounds\n(C) To grade the talks in order of importance\n(D) To introduce the lineup of presentations",
+    "page_start": 437,
+    "page_end": 437,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "D",
+    "answer_page": 1130,
+    "explanation": "此表格是有关演讲日程的详细介绍。答案是 (D)。",
+    "explanation_start": 1186,
+    "explanation_end": 1186,
+    "options": {
+      "A": "To provide detailed information of the talks",
+      "B": "To give an outline of the speakers’ backgrounds",
+      "C": "To grade the talks in order of importance",
+      "D": "To introduce the lineup of presentations"
+    },
+    "passage": {
+      "id": 187,
+      "exam_id": 10,
+      "part": 7,
+      "first_number": 181,
+      "last_number": 185,
+      "instruction": "Questions 181-185 refer to the following schedule and information.",
+      "content": "Write-up of Presentations\n1 Demand Generation is the basis of all marketing campaigns! You will\nlearn creative methods of demand generation and related activities. This\nworkshop will introduce demand generation in a fun way. All beginners are\nwelcome, as practical discussions and sessions will be conducted to learn basic\ndemand generation campaigns for different products. A step-by-step guide is\navailable to help you to start.\n2 Small and Medium Enterprises want to look professional. What other way\ncould be better than to be able to design and print your very own name cards,\ncompany letterheads, and brochures? Do-It-Yourself marketing kit! This workshop\nteaches you to do all these in just 2 hours. Impress your customers! Free DIY\nmarketing kit for attendees.\n3 Trying to think of a word to describe your product/service? Come down,\nand brainstorm with us! Let us explore the limits of branding together. Branding is\nabout communicating what your product/service can do to your customer and how\nthey perceive your company from the look of your product. Come and join us as\nwe assist you in writing a plan for your branding strategy.\n4 Having trouble managing your employees? More than often, most problems\nin the workplace are people-related problems. Well-managed employees can\nbring about tremendous growth and results to your business! Join us as Lucy\nshares her motivation methods and secrets to a happy, working relationship. Lunch\nwill be provided for all attendees!\n5 You are at a crossroads. You need capital to capture the growing market.\nYou need more business to build up your capital. I have developed a 5-step\nS.T.A.R.T. action plan to bring your business to a fifth dimension. I will also\nshare my interviews with top business associates to bring you business insights\nlike never before! Unlock the secrets of business management for your business!\n6 Did you miss the boat to make some good money during the Internet craze?\nEvery period change in the business world is a paradigm. Come and join us as we\nexplore how to identify strong paradigms and the next paradigm. How can we ride\non this wave and benefit from it? Come and find out!",
+      "page_start": 435,
+      "page_end": 437
+    },
+    "assets": [
+      {
+        "id": 349,
+        "page": 435,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "94c08e547be2e60c164246d6aa0848de37fd6b80cf3762530613f94320e776dd"
+      },
+      {
+        "id": 350,
+        "page": 436,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "ebf5d5ab3600a3655c380faede577ee37e6e58050d0f34f5f14dbc26dfda75f1"
+      },
+      {
+        "id": 351,
+        "page": 437,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          259.19647216796875
+        ],
+        "sha256": "aee51a9731ee29e7616d0016b532f31aed7a52229c4f635083b2b99f5a13261e"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 981,
+    "exam": 10,
+    "number": 181,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

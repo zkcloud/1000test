@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 422,
+    "exam_id": 5,
+    "passage_id": null,
+    "number": 122,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "------- application procedures have resulted in a drop in interest in our investment and other financial services packages.",
+    "raw_text": "------- application procedures have resulted in a drop in interest in our\ninvestment and other financial services packages.\n(A) Complicating\n(B) Complicated\n(C) Complicates\n(D) Complicate",
+    "page_start": 195,
+    "page_end": 195,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "B",
+    "answer_page": 749,
+    "explanation": "横线处需要填入修饰主语application procedures的形容\n词。答案是 (B) complicated (复杂的) 。",
+    "explanation_start": 762,
+    "explanation_end": 762,
+    "options": {
+      "A": "Complicating",
+      "B": "Complicated",
+      "C": "Complicates",
+      "D": "Complicate"
+    }
+  },
+  "independent_checks": {
+    "id": 422,
+    "exam": 5,
+    "number": 122,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "app-patched.json": "8edb66544fcd33d162f608cf2e5e0705831efee55cf558eb569b6a4a976b7574",
+  "app-vulnerabilities.json": "013636f9417e5558b06e5d099ec022c6acd9ad53bde0c110ab20d6e21e091414",
+  "certbot-patched2.json": "9d9df70600a7102cb0b58eb310888d816e9d01e96e52f18a838122c75cd5def4",
+  "certbot-patched3.json": "71ed0531559572ba491aee442adabd87680812bc785daec4c7a1b7e72ebd9242",
+  "certbot-vulnerabilities.json": "ac9e3fca5a2ae554ae4362bf59560ea8b13bfb6cddeffe5edcacb7252a2eaa4b",
+  "collect-evidence.sh": "0045bcb926e22c2e3fdfb4ab702e80d79764785943c7cc36325a2df2ca6b08d7",
+  "context.json": "1f793e0b8f9042a7215bfc04b35a1d698fb64b421a02661beb580aac817779b6",
+  "desktop-live-reading.png": "adbf3890f56d5b7b7dc5fe6b4debb296c84d226cc94732a1a3bf07d0eaf7442f",
+  "desktop-live-result.png": "71c552494a03a62a1f4dc9653d7e50fef689be4d0e0e078441832b42425b1654",
+  "domain-deployment.txt": "677ca848082a5c3efb380cb619dd850e4bce593aadd54779138cf818d8126292",
+  "domain-renewal-dry-run.txt": "4978b233555a6de30441fef08de21cd9c8b9d2ae73804b8682ce464ebf517ec3",
+  "live-browser.json": "d169ef517502166cd525c073a3ff7fa524cc6e8253c92ab9c786419a3835ee89",
+  "mobile-live-reading.png": "d1d1e66a7db27a5fef918662a1c39a01010c0d70ee1223c3121dc18a6a0d0f77",
+  "mobile-live-result.png": "99ef7a49bd058f4bf83aa9922c3ac96a2ec762e818aebb7f95bdde84e4c23526",
+  "nginx-patched.json": "e2bbc3a7efe84f6ef26812a97c3492ea0e055aa9a0dd323bac873c28c1ec790f",
+  "nginx-vulnerabilities.json": "11a79d9177211d0a6d823a6c43a899ed727c6f2d65d93ede459a62b68bb79fc5",
+  "report.md": "0b46a8c54d952030c37c296488bbe98a1fa7c871c09713b48276cf6486e9e933",
+  "security-summary.json": "8b7b996160b82c940de7090e1eb426e9132130a1c8a843d2022bf77d171aff51"
+}

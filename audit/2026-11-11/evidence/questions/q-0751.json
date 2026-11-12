@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 751,
+    "exam_id": 8,
+    "passage_id": 139,
+    "number": 151,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What does Kent imply might be forthcoming?",
+    "raw_text": "What does Kent imply might be forthcoming?\n(A) A co-worker’s return from retirement\n(B) A visit by the senior management staff\n(C) An adjustment within the company\n(D) A budget cut in the next quarter",
+    "page_start": 335,
+    "page_end": 335,
+    "status": "ready",
+    "exam_number": 8,
+    "correct_label": "C",
+    "answer_page": 979,
+    "explanation": "肯特提到公司可能会发生大变动，故选 (C)。",
+    "explanation_start": 1010,
+    "explanation_end": 1010,
+    "options": {
+      "A": "A co-worker’s return from retirement",
+      "B": "A visit by the senior management staff",
+      "C": "An adjustment within the company",
+      "D": "A budget cut in the next quarter"
+    },
+    "passage": {
+      "id": 139,
+      "exam_id": 8,
+      "part": 7,
+      "first_number": 149,
+      "last_number": 151,
+      "instruction": "Questions 149-151 refer to the following facsimile.",
+      "content": "Barry,\nHere’s a quick status report on the current affairs in the office while you’ve\nbeen gone. I also sent you an email in addition to this fax but wasn’t\nsure how much access to email you would have. The major news is the\nresignation of George Stewart who left to start his own company. If you recall,\nthat had been his career dream for a long time.\nOur immediate reaction to George’s departure did not include a replacement\nhire. As you know, we have been struggling with the possibility of staff layoffs\nfor the last month in order to cut costs. By reallocating some of the job\nresponsibilities to the remaining employees, we may be able to save their jobs\nand fill the void.\nWe also had a surprise visit from a few new senior management members\nfrom the head office. I gave them a tour of our office and took them out for a nice\ndinner. They didn’t make any company announcements while they were here\n(stating they just wanted to see this division). I have a strange feeling that the\nfuture may present some drastic changes for our company.\nI’ll keep this short, but I wanted to keep you abreast of what’s going on.\nEnjoy the rest of your trip, and say hello to Mary and the kids!\nKent",
+      "page_start": 334,
+      "page_end": 335
+    },
+    "assets": [
+      {
+        "id": 261,
+        "page": 334,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          341.6611633300781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "ef1bb9f794b46be85739016cbae5d8a83d2bd57b23c184770a4187ead04edc5a"
+      },
+      {
+        "id": 262,
+        "page": 335,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          148.99363708496094
+        ],
+        "sha256": "52e159af1092d9369d3fc02d423ae0a013b53c46598dac5313ae57b52574a98d"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 751,
+    "exam": 8,
+    "number": 151,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

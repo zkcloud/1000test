@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 808,
+    "exam_id": 9,
+    "passage_id": null,
+    "number": 108,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "Employees wishing to ------- professional congresses or seminars will continue to receive their pay during the time they are absent.",
+    "raw_text": "Employees wishing to ------- professional congresses or seminars will\ncontinue to receive their pay during the time they are absent.\n(A) enroll\n(B) attend\n(C) participate\n(D) perform",
+    "page_start": 365,
+    "page_end": 365,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "B",
+    "answer_page": 1055,
+    "explanation": "(A) 应与介词in连用构成enroll in (登记，招收)；(C) 也\n应与介词in连用构成participate in (参加，参与)；(D) 可直接后接宾\n语，但不符合句意。“想参加专业会议或研讨会的…”的句意最恰当，故选\n(B) attend (参加)。",
+    "explanation_start": 1059,
+    "explanation_end": 1059,
+    "options": {
+      "A": "enroll",
+      "B": "attend",
+      "C": "participate",
+      "D": "perform"
+    }
+  },
+  "independent_checks": {
+    "id": 808,
+    "exam": 9,
+    "number": 108,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

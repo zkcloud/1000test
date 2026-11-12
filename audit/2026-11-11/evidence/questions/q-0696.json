@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 696,
+    "exam_id": 7,
+    "passage_id": 133,
+    "number": 196,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is indicated about Friends of Westborough?",
+    "raw_text": "What is indicated about Friends of Westborough?\n(A) It was established by Ms. Schmidt.\n(B) It holds a fundraiser every year.\n(C) Its headquarters are at Pecan Lake Park.\n(D) It is holding a membership drive.",
+    "page_start": 318,
+    "page_end": 318,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "B",
+    "answer_page": 904,
+    "explanation": "威斯特伯鲁友爱之家正在举行该市第8届年度糕饼义卖活动。根据\nAnnual可知答案为 (B)。",
+    "explanation_start": 975,
+    "explanation_end": 975,
+    "options": {
+      "A": "It was established by Ms. Schmidt.",
+      "B": "It holds a fundraiser every year.",
+      "C": "Its headquarters are at Pecan Lake Park.",
+      "D": "It is holding a membership drive."
+    },
+    "passage": {
+      "id": 133,
+      "exam_id": 7,
+      "part": 7,
+      "first_number": 196,
+      "last_number": 200,
+      "instruction": "Questions 196-200 refer to the following flyer, e-mail, and notice.",
+      "content": "Friends of Westborough\nis holding its\n8th Annual Bake Sale\nSaturday, May 25\n10:00 A.M. – 5:00 P.M.\nPecan Lake Park\nWe need donors and volunteers.\nEvery year, we sell homemade cakes, cookies, donuts, and other pastries\ndonated by local residents and businesses.\nWe require volunteers to set up, to process sales, and to clean up.\nPlease only volunteer if you can work for at least 4 hours.\nCall event organizer Patty Schmidt at 376-4487 or e-mail her at patty@fow.org\nto discuss how you can contribute.\nAll money earned from this event will pay for projects that benefit Westborough.\nTo: patty@fow.org\nFrom: christinaheard@privatemail.com\nSubject: Hello\nDate: May 17\nDear Ms. Schmidt,\nI noticed the flyer for your organization at the local supermarket. As a new\nresident of this community, I haven’t been able to lend a helping hand to anyone\nyet, so this would be a great opportunity for me to do so. I’m available on the\n25th and can do whatever work you assign me. I also plan to bring two dozen of\nmy homemade chocolate chip cookies. Should I bring them to the event before it\nstarts, or should I just show up with them at whatever time you assign me to\nwork? You can call me at 847-8425 to cover the matter in more detail.\nRegards,\nChristina Heard\nNOTICE TO VOLUNTEERS\nUpon arriving at Pecan Lake Park, go to the west gate to pick up a name tag.\nIf you are donating anything for the bake sale, you should also go to McClain\nFountain and speak with Jodie Wellman. Be sure you wear your name tag the\nentire time you are working.\nConfirm your duties with Patty Schmidt and then head to the place where\nyou have been assigned.\nIf you must leave early for some reason, please speak with Ms. Schmidt\nbefore departing so that a replacement can be found.\nThere will be bottled water and refreshments available at McClain\nFountain. Should you require a break, notify the head of your team at once.\nThank you very much for your assistance. We hope this year’s bake sale is\nthe most successful one ever.",
+      "page_start": 316,
+      "page_end": 318
+    },
+    "assets": [
+      {
+        "id": 252,
+        "page": 316,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "8d57255bc1f8edc13e1943d3b322da018e681c0c4516f2e8e3b07a486e7dad6f"
+      },
+      {
+        "id": 253,
+        "page": 317,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "dad1b7d8cd8f085257ac5ab55bb0ba93d4c9fb6f94bd67debc76ada207d5e43d"
+      },
+      {
+        "id": 254,
+        "page": 318,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          366.40057373046875
+        ],
+        "sha256": "428c09aae7c45f6ca5a49df5289d353dd63b3c332a0bb8ae6f77db7be773bfec"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 696,
+    "exam": 7,
+    "number": 196,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

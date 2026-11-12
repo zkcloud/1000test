@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 364,
+    "exam_id": 4,
+    "passage_id": 68,
+    "number": 164,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Where would one read this notice?",
+    "raw_text": "Where would one read this notice?\n(A) In a newspaper\n(B) At the health club\n(C) At the swimming pool\n(D) In the Dusseldorf Convention Center",
+    "page_start": 170,
+    "page_end": 170,
+    "status": "ready",
+    "exam_number": 4,
+    "correct_label": "D",
+    "answer_page": 676,
+    "explanation": "健身中心位于会议中心内。答案是(D)。",
+    "explanation_start": 716,
+    "explanation_end": 716,
+    "options": {
+      "A": "In a newspaper",
+      "B": "At the health club",
+      "C": "At the swimming pool",
+      "D": "In the Dusseldorf Convention Center"
+    },
+    "passage": {
+      "id": 68,
+      "exam_id": 4,
+      "part": 7,
+      "first_number": 164,
+      "last_number": 167,
+      "instruction": "Questions 164-167 refer to the following notice.",
+      "content": "Sports and relaxation facilities\nIf you need to work out or just chill out, you can find exactly what you need\nhere at the Dusseldorf Convention Center’s Health Club. The health club is\nlocated on the first floor with a great view over the atrium. —[1]— Our weight\nroom is state of the art and is always supervised (open from 6:00 a.m. to 11:00\np.m. every day). A spa and sauna (mixed gender) is available right next door as\nwell as a massage room — but please book in advance. Morning and evening\nyoga and tai chi classes are also available with our expert teachers. You can also\nbook a game of squash or try our heated lap pool (6:00 a.m. to 11:00 p.m.). —[2]\n—\nTo get all the benefits of our 5-star facilities, why not try one of our\nrecreation passes? —[3]— For only $30, you can have unlimited access to our\nfacilities for an entire week. *A day pass will cost you just $10.\nTo find out more, call on our knowledgeable concierge. He can tell you how\nto arrange a fantastic exercise and relaxation program to suit your schedule. —[4]\n—\n______________________________________________________________\n* Personal trainers and massages are not included in this price. Please call\nthe reception desk for details. Please note that children under the age of 16 must\nbe accompanied by an adult.",
+      "page_start": 169,
+      "page_end": 170
+    },
+    "assets": [
+      {
+        "id": 129,
+        "page": 169,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "ed09b2ec2f38d30d709f417c1e56d46a3187b32de4a62557b41b63abb5c0a506"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 364,
+    "exam": 4,
+    "number": 164,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

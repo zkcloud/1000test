@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 752,
+    "exam_id": 8,
+    "passage_id": 140,
+    "number": 152,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "The word“omnipotent” in paragraph 2, line 8 is closest in meaning to",
+    "raw_text": "The word“omnipotent” in paragraph 2, line 8 is closest in meaning to\n(A) strong\n(B) all-powerful\n(C) unlimited\n(D) divine",
+    "page_start": 336,
+    "page_end": 336,
+    "status": "ready",
+    "exam_number": 8,
+    "correct_label": "B",
+    "answer_page": 979,
+    "explanation": "omnipotent表示“全能的，有无限权力的，万能的”，在本文中，\nomnipotent product指“万能产品”。答案是 (B)。",
+    "explanation_start": 1011,
+    "explanation_end": 1011,
+    "options": {
+      "A": "strong",
+      "B": "all-powerful",
+      "C": "unlimited",
+      "D": "divine"
+    },
+    "passage": {
+      "id": 140,
+      "exam_id": 8,
+      "part": 7,
+      "first_number": 152,
+      "last_number": 154,
+      "instruction": "Questions 152-154 refer to the following report.",
+      "content": "Many people in today’s business world are required to be wired and\ndigitally equipped at all times, including cell phones, PDAs (personal digital\nassistants), and digital cameras, on a daily basis. A simplified system consisting\nof fewer of these stand-alone products would strongly benefit many people in all\nindustries.\nThe solution may present itself as digital convergence, which refers to the\ncombination of two or more products simplified into a single product. Many of\ntoday’s cell phones also allow the user to take pictures, surf the net, and\nsend/receive text messages. There are increasingly newer PDAs combined with\ncell phones, with highly functional computing capabilities that work seamlessly\nlike desktop computers. It is highly probable that one day soon there will be\nan“omnipotent” product that can do all these things.\nPresently, there are some products that can perform a large number of these\nfunctions, but are accessible to those who can afford to pay a high price.\nHowever, sometime in the near future, a super PDA that can serve all our required\nfunctions and is available at a price that is affordable for the average person may\nbe a reality.",
+      "page_start": 335,
+      "page_end": 336
+    },
+    "assets": [
+      {
+        "id": 263,
+        "page": 335,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          634.78564453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "88898fe4a89f6f9a8e42924a1daedcbdd33763167777616e9f9d18c917f2cbb7"
+      },
+      {
+        "id": 264,
+        "page": 336,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          337.1630859375
+        ],
+        "sha256": "0813f70cab96e9e1483b2f1f7ad6b9f8f8823b878d45f4559fdea0d5db4a0d24"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 752,
+    "exam": 8,
+    "number": 152,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

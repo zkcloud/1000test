@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 413,
+    "exam_id": 5,
+    "passage_id": null,
+    "number": 113,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "The report by Absolute Consultants advised that at least ------- year will be required before the company can attain profitability.",
+    "raw_text": "The report by Absolute Consultants advised that at least ------- year will be\nrequired before the company can attain profitability.\n(A) other\n(B) others\n(C) another\n(D) the other",
+    "page_start": 193,
+    "page_end": 193,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "C",
+    "answer_page": 749,
+    "explanation": "横线处需填入修饰单数名词year的限定词。答案是 (C)\nanother。another 后接名词单数，other后接名词复数。",
+    "explanation_start": 757,
+    "explanation_end": 757,
+    "options": {
+      "A": "other",
+      "B": "others",
+      "C": "another",
+      "D": "the other"
+    }
+  },
+  "independent_checks": {
+    "id": 413,
+    "exam": 5,
+    "number": 113,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

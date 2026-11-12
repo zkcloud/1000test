@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 68,
+    "exam_id": 1,
+    "passage_id": 12,
+    "number": 168,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Who is the intended audience of this advertisement?",
+    "raw_text": "Who is the intended audience of this advertisement?\n(A) People who are in legal trouble\n(B) Anyone who is having financial problems\n(C) Businesses that are in need of tax breaks\n(D) Workers who must do their yearly income taxes",
+    "page_start": 42,
+    "page_end": 42,
+    "status": "ready",
+    "exam_number": 1,
+    "correct_label": "B",
+    "answer_page": 448,
+    "explanation": "根据广告内容，可联想到因信用问题经济活动受制约的一类人。答案\n是(B)。",
+    "explanation_start": 493,
+    "explanation_end": 493,
+    "options": {
+      "A": "People who are in legal trouble",
+      "B": "Anyone who is having financial problems",
+      "C": "Businesses that are in need of tax breaks",
+      "D": "Workers who must do their yearly income taxes"
+    },
+    "passage": {
+      "id": 12,
+      "exam_id": 1,
+      "part": 7,
+      "first_number": 168,
+      "last_number": 169,
+      "instruction": "Questions 168-169 refer to the following advertisement.",
+      "content": "CREDIT PROBLEM?\nCREDIT DENIED?\nWE CAN HELP!\n( COLLECTION AGENCIES)\n• LATE PAYMENTS • REPOSSESSIONS\n• BANKRUPTCIES • BIG DEBTS\nICR’S Exclusive $15-million Computer Search Program.\nThe only one of its kind in the world\nHow credit agencies may not in compliance\nWith the Canadian Consumer Reporting Act and what\nyou can do about it.\n“WE REPAIR CREDIT… LEGALLY”\n“All information is strictly confidential.”\nConsolidate debts into lower monthly payments!\nCall for an appointment:\n416-755-7898",
+      "page_start": 40,
+      "page_end": 42
+    },
+    "assets": [
+      {
+        "id": 20,
+        "page": 40,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          762.9807739257812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "6b901913ecd2021374d18e1a159856a9acbce535222ac7032d58851ab3f15721"
+      },
+      {
+        "id": 21,
+        "page": 41,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "9c2b3311792744fb4a5794179d6a8dca4b87fc3f7052018d702e569faba393c8"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 68,
+    "exam": 1,
+    "number": 168,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

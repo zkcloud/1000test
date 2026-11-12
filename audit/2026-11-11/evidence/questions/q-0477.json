@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 477,
+    "exam_id": 5,
+    "passage_id": 91,
+    "number": 177,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Which of the following individuals would be most qualified for a position mentioned in the advertisement?",
+    "raw_text": "Which of the following individuals would be most qualified for a position\nmentioned in the advertisement?\n(A) A recent college graduate with a degree in accounting\n(B) A sales representative who has two months of experience in his field\n(C) A human resources manager with 2 years of experience\n(D) A computer programmer with 5 years of hands-on experience",
+    "page_start": 220,
+    "page_end": 220,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "D",
+    "answer_page": 749,
+    "explanation": "招聘的职位有财务和销售部门的管理人员、项目经理、网络开发员、\n具有两年以上经验的程序员等。符合要求的是 (D)。",
+    "explanation_start": 805,
+    "explanation_end": 805,
+    "options": {
+      "A": "A recent college graduate with a degree in accounting",
+      "B": "A sales representative who has two months of experience in his field",
+      "C": "A human resources manager with 2 years of experience",
+      "D": "A computer programmer with 5 years of hands-on experience"
+    },
+    "passage": {
+      "id": 91,
+      "exam_id": 5,
+      "part": 7,
+      "first_number": 176,
+      "last_number": 180,
+      "instruction": "Questions 176-180 refer to the following advertisement and e-mail.",
+      "content": "St. George\nMEDIA\nSt. George Media, the publisher of leading consumer media titles including\nLIFE IN THE CITY, MOVIE REVIEW, TEEN GOSSIP and BRIDE & GROOM,\nis hiring for the following roles:\nSales & Marketing\n• Director, Interactive Sales\n• Accounting Manager\n• Interactive Marketing Manager\n• Sales Manager\nWeb Production\n• Project Manager\n• Web Developer\n• Web Programmer (minimum of 2 years experience)\nIf you have any questions or are interested in any of the above positions,\nplease send your resume to jslester@stgeorgemedia.com.\nWe thank all applicants, however, only those selected for interviews will be\ncontacted.\nFrom: suziemiller@webstarters.com\nTo: jslester@stgeorgemedia.com\nDate: December 8, 2018\nSubject: Another alternative solution\nGood morning,\nFirst of all, I want to mention that I am an avid reader of one of your\nmagazines. The articles in your magazine deal with real issues, and I especially\nlike reading those columns where the readers write in about their opinions of the\nissues covered in your magazine.\nThe reason for my contacting you this morning is because I think I can be of\nsome help to you at this time. I came upon your job placement ad while browsing\nthrough your magazine. I immediately called a person I know in your company to\nseek more information and realized that you are planning a major facelift of your\ncompany website and are looking for the right people.\nI know that the process of putting together a viable web team can be a slow\nprocess. I also know that it can be very costly. I used to manage a web team at my\npast company, and we ran into problems we could not anticipate.\nWebstarters is a company that was established in 1990 with the purpose of\nhelping companies like yours set up and maintain websites. We have a team of\nexperts that understands the balance of technology, design, and content that creates\nan effective web presence. Webstarters’ development team combines professional\ngraphic design, Internet programming expertise, advanced technical skills, and\nweb site marketing knowledge to create websites that are visually appealing, easy\nto navigate, and accomplish your business goals.\nI know that your intention is to have your own web team, but do consider\nother alternatives like outsourcing to a company like mine. It just might be a wiser\nmove. Please consider, and call me to arrange a meeting to discuss the\npossibilities further. Thank you for your time.\nSuzie Miller\nPresident\nWebstarters",
+      "page_start": 218,
+      "page_end": 220
+    },
+    "assets": [
+      {
+        "id": 169,
+        "page": 218,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          439.11944580078125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "6f26f222dca24c1afd74ce9cf6cdb5fb1553c0032b5aa3cd7c72955b5f24e50a"
+      },
+      {
+        "id": 170,
+        "page": 219,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "5fc09a9055becc0173064e64efced581484e337a49481e9cc8869f162f08f7e1"
+      },
+      {
+        "id": 171,
+        "page": 220,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          400.1361389160156
+        ],
+        "sha256": "fb2f6827267f40c9b10f9d197d031ae405b8ada7b99b2c09ee917392145f9fcc"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 477,
+    "exam": 5,
+    "number": 177,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

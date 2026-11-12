@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 456,
+    "exam_id": 5,
+    "passage_id": 84,
+    "number": 156,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What does the sender suggest should be done about the Angle Grinders?",
+    "raw_text": "What does the sender suggest should be done about the Angle Grinders?\n(A) They should be packaged in stronger containers.\n(B) They should have a longer warranty period.\n(C) They should be taken off the store shelves.\n(D) They should be reduced in price.",
+    "page_start": 208,
+    "page_end": 208,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "C",
+    "answer_page": 749,
+    "explanation": "卖场负责人提议停止供应并召回已上架的产品。答案是 (C)。",
+    "explanation_start": 786,
+    "explanation_end": 786,
+    "options": {
+      "A": "They should be packaged in stronger containers.",
+      "B": "They should have a longer warranty period.",
+      "C": "They should be taken off the store shelves.",
+      "D": "They should be reduced in price."
+    },
+    "passage": {
+      "id": 84,
+      "exam_id": 5,
+      "part": 7,
+      "first_number": 155,
+      "last_number": 157,
+      "instruction": "Questions 155-157 refer to the following letter.",
+      "content": "December 1, 2018\nJessica Robinson\n25 Miller Road\nSacramento, CA 95852\nDear Ms. Robinson,\nWe recently received an order of your new model Angle Grinder, which\nyour salesman advised us to offer as part of our handyman range. —[1]—\nCustomers have complained to us that the locking ring simply does not work\nproperly, which causes the disk to fall off.\nYou can imagine our embarrassment. —[2]— This is truly a dangerous\nsituation, and we suggest that you stop supplying this item immediately. You\nshould also issue recall notices. —[3]—\nWe are returning the entire order. Most of them are still in their boxes. —[4]\n— I realize that your power tools are generally of very high quality, so I hope you\nsort this problem out quickly for the sake of your reputation.\nPlease issue us with a credit notice for the entire value of the order.\nYours faithfully,\nPaul Richman\nStore Manager",
+      "page_start": 207,
+      "page_end": 208
+    },
+    "assets": [
+      {
+        "id": 157,
+        "page": 207,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          535.8280029296875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "c80f471f624129dd3daeca0e591100c0993c8ade82a42933e00f2f5ffad8708d"
+      },
+      {
+        "id": 158,
+        "page": 208,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          395.6380615234375
+        ],
+        "sha256": "51ffc70b1d3e26b2cddc8963e602712c92ab363696eb33757ec17baf373d0e08"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 456,
+    "exam": 5,
+    "number": 156,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 849,
+    "exam_id": 9,
+    "passage_id": 158,
+    "number": 149,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is the purpose of the notice?",
+    "raw_text": "What is the purpose of the notice?\n(A) To announce the promotion of some managers\n(B) To invite staff members to the international conference\n(C) To request a report on the domestic market\n(D) To recruit people interested in participating in a special program",
+    "page_start": 377,
+    "page_end": 378,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "D",
+    "answer_page": 1055,
+    "explanation": "这个通知是为了招募自愿参加国际交流项目的中层管理者。答案是\n(D)。",
+    "explanation_start": 1084,
+    "explanation_end": 1084,
+    "options": {
+      "A": "To announce the promotion of some managers",
+      "B": "To invite staff members to the international conference",
+      "C": "To request a report on the domestic market",
+      "D": "To recruit people interested in participating in a special program"
+    },
+    "passage": {
+      "id": 158,
+      "exam_id": 9,
+      "part": 7,
+      "first_number": 149,
+      "last_number": 151,
+      "instruction": "Questions 149-151 refer to the following notice.",
+      "content": "Opportunity for International Experience\nCurrently we have four positions open for middle managers who wish to\nparticipate in a six-month, international exchange program. The program will\ninvolve sharing with our counterparts in the respective country best practice\nprinciples learned while on the job here in our head office. During your brief\nexcursion, you will spend a considerable amount of time learning about the\ndomestic branches’ markets, with a specific focus on market research in the area\nof domestic consumers’ preferences. Afterwards, a comprehensive report of our\nresearch results will be submitted to the head office on your return.\nInterested applicants must fill out an application in addition to submitting a\nmaximum two-page essay on the benefits of participating in an international\nexchange and how that experience can add value to the corporation. The deadline\nto apply is October 31.",
+      "page_start": 377,
+      "page_end": 377
+    },
+    "assets": [
+      {
+        "id": 298,
+        "page": 377,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          649.029541015625
+        ],
+        "sha256": "5e81af3ca7ba73e8c9f24a57cdd19b7a8373417c28295ff57cdc522f572fd061"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 849,
+    "exam": 9,
+    "number": 149,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

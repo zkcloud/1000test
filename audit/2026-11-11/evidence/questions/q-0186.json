@@ -1,0 +1,105 @@
+{
+  "database": {
+    "id": 186,
+    "exam_id": 2,
+    "passage_id": 36,
+    "number": 186,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is indicated about the offer for the VIP Drivers’ Club?",
+    "raw_text": "What is indicated about the offer for the VIP Drivers’ Club?\n(A) It is good only at certain branches.\n(B) It is only for returning customers.\n(C) It requires the payment of a fee.\n(D) It lasts for a single month.",
+    "page_start": 97,
+    "page_end": 97,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "D",
+    "answer_page": 523,
+    "explanation": "广告开头提到“6月特惠活动，仅限本月”，末尾又提到“6月博克瑟\n汽车租赁公司的所有顾客均可以享受以下优惠折扣”，由此可知特惠活动将\n持续一个月。故答案为(D)。",
+    "explanation_start": 586,
+    "explanation_end": 586,
+    "options": {
+      "A": "It is good only at certain branches.",
+      "B": "It is only for returning customers.",
+      "C": "It requires the payment of a fee.",
+      "D": "It lasts for a single month."
+    },
+    "passage": {
+      "id": 36,
+      "exam_id": 2,
+      "part": 7,
+      "first_number": 186,
+      "last_number": 190,
+      "instruction": "Questions 186-190. refer to the following advertisement, letter, and e-mail.",
+      "content": "Boxer Rental Car\nJune is having a special offer this month only.\nBecome a member of our VIP Drivers’ Club\nand receive a 10% discount each time you rent a vehicle from us.\nYou’ll also get double bonus points the next 5 times you rent from us.\nTo apply, go to www.boxerrentalcar.com/VIPdriversclub\nand complete the form in its entirety.\nYou’ll be notified of the status of your application\nwithin 3 business days.\nIn the meantime, all customers can enjoy these special rates from Boxer\nduring the month of June:\n•Sedan: $50 per day\n•SUV: $65 per day\n•Luxury car: $80 per day\n•Sports car: $90 per day\nJune 11\nDavid Coffey\n849 Oiler Avenue\nOmaha, NB\nDear Mr. Coffey,\nCongratulations. You’re the newest member of Boxer Rental Car’s VIP\nDrivers’ Club. Your membership number is 4589094. Please go to\nwww.boxerrentalcar.com and click on the“VIP Drivers’ Club” icon. When you\nattempt to log in, use your membership number. Your temporary password is\nYkle76Km. You can alter it after completing the registration process.\nPlease be advised that you’re not eligible for any discounts until you’re\nregistered on the site. So to qualify for your 10% discount, please sign up once\nyou receive this letter.\nBe sure to read the brochure included with this letter. You can learn about\nthe advantages of membership. If you have any questions, call our hotline at 1-\n888-494-2384 twenty-four hours a day, seven days a week.\nSincerely,\nJefferson Muller\nBoxer Rental Car\nTo: davidcoffey@marigold.com\nFrom: reservations@boxerrentalcar.com\nDate: June 14\nSubject: Reservation #9458-4938\nDear Mr. Coffey,\nThis e-mail is to confirm your telephone reservation. The following is the\ninformation we recorded for reservation #9458-4938:\nPickup: June 21, 1:00 P.M. at Miami International Airport\nCar Model: Patterson Apache\nRate: $65/day\nDrop-off: June 26, 10:00 A.M. at Miami International Airport\nYou don’t qualify for any special discounts. You must return the vehicle with\na full tank of gas. Otherwise, you’ll be charged a $50 refilling fee and have to pay\nthe price of the gas added to the vehicle. If you return the vehicle more than 1\nhour late, you will be charged an additional day’s rent.\nRegards,\nReservation Team\nBoxer Rental Car",
+      "page_start": 94,
+      "page_end": 97
+    },
+    "assets": [
+      {
+        "id": 68,
+        "page": 94,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          663.2734375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "ba7e4bba49bc68309c722bb2bcbdc5c8f5c6c00459f3d9cf3906c3f540050b02"
+      },
+      {
+        "id": 69,
+        "page": 95,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "5384de15499f2b8200465774b05cb48c930913a72222d3a9c759bc2b1b895061"
+      },
+      {
+        "id": 70,
+        "page": 96,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "44fbbbde270b6ddc6388c00c258694a2acd33cb8d5ad440a3102be65b75a7b59"
+      },
+      {
+        "id": 71,
+        "page": 97,
+        "sequence": 4,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          180.48016357421875
+        ],
+        "sha256": "f75bb2135e34e141d20ba776dbd2bbaca709731e431b2690ebc9ee5de9ab5f52"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 186,
+    "exam": 2,
+    "number": 186,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

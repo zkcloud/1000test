@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 406,
+    "exam_id": 5,
+    "passage_id": null,
+    "number": 106,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "The minerals boom has brought about an economic boom, which in turn has meant that real estate values have ------- to record levels.",
+    "raw_text": "The minerals boom has brought about an economic boom, which in turn has\nmeant that real estate values have ------- to record levels.\n(A) rose\n(B) raised\n(C) risen\n(D) been raising",
+    "page_start": 191,
+    "page_end": 192,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "C",
+    "answer_page": 749,
+    "explanation": "本题需正确区分及物动词raise和不及物动词rise。to\nrecord levels (创纪录的水平) 并非宾语，而是表示程度的状语，因此横\n线处需填入不及物动词。因横线前有表示现在完成时的have，故选 (C)\nrisen。",
+    "explanation_start": 752,
+    "explanation_end": 753,
+    "options": {
+      "A": "rose",
+      "B": "raised",
+      "C": "risen",
+      "D": "been raising"
+    }
+  },
+  "independent_checks": {
+    "id": 406,
+    "exam": 5,
+    "number": 106,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

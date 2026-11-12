@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 714,
+    "exam_id": 8,
+    "passage_id": null,
+    "number": 114,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "The weekend program of special activities for handicapped children was a great success thanks to those who generously ------- their time.",
+    "raw_text": "The weekend program of special activities for handicapped children was a\ngreat success thanks to those who generously ------- their time.\n(A) voluntary\n(B) volunteer\n(C) voluntarily\n(D) volunteered",
+    "page_start": 323,
+    "page_end": 323,
+    "status": "ready",
+    "exam_number": 8,
+    "correct_label": "D",
+    "answer_page": 979,
+    "explanation": "who generously ______ their time是定语从句，修饰\nthose，横线处应填入以their time为宾语的动词。本句时态为过去时，故\n选 (D) volunteered。volunteer one’s time表示“自愿花时间做某\n事”。",
+    "explanation_start": 987,
+    "explanation_end": 987,
+    "options": {
+      "A": "voluntary",
+      "B": "volunteer",
+      "C": "voluntarily",
+      "D": "volunteered"
+    }
+  },
+  "independent_checks": {
+    "id": 714,
+    "exam": 8,
+    "number": 114,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

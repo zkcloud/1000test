@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 322,
+    "exam_id": 4,
+    "passage_id": null,
+    "number": 122,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "We’d like to congratulate our gifted head of personnel, who won a gold medal at the state-wide archery competition ------- over the weekend.",
+    "raw_text": "We’d like to congratulate our gifted head of personnel, who won a gold medal\nat the state-wide archery competition ------- over the weekend.\n(A) held\n(B) holds\n(C) holding\n(D) was held",
+    "page_start": 153,
+    "page_end": 153,
+    "status": "ready",
+    "exam_number": 4,
+    "correct_label": "A",
+    "answer_page": 676,
+    "explanation": "横线处所填单词修饰competition。能够修饰名词的动词词形\n只能是现在分词或过去分词。名词和分词之间如果是被动关系，用过去分\n词；如果是主动关系，用现在分词。competition(比赛)和hold(举行)之间\n是被动关系，因此选择过去分词(A)held。",
+    "explanation_start": 687,
+    "explanation_end": 687,
+    "options": {
+      "A": "held",
+      "B": "holds",
+      "C": "holding",
+      "D": "was held"
+    }
+  },
+  "independent_checks": {
+    "id": 322,
+    "exam": 4,
+    "number": 122,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

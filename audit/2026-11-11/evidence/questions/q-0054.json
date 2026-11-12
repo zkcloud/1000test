@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 54,
+    "exam_id": 1,
+    "passage_id": 7,
+    "number": 154,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What might be an appropriate present for the host family?",
+    "raw_text": "What might be an appropriate present for the host family?\n(A) A toy train\n(B) A bottle of whiskey\n(C) A camera\n(D) A cellular phone",
+    "page_start": 33,
+    "page_end": 33,
+    "status": "ready",
+    "exam_number": 1,
+    "correct_label": "A",
+    "answer_page": 448,
+    "explanation": "文中提到，不太贵的手工艺品或给小孩的小礼物比较适合。故答案为\n(A)。",
+    "explanation_start": 481,
+    "explanation_end": 481,
+    "options": {
+      "A": "A toy train",
+      "B": "A bottle of whiskey",
+      "C": "A camera",
+      "D": "A cellular phone"
+    },
+    "passage": {
+      "id": 7,
+      "exam_id": 1,
+      "part": 7,
+      "first_number": 153,
+      "last_number": 156,
+      "instruction": "Questions 153-156 refer to the following guidelines.",
+      "content": "“HOMESTAY NETWORK” STUDENT GUIDELINES\nOn arrival at your new home:\n• Try to remember the names of your host family. If unsure about how to\naddress them, it is okay to ask how they would like to be called. For example, if it\nis impolite in your country to call someone elder by their first name, ask if it’s\nokay to add Mr. or Mrs. in front of their names. —[1]—\n• Show your family that you are grateful for being your host. But do not give\nexpensive gifts. It is, however, considered appropriate to bring inexpensive\nhandcrafts from your country or a small gift for the children of the host family.\n• Your host family will be curious to know more about you. —[2]— Bring\nphotos of your family and friends to share with them. This is also a great way to\nbreak the ice with them. —[3]—\n• After you get settled, your host family will help you make a call to your\nparents to assure them that you have arrived safely.\n• After you’ve had dinner, you may ask the host family to be excused early.\nThey will be fully aware of the fact that you might be jet-lagged, so feel free to\nask them.\nOn your first day of school:\n• On your first day of school, your host family will take you to school and\nhelp you with the necessary registration paperwork.\n• Your host family will also make sure that you know your way to and from\nschool. They will also teach you how to use public transportation. —[4]—\n• When traveling alone, you should at all times carry a map and the phone\nnumber of your host family.\n• In case you are lost and cannot get in touch with your host family, you can\ncontact the“Homestay Network”.",
+      "page_start": 32,
+      "page_end": 33
+    },
+    "assets": [
+      {
+        "id": 10,
+        "page": 32,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          145.24525451660156,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "a15e8fbbb5b84f2a63d3a769892bf4142e1b20f3b2cc6f120ef05f1f3324d40d"
+      },
+      {
+        "id": 11,
+        "page": 33,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          117.50713348388672
+        ],
+        "sha256": "677335a8b31a7dc546991d67e4286f3dc5490e9bea928359dde9a1c3e8106800"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 54,
+    "exam": 1,
+    "number": 154,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

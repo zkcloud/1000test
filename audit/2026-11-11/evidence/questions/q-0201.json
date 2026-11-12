@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 201,
+    "exam_id": 3,
+    "passage_id": null,
+    "number": 101,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "Our new social organizer’s personal favorites do not include jazz or classical music, but she loves listening to techno, world music, ------- rock.",
+    "raw_text": "Our new social organizer’s personal favorites do not include jazz or classical\nmusic, but she loves listening to techno, world music, ------- rock.\n(A) so\n(B) but\n(C) yet\n(D) and",
+    "page_start": 105,
+    "page_end": 105,
+    "status": "ready",
+    "exam_number": 3,
+    "correct_label": "D",
+    "answer_page": 600,
+    "explanation": "列出几项有并列关系的语句时，在最后一项前加and，其他项\n用逗号分开。文中列出了techno、world music、rock三个音乐种类，因此\n要在最后一项rock前使用并列连词(D) and。",
+    "explanation_start": 601,
+    "explanation_end": 601,
+    "options": {
+      "A": "so",
+      "B": "but",
+      "C": "yet",
+      "D": "and"
+    }
+  },
+  "independent_checks": {
+    "id": 201,
+    "exam": 3,
+    "number": 101,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

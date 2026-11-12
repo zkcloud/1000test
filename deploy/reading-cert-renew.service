@@ -1,0 +1,7 @@
+[Unit]
+Description=Renew reading platform HTTPS certificate and reload NGINX
+After=docker.service network-online.target
+Requires=docker.service
+[Service]
+Type=oneshot
+ExecStart=/bin/sh /opt/reading-platform/current/deploy/renew-certificate.sh

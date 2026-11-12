@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 856,
+    "exam_id": 9,
+    "passage_id": 160,
+    "number": 156,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "According to the advertisement, what must consumers do to keep up with the latest trends?",
+    "raw_text": "According to the advertisement, what must consumers do to keep up with the\nlatest trends?\n(A) Consult with investment advisors\n(B) Enroll in a business course\n(C) Take charge and read up on the changes\n(D) Get a desktop computer",
+    "page_start": 381,
+    "page_end": 381,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "C",
+    "answer_page": 1055,
+    "explanation": "在第一段的This means having to do your homework on learning\nabout the constant, changing...work assignments中可找到答案。答案\n是 (C)。",
+    "explanation_start": 1089,
+    "explanation_end": 1089,
+    "options": {
+      "A": "Consult with investment advisors",
+      "B": "Enroll in a business course",
+      "C": "Take charge and read up on the changes",
+      "D": "Get a desktop computer"
+    },
+    "passage": {
+      "id": 160,
+      "exam_id": 9,
+      "part": 7,
+      "first_number": 155,
+      "last_number": 157,
+      "instruction": "Questions 155-157 refer to the following advertisement.",
+      "content": "Making It Big with only a Dollar a Day!\nNow let’s be real. Life is much more complex today compared to the\nway things were 50 years ago. —[1]— The introduction of personal computers in\nour homes and workplaces and the vast number of investments available in the\nmarket make our lives much more confusing. And with the world changing so fast,\nit’s hard to keep up with the latest trends and new investment products that are\nmade available by our local investment advisors or institutions. —[2]— This\nmeans having to do your homework on learning about the constant, changing,\ninvestment opportunities and instruments on top of doing your daily household\nchores and work assignments. Completely overwhelmed and, exhausted, you’re\nnot alone. Hundreds of people everyday face the same situation as you, but where\ndo they turn to for help? —[3]—\nNow the solution has become much easier with an investment of as\nlittle as 10 minutes and a dollar a day. —[4]— Making It Big with only a Dollar\na Day! can put you on the right path to financial success and happiness. Read it,\nand you’ll learn that working is good, but financial success is even better. At\n$29.99, you will get your money’s worth. It’s available at any local bookstores\nnear you.",
+      "page_start": 380,
+      "page_end": 380
+    },
+    "assets": [
+      {
+        "id": 301,
+        "page": 380,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          667.0218505859375
+        ],
+        "sha256": "9f91b178e734dccb0e74ec6c9c93d87bbd044d863755cfadb8ef0b98c607e64a"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 856,
+    "exam": 9,
+    "number": 156,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

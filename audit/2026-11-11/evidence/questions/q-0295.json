@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 295,
+    "exam_id": 3,
+    "passage_id": 56,
+    "number": 195,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Why will the Melrose Coffee Shop NOT get any free coffee beans on its next order?",
+    "raw_text": "Why will the Melrose Coffee Shop NOT get any free coffee beans on its next\norder?\n(A) It does not belong to a special customer program.\n(B) The sale period will have already ended.\n(C) Customers can only get discounts one time.\n(D) The store is not purchasing enough coffee beans.",
+    "page_start": 144,
+    "page_end": 144,
+    "status": "ready",
+    "exam_number": 3,
+    "correct_label": "B",
+    "answer_page": 600,
+    "explanation": "3月10日之前葛缕子咖啡店会提供一些优惠活动，而梅尔罗斯咖啡店\n在3月11日才会订购咖啡豆。答案为(B)。",
+    "explanation_start": 669,
+    "explanation_end": 669,
+    "options": {
+      "A": "It does not belong to a special customer program.",
+      "B": "The sale period will have already ended.",
+      "C": "Customers can only get discounts one time.",
+      "D": "The store is not purchasing enough coffee beans."
+    },
+    "passage": {
+      "id": 56,
+      "exam_id": 3,
+      "part": 7,
+      "first_number": 191,
+      "last_number": 195,
+      "instruction": "Questions 191-195 refer to the following advertisement, invoice, and memo.",
+      "content": "Caraway Coffee\nis having a special sale on coffee beans this week only\nWe import the finest coffee beans from around the world\nWe have coffee beans from Hawaii, Indonesia, Ethiopia, Kenya, and 50 other\ncountries\nWe specialize in bulk orders for coffee shops, cafés, restaurants, and\nsupermarkets\nUntil March 10, take advantage of this offer:\n- Buy 5kg of one type of coffee beans and get 1kg for free\n- Buy 8kg of one type of coffee beans and get 2kg for free\n- Buy 10kg of one type of coffee beans and get 3kg for free\n- Buy 15kg of one type of coffee beans and get 6kg for free\nThis offer applies to all the coffee beans we sell\nThe free coffee beans will be the same as those purchased\nFor more information or to place an order, call (908) 253-1726 or\ne-mail us at orders@carawaycoffee.com\nCaraway Coffee\n598 Longshore Drive\nLos Angeles, CA 90243\nCustomer Name: Melrose Coffee Shop (Contact Name: Judith Hearne)\nAddress: 192 Grissom Street, Pasadena, CA 90394\nPhone Number: 232-7336\nOrder Number: 58533\nOrder Date: March 5\nDelivery Date: March 6\nThank you for your order. Please call us at (908) 253-1726 to report any\nproblems or to ask any questions.\nTo: All Staff, Melrose Coffee Shop\nFrom: Judith Hearne\nSubject: Coffee Beans\nDate: March 10\nWe received some coffee beans from our supplier three days ago, so please\nremember to recommend them to customers who ask what they should try. Point\nout the new items on the menu and tell the customers that they ought to give the\nbeans a chance. We’re already running low on Jamaican Blue Mountain coffee\nbeans. That item has proved to be very popular. I’m going to order 8kg tomorrow\nso that we can receive some free beans. Let me know if we should order any\nother beans before we close for the day, please.",
+      "page_start": 141,
+      "page_end": 143
+    },
+    "assets": [
+      {
+        "id": 109,
+        "page": 141,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "c8536f534dcd01622c298702706bf463c24253d4eb07009690161bfd4089aa11"
+      },
+      {
+        "id": 110,
+        "page": 142,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "6a00a503b51742a44d552d97c7ef1c1b13a41e9b23366246245da35100f9cf93"
+      },
+      {
+        "id": 111,
+        "page": 143,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          664.7728271484375
+        ],
+        "sha256": "87a6515ed6d9a2ae8f63bd03bdf4136a14a08e45f120660b71a3fe4cb430f865"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 295,
+    "exam": 3,
+    "number": 195,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

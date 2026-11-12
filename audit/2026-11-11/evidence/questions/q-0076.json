@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 76,
+    "exam_id": 1,
+    "passage_id": 15,
+    "number": 176,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Why did Mr. Robinson write the letter?",
+    "raw_text": "Why did Mr. Robinson write the letter?\n(A) To make a complaint about a late delivery\n(B) To ask for a change in the delivery date\n(C) To invite Ms. Rogers to an auto show\n(D) To cancel an order he had made",
+    "page_start": 47,
+    "page_end": 47,
+    "status": "ready",
+    "exam_number": 1,
+    "correct_label": "B",
+    "answer_page": 448,
+    "explanation": "第一封信中提到，展会比订单中写的预定日期要提前一周，因此请求\n提前配送。答案是(B)。",
+    "explanation_start": 501,
+    "explanation_end": 501,
+    "options": {
+      "A": "To make a complaint about a late delivery",
+      "B": "To ask for a change in the delivery date",
+      "C": "To invite Ms. Rogers to an auto show",
+      "D": "To cancel an order he had made"
+    },
+    "passage": {
+      "id": 15,
+      "exam_id": 1,
+      "part": 7,
+      "first_number": 176,
+      "last_number": 180,
+      "instruction": "Questions 176-180 refer to the following letter and e-mail message.",
+      "content": "June 3, 2018\nSuzanne Rogers\nUltra-Ergonomic Furniture\nSales and Shipping Department\nSuite 58, 107 Morris Circle\nMoorabbin, Victoria 3206\nDear Ms. Rogers,\nAs I’m sure you are aware, our company has been organizing conventions,\nfestivals, and other large corporate events for the last fifteen years, and in fact we\nare leaders in the field. We have relied on Ultra-Ergonomic Furniture for\npurchase and rental supplies of high-quality furniture for that entire period, and\nwe’ve never had any cause for complaints with regard to your services.\nI am writing to you personally to ask a special favor. We recently made an\norder with your company for the supply of rental furniture that includes chairs,\ntables, partitions, and lecterns for an auto show (see order no. 11-35698A).\nUnfortunately, a serious error was made. In fact the exposition begins one week\nearlier than indicated on the order form. The starting date is actually July 7. I\nwould appreciate it very much if you could try to do everything you can to ensure\nthat our order be delivered to us on that date. Also, if possible, I’d like to add 20\nPop-up displays on top of our original order.\nI realize that this is a big favor to ask, but on the basis of our long-term\nbusiness relationship, I hope that you will be able to find a way.\nI’m really sorry for any inconvenience. Please contact me soon.\nYours sincerely,\nMichael Robinson\nMichael Robinson\nProperties Manager\nmrobinson@btc.com\nFrom: srogers@uef.shipping.com\nSent: June 8, 2018\nTo: mrobinson@btc.com\nSubject: Your request\nDear Mr. Robinson,\nThank you for your letter. I was surprised, and of course concerned, that you\nfind yourself in this unfortunate situation. And of course I will do my best to help\nyou. Your company has been one of our best clients since we began operations in\n1978.\nAnyway, I personally took a trip down to our warehouse this morning to\nhave a closer look at our stock to see if we have all the things you need for your\nconvention — which I believe is from July 7 to July 14. I am happy to say that we\nwill be able to provide you with everything you originally requested. However,\nas for the additional request you made, it won’t be possible because we have\nalready rented them out to another client during that week.\nMy suggestion is that you come down to my office to discuss other\npossibilities. I can take you down to our warehouse, and you can look at our\ninventory. So, please call me soon to arrange a time.\nKind regards,\nSuzanne Rogers,\nSales and Shipping Department",
+      "page_start": 45,
+      "page_end": 47
+    },
+    "assets": [
+      {
+        "id": 26,
+        "page": 45,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          614.5443115234375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "b48b64751f71e7e3ba7310061e0ce1039c8666a4cb0461b02fff0bcae169f1f7"
+      },
+      {
+        "id": 27,
+        "page": 46,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "0951856ac81bc60627621a1fbdc63f8b11553cccf5e78c5eee4dd5834932a3cc"
+      },
+      {
+        "id": 28,
+        "page": 47,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          549.3222045898438
+        ],
+        "sha256": "0f8b278a06a1d561992d49940dfcda957dabbdf9dc962223ed9994ea41aa3f24"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 76,
+    "exam": 1,
+    "number": 176,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

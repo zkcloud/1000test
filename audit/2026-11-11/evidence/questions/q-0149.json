@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 149,
+    "exam_id": 2,
+    "passage_id": 24,
+    "number": 149,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What can be implied from the advertisement?",
+    "raw_text": "What can be implied from the advertisement?\n(A) Most travelers don’t make a habit of making reservations prior to\nchecking in.\n(B) There is a business relationship between the credit card company and the\nhotel.\n(C) The hotel gets very busy during the summer season.\n(D) It usually takes a minimum of 10 days for a credit card to clear.",
+    "page_start": 75,
+    "page_end": 75,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "B",
+    "answer_page": 523,
+    "explanation": "由you will save 20% on all rooms... by using your American\nExpress Corporate Card可知，酒店和信用卡公司在业务上有战略合作关\n系。",
+    "explanation_start": 553,
+    "explanation_end": 553,
+    "options": {
+      "A": "Most travelers don’t make a habit of making reservations prior to checking in.",
+      "B": "There is a business relationship between the credit card company and the hotel.",
+      "C": "The hotel gets very busy during the summer season.",
+      "D": "It usually takes a minimum of 10 days for a credit card to clear."
+    },
+    "passage": {
+      "id": 24,
+      "exam_id": 2,
+      "part": 7,
+      "first_number": 147,
+      "last_number": 149,
+      "instruction": "Questions 147-149. refer to the following advertisement.",
+      "content": "SAVE 20%\nIt’s only a phone\ncall away\nMAYCOTT HOTELS\nOver 30 five-star hotels all over the nation to suit your every need\nReserve a room today, and you will save 20% on all rooms at\nMaycott“Room for the Day” (excluding tax) by using your American Express\nCorporate Card.\nDue to seasonal demands, the availability of rooms may be subject to each\nhotel’s situation. An advanced reservation, to be made by calling our toll free\nnumber 1-800-755-0090 at least 10 working days before your stay, is required to\nqualify for the discount.",
+      "page_start": 74,
+      "page_end": 75
+    },
+    "assets": [
+      {
+        "id": 46,
+        "page": 74,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          467.60723876953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "c19b34d4fd7297485dbba9d9f9a4df543262116219af5f937e92a1b137fd5480"
+      },
+      {
+        "id": 47,
+        "page": 75,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          167.73561096191406
+        ],
+        "sha256": "0289903932b20ccc16cfaa3f920bacc47d15b5262c58703ea1c9487e29e3f0ff"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 149,
+    "exam": 2,
+    "number": 149,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

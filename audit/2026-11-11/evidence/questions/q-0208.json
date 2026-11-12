@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 208,
+    "exam_id": 3,
+    "passage_id": null,
+    "number": 108,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "The music faculty offers free weekly seminars designed to encourage young musicians to begin ------- their own masterpieces.",
+    "raw_text": "The music faculty offers free weekly seminars designed to encourage young\nmusicians to begin ------- their own masterpieces.\n(A) composer\n(B) composes\n(C) composed\n(D) composing",
+    "page_start": 107,
+    "page_end": 107,
+    "status": "ready",
+    "exam_number": 3,
+    "correct_label": "D",
+    "answer_page": 600,
+    "explanation": "begin后可以接动名词或不定式作宾语，故选(D)\ncomposing。",
+    "explanation_start": 604,
+    "explanation_end": 604,
+    "options": {
+      "A": "composer",
+      "B": "composes",
+      "C": "composed",
+      "D": "composing"
+    }
+  },
+  "independent_checks": {
+    "id": 208,
+    "exam": 3,
+    "number": 108,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 354,
+    "exam_id": 4,
+    "passage_id": 65,
+    "number": 154,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Who would most likely be interested in attending the event?",
+    "raw_text": "Who would most likely be interested in attending the event?\n(A) Students who are studying to become designers\n(B) Homemakers who want to improve the ambience of their homes\n(C) Employees of HOME DÉCOR who want some consultations\n(D) Shoppers who are looking to save some money",
+    "page_start": 165,
+    "page_end": 165,
+    "status": "ready",
+    "exam_number": 4,
+    "correct_label": "B",
+    "answer_page": 676,
+    "explanation": "家居装饰的设计师会向大家介绍怎样把房间装饰得很漂亮。答案是\n(B)。",
+    "explanation_start": 708,
+    "explanation_end": 708,
+    "options": {
+      "A": "Students who are studying to become designers",
+      "B": "Homemakers who want to improve the ambience of their homes",
+      "C": "Employees of HOME DÉCOR who want some consultations",
+      "D": "Shoppers who are looking to save some money"
+    },
+    "passage": {
+      "id": 65,
+      "exam_id": 4,
+      "part": 7,
+      "first_number": 154,
+      "last_number": 156,
+      "instruction": "Questions 154-156 refer to the following information.",
+      "content": "Space for living\nASK A DESIGNER AT HOME DÉCOR EVENT\nCome and talk to HOME DÉCOR’s design consultants. They’ll answer your\nquestions about interior designing and give you tips on how to create beautiful\nrooms you will love. Brought to you by Space For Living, HOME DÉCOR’s\nDesign Series.\nJoin us for this exciting event, and receive a special gift. Tickets are\navailable at your local HOME DÉCOR store. For further details, visit\nHOMEDECOR.com",
+      "page_start": 164,
+      "page_end": 165
+    },
+    "assets": [
+      {
+        "id": 124,
+        "page": 164,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          771.9769287109375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "ae6bd29bccee0c1fd4f516ce6425092b9534fc41a000a8f0402b2c1a2e76fe7a"
+      },
+      {
+        "id": 125,
+        "page": 165,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          445.11688232421875
+        ],
+        "sha256": "cf3bb6ad188af973cb77587212f640adddc74e56233345578903d6e0949a35e6"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 354,
+    "exam": 4,
+    "number": 154,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

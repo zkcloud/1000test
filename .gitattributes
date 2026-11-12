@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# Preserve evidence bytes so the recorded SHA-256 manifests remain valid.
+audit/** -text
+reports/** -text
+data/** -text
+*.pdf binary
+*.sqlite3 binary
+*.png binary
+*.jpg binary
+*.jpeg binary

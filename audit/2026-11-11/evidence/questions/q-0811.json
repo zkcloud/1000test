@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 811,
+    "exam_id": 9,
+    "passage_id": null,
+    "number": 111,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "Payment of telephone or Internet orders is ------- within 7 working days of the receipt of the goods and invoice.",
+    "raw_text": "Payment of telephone or Internet orders is ------- within 7 working days of the\nreceipt of the goods and invoice.\n(A) due\n(B) coming\n(C) payable\n(D) complete",
+    "page_start": 365,
+    "page_end": 366,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "A",
+    "answer_page": 1055,
+    "explanation": "句意应为“应在收到货物和发票后7个工作日内付款”，故选\n(A) due (应支付的)。",
+    "explanation_start": 1061,
+    "explanation_end": 1061,
+    "options": {
+      "A": "due",
+      "B": "coming",
+      "C": "payable",
+      "D": "complete"
+    }
+  },
+  "independent_checks": {
+    "id": 811,
+    "exam": 9,
+    "number": 111,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

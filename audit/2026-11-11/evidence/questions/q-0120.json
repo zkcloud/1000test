@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 120,
+    "exam_id": 2,
+    "passage_id": null,
+    "number": 120,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "After a long and gruesome season, Jeff Willis has been performing ------- better since the playoffs started a week ago.",
+    "raw_text": "After a long and gruesome season, Jeff Willis has been performing -------\nbetter since the playoffs started a week ago.\n(A) significance\n(B) significant\n(C) significancy\n(D) significantly",
+    "page_start": 66,
+    "page_end": 66,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "D",
+    "answer_page": 523,
+    "explanation": "横线处需要填入修饰形容词比较级better的副词，因此答案\n是(D)significantly(显著地，明显地)。",
+    "explanation_start": 533,
+    "explanation_end": 533,
+    "options": {
+      "A": "significance",
+      "B": "significant",
+      "C": "significancy",
+      "D": "significantly"
+    }
+  },
+  "independent_checks": {
+    "id": 120,
+    "exam": 2,
+    "number": 120,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

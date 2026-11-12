@@ -1,0 +1,23 @@
+{
+  "reviewer": "Codex image inspection",
+  "scope": "100 sampled source question crops in 10 contact sheets; targeted before/after material crops",
+  "method": "Image inspection of sheets 01-10 plus automated independent pypdf field comparison. Answer/explanation pages retained; not claimed as 100 full-page manual semantic reviews.",
+  "sheets": [
+    "evidence/sheets/sheet-01.png",
+    "evidence/sheets/sheet-02.png",
+    "evidence/sheets/sheet-03.png",
+    "evidence/sheets/sheet-04.png",
+    "evidence/sheets/sheet-05.png",
+    "evidence/sheets/sheet-06.png",
+    "evidence/sheets/sheet-07.png",
+    "evidence/sheets/sheet-08.png",
+    "evidence/sheets/sheet-09.png",
+    "evidence/sheets/sheet-10.png"
+  ],
+  "result": "No additional missing/duplicate options visible in sampled question crops. Material cutoff confirmed and corrected.",
+  "targeted_materials": [
+    "evidence/comparisons/passage-016-page-0048-before.jpg",
+    "evidence/comparisons/passage-016-page-0048-after.jpg",
+    "evidence/comparisons/passage-050-page-0129-after.jpg"
+  ]
+}

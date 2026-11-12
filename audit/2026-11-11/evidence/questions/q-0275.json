@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 275,
+    "exam_id": 3,
+    "passage_id": 52,
+    "number": 175,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What can be inferred about the hotel?",
+    "raw_text": "What can be inferred about the hotel?\n(A) It is trying to do its part to help a good cause.\n(B) It is trying to cut down on its cleaning costs.\n(C) It is short of cleaning staff.\n(D) It only uses environment-friendly products.",
+    "page_start": 134,
+    "page_end": 134,
+    "status": "ready",
+    "exam_number": 3,
+    "correct_label": "A",
+    "answer_page": 600,
+    "explanation": "控制清洁剂使用量可减少环境污染。答案是(A)。",
+    "explanation_start": 652,
+    "explanation_end": 652,
+    "options": {
+      "A": "It is trying to do its part to help a good cause.",
+      "B": "It is trying to cut down on its cleaning costs.",
+      "C": "It is short of cleaning staff.",
+      "D": "It only uses environment-friendly products."
+    },
+    "passage": {
+      "id": 52,
+      "exam_id": 3,
+      "part": 7,
+      "first_number": 174,
+      "last_number": 175,
+      "instruction": "Questions 174-175 refer to the following card.",
+      "content": "Be Clean, Be Green\nDear Guests,\nEach year, many of the major waterways in the world get polluted by vast\namounts of detergents used to wash bed linen and towels in hotels.\nIn an effort to help preserve the environment, we’d like to ask all of our\nguests to please leave the towels that you intend to re-use on the towel rack and\nplace those towels you want exchanged in the bathtub.\nMay we also ask that you leave this card on the bed if you do not require\nyour bed linens changed?\nWe’d like to thank you for your cooperation in helping to improve our\nenvironment.\nThe Management",
+      "page_start": 133,
+      "page_end": 133
+    },
+    "assets": [
+      {
+        "id": 101,
+        "page": 133,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          309.4249572753906,
+          595.2755737304688,
+          716.5006713867188
+        ],
+        "sha256": "f13cdb6c1ce1ad0f1dd3051a01adefad34ed49a6f5fa275e97f2c4fc0ba75e1f"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 275,
+    "exam": 3,
+    "number": 175,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

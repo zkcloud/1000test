@@ -1,9 +1,23 @@
 [project]
 name = "exercise-practice"
-version = "0.1.0"
-description = "试题练习平台基础骨架"
+version = "1.0.0rc1"
+description = "考试与练习平台：限时评分、原版材料与逐题解析"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "fastapi>=0.162.4",
     "uvicorn[standard]>=0.54.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["backend/tests"]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.16.0",
+    "pip-audit>=2.10.1",
+    "pymupdf>=2.1",
+    "pypdf>=7.0.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
 ]

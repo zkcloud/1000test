@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 426,
+    "exam_id": 5,
+    "passage_id": null,
+    "number": 126,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "All employees are reminded that there is much satisfaction to be gained from - ------ the community in some voluntary capacity.",
+    "raw_text": "All employees are reminded that there is much satisfaction to be gained from -\n------ the community in some voluntary capacity.\n(A) serving\n(B) deserving\n(C) reserving\n(D) preserving",
+    "page_start": 196,
+    "page_end": 196,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "A",
+    "answer_page": 749,
+    "explanation": "横线处需要填入被in some voluntary capacity修饰、以the\ncommunity为宾语的动词，符合句意的是 (A) serving。",
+    "explanation_start": 764,
+    "explanation_end": 764,
+    "options": {
+      "A": "serving",
+      "B": "deserving",
+      "C": "reserving",
+      "D": "preserving"
+    }
+  },
+  "independent_checks": {
+    "id": 426,
+    "exam": 5,
+    "number": 126,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

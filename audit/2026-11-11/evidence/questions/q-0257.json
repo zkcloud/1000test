@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 257,
+    "exam_id": 3,
+    "passage_id": 46,
+    "number": 157,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Who most likely took out this notice?",
+    "raw_text": "Who most likely took out this notice?\n(A) Mr. Gordon’s family\n(B) Michael\n(C) A law firm\n(D) A bank",
+    "page_start": 124,
+    "page_end": 124,
+    "status": "ready",
+    "exam_number": 3,
+    "correct_label": "C",
+    "answer_page": 600,
+    "explanation": "债权人需要和遗嘱执行方——桑金律师事务所取得联系。答案是\n(C)。",
+    "explanation_start": 636,
+    "explanation_end": 636,
+    "options": {
+      "A": "Mr. Gordon’s family",
+      "B": "Michael",
+      "C": "A law firm",
+      "D": "A bank"
+    },
+    "passage": {
+      "id": 46,
+      "exam_id": 3,
+      "part": 7,
+      "first_number": 155,
+      "last_number": 158,
+      "instruction": "Questions 155-158 refer to the following notice.",
+      "content": "NOTICE TO CREDITORS\nre: the estate of Michael Gordon, formerly of 7 Golden Circus, Victoria,\nBritish Columbia, deceased on the 19th of November.\nNotice is hereby given that any further creditors and other claimants against\nthe said estate should contact the offices of Sankin and Sankin, Solicitors, Suite 9,\n432 Wilberforce Road, Victoria, V8W 3R3, the executors of the will of Michael\nGordon, no later than December 22. After that date, we, the executors, will\ndistribute the estate among the parties entitled to it, taking into consideration only\nclaims received by the due date.",
+      "page_start": 123,
+      "page_end": 124
+    },
+    "assets": [
+      {
+        "id": 90,
+        "page": 123,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          591.3042602539062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "ad45045a8c05628240904846a572b0e732a043ab721a7d6304ed355eae3ddb16"
+      },
+      {
+        "id": 91,
+        "page": 124,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          167.73561096191406
+        ],
+        "sha256": "7a3990c1fbd39a40c997eb71fe3c95911b013a9bf1cab044ce8c5390fc659b52"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 257,
+    "exam": 3,
+    "number": 157,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

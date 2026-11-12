@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 204,
+    "exam_id": 3,
+    "passage_id": null,
+    "number": 104,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "At this year’s orientation session, the general manager ------- took the time to personally welcome all new recruits in her usual, affable manner.",
+    "raw_text": "At this year’s orientation session, the general manager ------- took the time to\npersonally welcome all new recruits in her usual, affable manner.\n(A) she\n(B) her\n(C) hers\n(D) herself",
+    "page_start": 106,
+    "page_end": 106,
+    "status": "ready",
+    "exam_number": 3,
+    "correct_label": "D",
+    "answer_page": 600,
+    "explanation": "反身代词可作主语或宾语的同位语表示强调，一般置于所强\n调词的后面。本句中反身代词(D) herself强调的是句子的主语。",
+    "explanation_start": 601,
+    "explanation_end": 601,
+    "options": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+    }
+  },
+  "independent_checks": {
+    "id": 204,
+    "exam": 3,
+    "number": 104,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 171,
+    "exam_id": 2,
+    "passage_id": 31,
+    "number": 171,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “You don’t need to find out if they are hiring or have a definite need.”",
+    "raw_text": "In which of the positions marked [1], [2], [3], and [4] does the following\nsentence best belong?\n“You don’t need to find out if they are hiring or have a definite need.”\n(A) [1]\n(B) [2]\n(C) [3]\n(D) [4]",
+    "page_start": 87,
+    "page_end": 87,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "C",
+    "answer_page": 523,
+    "explanation": "所给句子是说“你不必去打听他们是否正要聘请咨询公司或者有确切\n的需求。”由此可知，发件人在寻求帮助。文中提及“寻求帮助”的是第二\n段，而选项(C)前后两个句子分别提到了who in your circle和them，和本\n句中的they呼应，故为正确答案。",
+    "explanation_start": 572,
+    "explanation_end": 572,
+    "options": {
+      "A": "[1]",
+      "B": "[2]",
+      "C": "[3]",
+      "D": "[4]"
+    },
+    "passage": {
+      "id": 31,
+      "exam_id": 2,
+      "part": 7,
+      "first_number": 169,
+      "last_number": 171,
+      "instruction": "Questions 169-171. refer to the following letter.",
+      "content": "November 27\nDear Tammy,\nHow are things with you? I’ve now established Karen Jones & Associates\n(KJA), an independent consulting practice that leverages my proven strengths in\nstrategic planning, people development, creating and improving processes, and\nbrand marketing. —[1]—I work extensively with consumer product companies\nand also now with industries that are regrouping due to a merger or major change\nin their competitive situation. I help them manage the pressure to achieve more in\ntheir marketplace by realizing more out of the people and resources they have. —\n[2]— What they say is of unique value to them is my expertise at creating new\nlinks between marketing, culture, and talent. This makes a company more efficient\nand successful.\nI’m really excited about how I can help companies address their business\nproblems with what I do. I would love to get your input. I’m interested in your\nthoughts as to who in your circle could benefit from learning about what I do. —\n[3]— I’m just interested in having a conversation with them to learn more about\ntheir marketing challenges and HR concerns and to share with them some\ninnovative ways I’ve helped other companies achieve the most in those areas. —\n[4]—\nIf this sounds interesting, I’d appreciate your linking me to people you know.\nI will call you in a few days for a quick catch-up conversation. In the meantime,\nI’ve attached an information sheet about KJA and its practice areas. Please freely\nforward it now and any time to business contacts you think could be interested in\nknowing about this. Thanks, and I’m looking forward to catching up with you.\nRegards,\nKaren Jones",
+      "page_start": 86,
+      "page_end": 87
+    },
+    "assets": [
+      {
+        "id": 60,
+        "page": 86,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "010e0d6a0ecdef2aecefbfa7d6caa28004e07e61d6d1a167bcc2ac030d48fdc1"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 171,
+    "exam": 2,
+    "number": 171,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

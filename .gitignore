@@ -9,3 +9,16 @@ dist/
 *.tsbuildinfo
 .idea/
 .vscode/
+tmp/
+data/*.sqlite3-journal
+data/*.sqlite3-wal
+data/*.sqlite3-shm
+data/practice.sqlite3
+frontend/test-results/
+frontend/playwright-report/
+frontend/test-results-live/
+reports/e2e-runtime*.sqlite3*
+output/
+audit/*-evidence.zip
+.pytest_cache/
+.ruff_cache/

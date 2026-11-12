@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 44,
+    "exam_id": 1,
+    "passage_id": 4,
+    "number": 144,
+    "part": 6,
+    "type": "single_choice",
+    "stem": "选择第 144 空的最佳答案。",
+    "raw_text": "(A) secure\n(B) secured\n(C) securely\n(D) to secure",
+    "page_start": 28,
+    "page_end": 28,
+    "status": "ready",
+    "exam_number": 1,
+    "correct_label": "A",
+    "answer_page": 448,
+    "explanation": "横线处所填单词修饰facility，故形容词(A)secure为正确答案。",
+    "explanation_start": 474,
+    "explanation_end": 474,
+    "options": {
+      "A": "secure",
+      "B": "secured",
+      "C": "securely",
+      "D": "to secure"
+    },
+    "passage": {
+      "id": 4,
+      "exam_id": 1,
+      "part": 6,
+      "first_number": 143,
+      "last_number": 146,
+      "instruction": "Questions 143-146 refer to the following email.",
+      "content": "",
+      "page_start": 27,
+      "page_end": 27
+    },
+    "assets": [
+      {
+        "id": 6,
+        "page": 27,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          193.22470092773438,
+          595.2755737304688,
+          728.4955444335938
+        ],
+        "sha256": "88b39b7b19046a74552606837b782ee41d1cee2247d3f5ee48e4ec2e5ea2f410"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 44,
+    "exam": 1,
+    "number": 144,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

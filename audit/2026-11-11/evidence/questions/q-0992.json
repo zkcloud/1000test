@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 992,
+    "exam_id": 10,
+    "passage_id": 189,
+    "number": 192,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Why was the e-mail sent to Ms. Belushi?",
+    "raw_text": "Why was the e-mail sent to Ms. Belushi?\n(A) To inform her a room is unavailable\n(B) To advise her about some new services\n(C) To tell her about a special offer\n(D) To ask her to confirm her reservation",
+    "page_start": 443,
+    "page_end": 443,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "C",
+    "answer_page": 1130,
+    "explanation": "邮件的主要内容是通知贝鲁西女士在夏季预订单人间可以将其升级至\n双人间，每晚额外收费10美元。答案是 (C)。",
+    "explanation_start": 1195,
+    "explanation_end": 1195,
+    "options": {
+      "A": "To inform her a room is unavailable",
+      "B": "To advise her about some new services",
+      "C": "To tell her about a special offer",
+      "D": "To ask her to confirm her reservation"
+    },
+    "passage": {
+      "id": 189,
+      "exam_id": 10,
+      "part": 7,
+      "first_number": 191,
+      "last_number": 195,
+      "instruction": "Questions 191-195 refer to the following form, e-mail, and invoice.",
+      "content": "Tamarind Hotel Singapore\nOnline Registration Form\nName: Tina Belushi\nE-mail Address: tbelushi@cartertech.com\nPhone Number: (303) 393-1822\nCheck-in Date: June 29\nCheckout Date: July 3\nRoom Type: Single\nNumber of People Staying in Room: 1\nBreakfast: No\nArriving From: Melbourne, Australia\nFlight Number: EY494\nApproximate Arrival Time: 3:00 P.M.\nTo confirm your reservation, please click on OKAY. You will then be\nprompted to provide your credit card information to guarantee your reservation.\nAll reservations are nonrefundable in case of a cancelation.\nTo: tbelushi@cartertech.com\nFrom: frontdesk@tamarindhotelsingapore.com\nSubject: Welcome\nDate: June 25\nAttachment: Singapore_tours\nDear Ms. Belushi,\nWe at the Tamarind Hotel Singapore are looking forward to your arrival in a\nfew days’ time. We would like to inform you that guests who book single rooms\nduring the summer months can upgrade them to a double room for an extra $10 per\nnight. If you wish to take advantage of this offer, please inform me by June 28.\nI’ve attached a brochure that shows some of the highlights of Singapore in\ncase you wish to go sightseeing on one of the tours we offer while you’re here.\nUpon checking in, you can feel free to speak with the staff at the front desk as\nwell as the concierge should you have any inquiries about Singapore.\nSincerely,\nThe Front Desk Staff\nTamarind Hotel Singapore\nINVOICE\nGuest: Tina Belushi\nRoom Number: 1717\nRoom Type: Double\nBill paid in full.\nGuest Signature: Tina Belushi\nDate: July 3\nThank you for staying with us. We hope to see you again soon.",
+      "page_start": 441,
+      "page_end": 443
+    },
+    "assets": [
+      {
+        "id": 355,
+        "page": 441,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "d72026244864076c34a42adcfdb665426d0edec8bfe5cccc701b91dda3f1f1a9"
+      },
+      {
+        "id": 356,
+        "page": 442,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "98203cb0c2c7860f6cb1e5cc439c42fcc62a89c2cb6c11b976c1e2182eb1628f"
+      },
+      {
+        "id": 357,
+        "page": 443,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          381.3941650390625
+        ],
+        "sha256": "4016d04fece92606d1c8827e1b96d9bd85a158eadd18cfa20a73acb92e87f45e"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 992,
+    "exam": 10,
+    "number": 192,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

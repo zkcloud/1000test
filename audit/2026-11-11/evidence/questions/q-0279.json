@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 279,
+    "exam_id": 3,
+    "passage_id": 53,
+    "number": 179,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is Mr. Steddon scheduled to do early next year?",
+    "raw_text": "What is Mr. Steddon scheduled to do early next year?\n(A) Take French lessons\n(B) Meet with an overseas client\n(C) Work at a consulting firm\n(D) Teach in a foreign country",
+    "page_start": 136,
+    "page_end": 136,
+    "status": "ready",
+    "exam_number": 3,
+    "correct_label": "D",
+    "answer_page": 600,
+    "explanation": "斯代顿先生移居法国后会从事教学工作。答案是(D)。",
+    "explanation_start": 655,
+    "explanation_end": 655,
+    "options": {
+      "A": "Take French lessons",
+      "B": "Meet with an overseas client",
+      "C": "Work at a consulting firm",
+      "D": "Teach in a foreign country"
+    },
+    "passage": {
+      "id": 53,
+      "exam_id": 3,
+      "part": 7,
+      "first_number": 176,
+      "last_number": 180,
+      "instruction": "Questions 176-180 refer to the following advertisement and letter.",
+      "content": "Door2Door Since 1962\nA name you can trust\nThinking of relocating? Why not contact Door2Door, the west coast’s\nleading specialists in moving, packing, and storage? Since 1962 we’ve been\nhelping families and businesses start new lives without the stress of worrying\nabout the safety of their valued possessions. Our secret? Well, it’s simple —\nplanning and organization, combined with state-of-the-art equipment and packing\nmaterials, and, of course, experienced manpower. We can pack for you, or, if you\nprefer to do it yourself, we can offer you advice and the best shock-absorbing\nprotective packaging materials. Need to ship overseas? We have the contacts and\nthe experience in Europe and parts of some Asian nations. Storage? We have a\nwide range of options! Insurance? No problems. Our insurance is cheap because\nwe don’t take chances with your precious goods.\nCall our advisers now at 888-8888 or 888-9999. Or check out our new\nwebsite www.door2door.com for a comprehensive guide to our services. We are\nlocated at 343 Prince Highway, Caulfield South.\nDoor2Door\n343 Prince Highway\nCaulfield South 3005\n23/08/2018\nDear Door2Door,\nI intend to move overseas with my family at the start of next year. Between\nus, we have many valuable personal possessions — musical instruments,\ncomputers, audio systems, etc. — which we intend to take with us.\nThe country where we’ll be living for the next 5 years (I’m taking up an\nacademic position) is France. We know little about that country and even less\nabout how to ship goods overseas. I really need to get some good advice soon.\nHow can I arrange to speak with one of your consultants?\nCould you please call me at 934-1134, or email me at\nrobsted@gomail.com?\nYours sincerely,\nRobert Steddon",
+      "page_start": 134,
+      "page_end": 135
+    },
+    "assets": [
+      {
+        "id": 102,
+        "page": 134,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "2fe254b1f62f4973e7c89bb3e4d015865bd8c1268703e44a6f1a6f27703080bc"
+      },
+      {
+        "id": 103,
+        "page": 135,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          478.1027526855469
+        ],
+        "sha256": "d347d03c90bd672bd1a3f400230010bf63278a96485c0f14604c91190eefd1f3"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 279,
+    "exam": 3,
+    "number": 179,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

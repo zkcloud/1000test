@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 83,
+    "exam_id": 1,
+    "passage_id": 16,
+    "number": 183,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "According to the e-mail, which of the following places will most likely suit Ms. Brown the most?",
+    "raw_text": "According to the e-mail, which of the following places will most likely suit\nMs. Brown the most?\n(A) Santa Rosa\n(B) Warehouse Conversion\n(C) Victorian Terrace\n(D) None of them",
+    "page_start": 50,
+    "page_end": 51,
+    "status": "ready",
+    "exam_number": 1,
+    "correct_label": "B",
+    "answer_page": 448,
+    "explanation": "布朗女士在邮件中提到需要一个能够实现美术工作室和展览室功能的\n住宅。根据广告中描述的售房信息可知，仓库改建公寓最适合。答案是\n(B)。",
+    "explanation_start": 506,
+    "explanation_end": 506,
+    "options": {
+      "A": "Santa Rosa",
+      "B": "Warehouse Conversion",
+      "C": "Victorian Terrace",
+      "D": "None of them"
+    },
+    "passage": {
+      "id": 16,
+      "exam_id": 1,
+      "part": 7,
+      "first_number": 181,
+      "last_number": 185,
+      "instruction": "Questions 181-185 refer to the following advertisement and e-mail message.",
+      "content": "Prestige Properties now Available\nFor discerning customers seeking unique properties, The Hills Real\nEstate Agency is pleased to announce the availability of the following\nresidences in the most upscale parts of our city:\nSanta Rosa\nThis beautiful Spanish-style mansion extends over a gently sloping half-acre\nblock. Constructed during the boom period of the 1920s, it has retained many\noriginal architectural and historical features while the kitchen and bathrooms\nhave been tastefully modernized. Stunning sandstone contrasts with green lawns\nand colorful flower gardens, with views of the ocean from the second floor. Call\nnow, to arrange a viewing.\nWarehouse Conversion\nIf you are seeking an open-plan style apartment located in the heart of the\nvibrant inner city that is quiet and secure with a tranquil courtyard in its heart, this\nis the property for you. Truly a unique opportunity, this 3-bedroom, 2-bathroom,\narchitect-designed conversion can offer tranquility and space for your artistic\nendeavors or can open up to be the perfect party house. Inspect now.\nVictorian Terrace\nThey don’t come much more sophisticated than this 3-story Victorian terrace\nbuilt in 1885. Located on a wide semi-circular street opposite elegant Victoria\nPark, the front garden and wide upper-level balcony are bathed in generous\nsunshine during the winter months while being protected from the wind. A rare\nopportunity for those who love combining comfortable living with elegant\nentertaining. A large living room adjoins a magnificent dining area served by a\nmodern kitchen with plenty of bench-space. Three upstairs bedrooms, two with\nen-suite bathrooms, plus a guest bathroom on the ground floor, complete the\npicture.\nFor further information and to arrange inspections (appointment only) please\ncall our office at 965-2254 or 965-2255 or e-mail at johnconnor@thehills.com\nTo: johnconnor@thehills.com\nFrom: lisabrown@kyu.com\nSubject: Interested buyer\nDear Mr. Connor,\nI was very interested by your recent advertisement. I am seeking a residence\nthat can accommodate an art studio and possibly hold private exhibitions for the\nwork I do. One of the listed places sounds like it could be suitable for my needs.\nTherefore, I would like to meet with you soon to take a look at the place. Could\nyou please let me know when a good time for you is? I am okay anytime this week\nexcept for Wednesday evening. Please get back to be as soon as possible.\nThanks so much for your attention.\nLisa Brown: 755-1207",
+      "page_start": 48,
+      "page_end": 50
+    },
+    "assets": [
+      {
+        "id": 29,
+        "page": 48,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          665.5224609375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "38220c2d5f747dbab78872561e4e9d91cbcc24099c49b0266035c185c201489c"
+      },
+      {
+        "id": 30,
+        "page": 49,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "8d45b28671b5c47b4c0f8d1c87db46cb1635857941751a21c33f23ecd294a479"
+      },
+      {
+        "id": 31,
+        "page": 50,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          325.91790771484375
+        ],
+        "sha256": "9033d270d28325fddece64567999d318173db7128ac3a30a2e70ab8a6adb274c"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 83,
+    "exam": 1,
+    "number": 183,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

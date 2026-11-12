@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 903,
+    "exam_id": 10,
+    "passage_id": null,
+    "number": 103,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "As you would expect at one of the world’s most reputable hotels, the ------- is prompt, efficient, and discreet.",
+    "raw_text": "As you would expect at one of the world’s most reputable hotels, the ------- is\nprompt, efficient, and discreet.\n(A) exertion\n(B) decision\n(C) challenge\n(D) service",
+    "page_start": 406,
+    "page_end": 406,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "D",
+    "answer_page": 1130,
+    "explanation": "“服务快捷、高效且周到”的句意最恰当。故选 (D)\nservice。",
+    "explanation_start": 1131,
+    "explanation_end": 1131,
+    "options": {
+      "A": "exertion",
+      "B": "decision",
+      "C": "challenge",
+      "D": "service"
+    }
+  },
+  "independent_checks": {
+    "id": 903,
+    "exam": 10,
+    "number": 103,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

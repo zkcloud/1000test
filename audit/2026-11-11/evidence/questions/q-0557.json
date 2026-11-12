@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 557,
+    "exam_id": 6,
+    "passage_id": 103,
+    "number": 157,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Who most likely is Mr. Harmon?",
+    "raw_text": "Who most likely is Mr. Harmon?\n(A) A customer\n(B) An inspector\n(C) A supervisor\n(D) An intern",
+    "page_start": 253,
+    "page_end": 253,
+    "status": "ready",
+    "exam_number": 6,
+    "correct_label": "C",
+    "answer_page": 827,
+    "explanation": "哈蒙先生一直在询问准备工作的进展并做统筹安排，还说大约20分钟\n后会来检查，可见他应该是餐厅的管理者。答案是 (C)。",
+    "explanation_start": 864,
+    "explanation_end": 864,
+    "options": {
+      "A": "A customer",
+      "B": "An inspector",
+      "C": "A supervisor",
+      "D": "An intern"
+    },
+    "passage": {
+      "id": 103,
+      "exam_id": 6,
+      "part": 7,
+      "first_number": 156,
+      "last_number": 159,
+      "instruction": "Questions 156-159 refer to the following online chat discussion.",
+      "content": "Grant Harmon [9:35 P.M.]\nHey, everyone. Do you remember the inspector is coming tomorrow? How\nare the preparations going?\nGus Menino [9:36 P.M.]\nI’ve cleaned the kitchen floor but haven’t gotten around to the ovens yet. I\ncould use some assistance.\nYolanda Russel [9:37 P.M.]\nI’ve been busy making sure the dining area looks fine.\nGrant Harmon [9:39 P.M.]\nGood work, you two. Peter, how about assisting Gus?\nPeter Swift [9:40 P.M.]\nActually, I’ve already gone home for the day. I worked the day shift and left\nat five. You don’t want me to go back to work, do you?\nGrant Harmon [9:41 P.M.]\nI wasn’t aware of that, Peter. Don’t worry about it. Gus, who else is there\nthat can help?\nGus Menino [9:42 P.M.]\nMary and Carter haven’t left yet.\nGrant Harmon [9:43 P.M.]\nTell them both lend you a hand. I’ll be there in about twenty minutes to check\neverything out. If the place looks good, you can all go home for the day.",
+      "page_start": 252,
+      "page_end": 253
+    },
+    "assets": [
+      {
+        "id": 194,
+        "page": 252,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "f183233105ca848517e3fd5fc32026567c38df632097457b9bebff35c9f335de"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 557,
+    "exam": 6,
+    "number": 157,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

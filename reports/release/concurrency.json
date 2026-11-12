@@ -1,0 +1,8 @@
+{
+  "scope": "In-process TestClient; 8 threads, 200 read requests; not a production load claim",
+  "requests": 200,
+  "failures": 0,
+  "p50_ms": 22.8,
+  "p95_ms": 164.59,
+  "max_ms": 1685.25
+}

@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 938,
+    "exam_id": 10,
+    "passage_id": 173,
+    "number": 138,
+    "part": 6,
+    "type": "single_choice",
+    "stem": "选择第 138 空的最佳答案。",
+    "raw_text": "(A) The number is 755-8989.\n(B) The purpose is to reduce blood sugar.\n(C) Participants must have clean bills of health.\n(D) The study is about diabetes.",
+    "page_start": 415,
+    "page_end": 415,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "A",
+    "answer_page": 1130,
+    "explanation": "由上句说“如果您愿意……请联系……”可知，横线处应填沙立文医\n生研究小组的联系方式，故选 (A)。",
+    "explanation_start": 1150,
+    "explanation_end": 1150,
+    "options": {
+      "A": "The number is 755-8989.",
+      "B": "The purpose is to reduce blood sugar.",
+      "C": "Participants must have clean bills of health.",
+      "D": "The study is about diabetes."
+    },
+    "passage": {
+      "id": 173,
+      "exam_id": 10,
+      "part": 6,
+      "first_number": 135,
+      "last_number": 138,
+      "instruction": "Questions 135-138 refer to the following notice.",
+      "content": "ST. VINCENT’S HOSPITAL\nLeading with Innovation\nServing with Compassion\nDiet & Diabetes Research Study\nAt St. Vincent’s Hospital in Kansas, we are planning to conduct a six-month\n(135) -------- comparing the potential benefits of two dietary approaches to (136)\n-------- blood sugar.\nTwenty individuals currently taking tablets for diabetes but who have clean\nbills of health are (137) -------- in the Kansas area. If you feel that you want to\nparticipate in this study, please get in contact with Dr. Sullivan’s research group\nat St. Vincent’s Hospital. (138) --------.",
+      "page_start": 414,
+      "page_end": 414
+    },
+    "assets": [
+      {
+        "id": 328,
+        "page": 414,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          619.7920532226562
+        ],
+        "sha256": "5e9fa4feaedd79788d75c4596b163eaad9313b2fac795cab40a11f0f3459746e"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 938,
+    "exam": 10,
+    "number": 138,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

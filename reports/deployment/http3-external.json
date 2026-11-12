@@ -1,0 +1,102 @@
+{
+  "time_utc": "2026-11-12T02:07:44.800212+00:00",
+  "tls_verification": true,
+  "origin": "43.155.140.75",
+  "results": [
+    {
+      "test": "origin-h3",
+      "ok": true,
+      "protocol": "h3",
+      "status": "200",
+      "body": "{\"status\":\"ok\"}",
+      "headers": {
+        ":status": "200",
+        "server": "nginx",
+        "date": "Thu, 12 Nov 2026 02:07:13 GMT",
+        "content-type": "application/json",
+        "content-length": "15",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "same-origin",
+        "x-frame-options": "DENY",
+        "content-security-policy": "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+        "cache-control": "no-store",
+        "strict-transport-security": "max-age=31536000",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "test": "public-h3",
+      "ok": false,
+      "error": "TimeoutError: "
+    },
+    {
+      "test": "origin-h2",
+      "ok": true,
+      "protocol": "h2",
+      "status": "200",
+      "body": "{\"status\":\"ok\"}",
+      "headers": {
+        ":status": "200",
+        "server": "nginx",
+        "date": "Thu, 12 Nov 2026 02:07:28 GMT",
+        "content-type": "application/json",
+        "content-length": "15",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "same-origin",
+        "x-frame-options": "DENY",
+        "content-security-policy": "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+        "cache-control": "no-store",
+        "strict-transport-security": "max-age=31536000",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    {
+      "test": "public-h2",
+      "ok": true,
+      "protocol": "h2",
+      "status": "200",
+      "body": "{\"status\":\"ok\"}",
+      "headers": {
+        ":status": "200",
+        "date": "Thu, 12 Nov 2026 02:07:40 GMT",
+        "content-type": "application/json",
+        "content-length": "15",
+        "server": "cloudflare",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "same-origin",
+        "x-frame-options": "DENY",
+        "content-security-policy": "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+        "cache-control": "no-store",
+        "strict-transport-security": "max-age=31536000",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8dyJB77NxYcK0iXaUedZyTMJ93lYaDS8MI8WLLyHg9EwI7zd0jgS%2F%2FMcLFU48t5aiFNZDVti%2FrX5qYfsFFUBDTR%2BD%2B4jiD2MHy1Lh7lNHTN6GeF%2BM3r84tTyqxvFDsmSjxs%3D\"}]}",
+        "cf-ray": "a591fbd01894cb96-LAX"
+      }
+    },
+    {
+      "test": "udp-unavailable-client-fallback",
+      "ok": true,
+      "simulation": "QUIC to unused UDP port 9 timed out, then TLS/TCP 443",
+      "tls_verification": true,
+      "protocol": "h2",
+      "status": "200",
+      "body": "{\"status\":\"ok\"}",
+      "headers": {
+        ":status": "200",
+        "server": "nginx",
+        "date": "Thu, 12 Nov 2026 02:07:44 GMT",
+        "content-type": "application/json",
+        "content-length": "15",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "same-origin",
+        "x-frame-options": "DENY",
+        "content-security-policy": "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+        "cache-control": "no-store",
+        "strict-transport-security": "max-age=31536000",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    }
+  ]
+}

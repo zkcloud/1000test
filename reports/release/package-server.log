@@ -1,0 +1,15 @@
+INFO:     Started server process [21488]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8020 (Press CTRL+C to quit)
+INFO:     127.0.0.1:26840 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26843 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26846 - "GET /assets/index-CHYCioNh.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26847 - "GET /api/visitor HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26848 - "POST /api/attempts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:26849 - "GET /api/attempts/yjtXP1iZc7s9YrzO4qmuawj9HC9n69d3/questions/31 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26850 - "GET /api/attempts/yjtXP1iZc7s9YrzO4qmuawj9HC9n69d3/assets/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26851 - "PUT /api/attempts/yjtXP1iZc7s9YrzO4qmuawj9HC9n69d3/questions/31/answer HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26852 - "POST /api/attempts/yjtXP1iZc7s9YrzO4qmuawj9HC9n69d3/questions/31/reveal HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26853 - "GET /api/attempts/yjtXP1iZc7s9YrzO4qmuawj9HC9n69d3/questions/31 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26854 - "POST /api/attempts/yjtXP1iZc7s9YrzO4qmuawj9HC9n69d3/submit HTTP/1.1" 200 OK

@@ -1,0 +1,8 @@
+[Unit]
+Description=Daily reading platform database backup
+[Timer]
+OnCalendar=*-*-* 03:30:00
+RandomizedDelaySec=10m
+Persistent=true
+[Install]
+WantedBy=timers.target

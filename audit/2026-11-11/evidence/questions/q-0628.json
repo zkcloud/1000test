@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 628,
+    "exam_id": 7,
+    "passage_id": null,
+    "number": 128,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "After a highly profitable first six months, the restaurant’s profits for the second half of the year were a great -------.",
+    "raw_text": "After a highly profitable first six months, the restaurant’s profits for the second\nhalf of the year were a great -------.\n(A) disappoints\n(B) disappointed\n(C) disappointing\n(D) disappointment",
+    "page_start": 285,
+    "page_end": 285,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "D",
+    "answer_page": 904,
+    "explanation": "主系表结构中，名词和形容词可作表语，表语一般说明主语\n的身份、特征、属性或状态。在本题中，主语是the restaurant’s\nprofits，横线前有冠词和形容词 (a great)，因此最恰当的是 (D)\ndisappointment。",
+    "explanation_start": 918,
+    "explanation_end": 918,
+    "options": {
+      "A": "disappoints",
+      "B": "disappointed",
+      "C": "disappointing",
+      "D": "disappointment"
+    }
+  },
+  "independent_checks": {
+    "id": 628,
+    "exam": 7,
+    "number": 128,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

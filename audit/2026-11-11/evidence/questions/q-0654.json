@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 654,
+    "exam_id": 7,
+    "passage_id": 121,
+    "number": 154,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What does Mr. Steele recommend Ms. Altman to do?",
+    "raw_text": "What does Mr. Steele recommend Ms. Altman to do?\n(A) Emphasize her job experience\n(B) Answer questions fully\n(C) Conduct research on a company\n(D) Apply for a better position",
+    "page_start": 295,
+    "page_end": 295,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "C",
+    "answer_page": 904,
+    "explanation": "斯蒂尔先生给奥尔特曼女士的第二条建议就是调查一下这家公司。答\n案是 (C)。",
+    "explanation_start": 938,
+    "explanation_end": 938,
+    "options": {
+      "A": "Emphasize her job experience",
+      "B": "Answer questions fully",
+      "C": "Conduct research on a company",
+      "D": "Apply for a better position"
+    },
+    "passage": {
+      "id": 121,
+      "exam_id": 7,
+      "part": 7,
+      "first_number": 152,
+      "last_number": 155,
+      "instruction": "Questions 152-155 refer to the following online chat discussion.",
+      "content": "Judith Altman [11:14 A.M.]\nI’m somewhat concerned about my interview with RT Media tomorrow.\nDoes anyone have some pointers for me?\nEdward Steele [11:15 A.M.]\nMake sure you dress well. If you aren’t wearing formal attire, you definitely\nwon’t get the job.\nAlicia Fields [11:16 A.M.]\nEd’s definitely correct about that.\nJudith Altman [11:17 A.M.]\nThanks. I hadn’t considered that. I’d better go to the department store later\ntoday.\nAlicia Fields [11:18 A.M.]\nI can accompany you if you’d like.\nEdward Steele [11:19 A.M.]\nYou should also do some research on the company. That way, you can ask\nintelligent questions of your own. That will make it appear as though you’re very\ninterested in the position.\nJudith Altman [11:20 A.M.]\nThanks, Alicia. That sounds great. I’ll be heading out around five.\nJudith Altman [11:21 A.M.]\nThat’s another good tip, Ed. I’ll be sure to come up with a few things to ask.\nAlicia Fields [11:23 A.M.]\nAnd definitely answer their questions fully and expand on your experience in\nthe industry. Let them know what you’ve done and what you can do for them.",
+      "page_start": 294,
+      "page_end": 295
+    },
+    "assets": [
+      {
+        "id": 230,
+        "page": 294,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "85437b0f7698044f439deab6d26b72eaea0e945d6b31765fe4284609f8bd86b7"
+      },
+      {
+        "id": 231,
+        "page": 295,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          182.7292022705078
+        ],
+        "sha256": "6d0f95f1d583317240feed11db3fb6ec3a5d21e14d973d34cb1240f4e2254bb9"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 654,
+    "exam": 7,
+    "number": 154,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 619,
+    "exam_id": 7,
+    "passage_id": null,
+    "number": 119,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "All applications for the current positions should be submitted to the personnel section ------- triplicate and in separate envelopes.",
+    "raw_text": "All applications for the current positions should be submitted to the personnel\nsection ------- triplicate and in separate envelopes.\n(A) by\n(B) in\n(C) on\n(D) to",
+    "page_start": 282,
+    "page_end": 283,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "B",
+    "answer_page": 904,
+    "explanation": "triplicate是表示“一式三份，三倍”的名词，一般与介词\nin连用后充当状语。in triplicate意为“一式三份”，in duplicate意\n为“一式两份”，in quadruplicate意为“一式四份”。",
+    "explanation_start": 914,
+    "explanation_end": 914,
+    "options": {
+      "A": "by",
+      "B": "in",
+      "C": "on",
+      "D": "to"
+    }
+  },
+  "independent_checks": {
+    "id": 619,
+    "exam": 7,
+    "number": 119,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

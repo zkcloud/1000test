@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 977,
+    "exam_id": 10,
+    "passage_id": 186,
+    "number": 177,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What will Lloyd do before meeting Belinda today?",
+    "raw_text": "What will Lloyd do before meeting Belinda today?\n(A) Work in his office\n(B) Drive around town\n(C) Relax at his home\n(D) Prepare dinner",
+    "page_start": 434,
+    "page_end": 434,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "B",
+    "answer_page": 1130,
+    "explanation": "阅读邮件的第一段内容可知，劳埃德今天大多数时间都在去拜访客户\n的路上，他与客户的会面结束后，会去接贝琳达。答案是 (B)。",
+    "explanation_start": 1182,
+    "explanation_end": 1182,
+    "options": {
+      "A": "Work in his office",
+      "B": "Drive around town",
+      "C": "Relax at his home",
+      "D": "Prepare dinner"
+    },
+    "passage": {
+      "id": 186,
+      "exam_id": 10,
+      "part": 7,
+      "first_number": 176,
+      "last_number": 180,
+      "instruction": "Questions 176-180 refer to the following e-mail message and e-mail attachment.",
+      "content": "To: belindacarlos@onestar.com\nFrom: lloyd@topnet.com\nSubject: Movie Schedule ; Attachment: MovieSchedule.doc\nHi Belinda,\nHow is work today? I am really excited about spending some time with you\ntonight. As discussed, after I get off work around 6 p.m., I will pick you up at\nyour workplace. We will then go for a quick dinner followed by a movie. I have\nselected a few nearby movie theaters and attached the schedule for your\nreference. Please select the movie you wish to watch, and send me a short\nmessage on my mobile phone since I will be on the road visiting clients for the\nmost part of the day.\nI know that you don’t enjoy horror movies, and likewise I do not really enjoy\nanimated films. This should make the selection process easier. From the attached\nlist, we should be able to make it on time to any of the nearby complexes except\nfor the one in Tampines, as it is the furthest from our homes and workplaces.\nAdding to that, we can go home earlier when the movie ends.\nSee you tonight!\nLloyd.\nMovieSchedule.doc\nShow Times for July 1-10\nCity Hall Movie\nA Whole New World (1:00, 3:30, 6:00, 8:30, 11:00)\nWhen Love Hits (2:15, 4:15, 6:15, 8:15, 10:15, 12:15)\nSnakes and Monsters (12:25, 2:15, 4:05, 5:55, 7:45)\nFull Impact (12:00, 2:00, 4:00, 6:00, 8:00)\nMega Cinema\nWhen Love Hits (11:30, 1:30, 3:30, 5:30, 7:30, 9:30)\nSnakes and Monsters (1:00, 2:50, 4:40, 6:30, 8:20, 10:10)\nFull Impact (1:35, 3:35, 5:35, 7:35, 9:35, 11:35)\nA Whole New World (3:45, 6:15, 8:45, 11:15)\nJohn Brothers Complex\nSnakes and Monsters (1:10, 3:00, 4:50, 6:40, 8:30)\nFull Impact (12:00, 2:00, 4:00, 6:00, 8:00)\nWhen Love Hits (11:20, 1:20, 3:20, 5:20, 7:20)\nTampines Cineplex\nA Whole New World (10:05, 12:35, 3:05, 5:35, 8:05)\nFull Impact (1:15, 3:15, 5:15, 7:15, 9:15, 11:15)\nWhen Love Hits (12:30, 2:30, 4:30, 6:30, 8:30)\nMOVIE GUIDE\nA Whole New World – Animation\nWhen Love Hits – Romantic comedy\nSnakes and Monsters – Horror\nFull Impact – Action",
+      "page_start": 432,
+      "page_end": 434
+    },
+    "assets": [
+      {
+        "id": 346,
+        "page": 432,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          522.3338012695312,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "6e88b396d98c51a17618c3b0d910211654063ed5b1a3ba1087adacfb41fe6ef5"
+      },
+      {
+        "id": 347,
+        "page": 433,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "86923e0ca6193fa41be4988db6f5edababfabf773a497ae264c86e8eab0a0105"
+      },
+      {
+        "id": 348,
+        "page": 434,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          471.35565185546875
+        ],
+        "sha256": "55a10899503570e4086db614ad4d06856df2a5e4f5411109a163b5d195820ebc"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 977,
+    "exam": 10,
+    "number": 177,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

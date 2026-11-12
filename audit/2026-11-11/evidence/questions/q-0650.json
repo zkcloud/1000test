@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 650,
+    "exam_id": 7,
+    "passage_id": 120,
+    "number": 150,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "According to the report, what will likely strike the economy the hardest if the price of oil hits the $80 per barrel mark?",
+    "raw_text": "According to the report, what will likely strike the economy the hardest if the\nprice of oil hits the $80 per barrel mark?\n(A) The tourism industry\n(B) Consumer spending\n(C) Airlines\n(D) Gas stations",
+    "page_start": 293,
+    "page_end": 293,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "B",
+    "answer_page": 904,
+    "explanation": "文中指出，如果油价达到80美元，消费者的燃料负担会加重，致使能\n源消费量减少，而这是对经济的最大影响。答案是 (B)。",
+    "explanation_start": 934,
+    "explanation_end": 934,
+    "options": {
+      "A": "The tourism industry",
+      "B": "Consumer spending",
+      "C": "Airlines",
+      "D": "Gas stations"
+    },
+    "passage": {
+      "id": 120,
+      "exam_id": 7,
+      "part": 7,
+      "first_number": 149,
+      "last_number": 151,
+      "instruction": "Questions 149-151 refer to the following news report.",
+      "content": "Oil prices hit an all time high of $75 per barrel. With the current situation\nand at the rate it is going up, it may hit $80 per barrel. With an all-time record\nhigh, the new price has raised the eyebrows of economists, who say some direct\nand indirect negative effects from the new price on major sectors will be\ninevitable. —[1]— Some troubled airlines struggling to maintain their fleets,\nhave announced that they cannot cover their fuel costs if oil prices hit $80 per\nbarrel. —[2]— Travel agents are eagerly expecting a drop in oil prices to boost\nthe tourism industry to get more people in their vehicles driving around the\ncountry. What is yet to cause the most impact on the economy is the negative\ndiscretionary spending by consumers on energy. —[3]— As people are reluctant\nto pay more for energy, they are pressured to cut costs. Economists are concerned\nthat the economy needs a boost rather than this phenomenon. —[4]—",
+      "page_start": 292,
+      "page_end": 293
+    },
+    "assets": [
+      {
+        "id": 228,
+        "page": 292,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          722.4981079101562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "ba5e6da15041a48259e3dc99fcc36a126268ec6cccafa77f1393cacceb75e178"
+      },
+      {
+        "id": 229,
+        "page": 293,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          344.6598815917969
+        ],
+        "sha256": "c276660bac36a65477031eff93dd76243bdc90869dface65e94a9f1cf9e2b374"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 650,
+    "exam": 7,
+    "number": 150,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 597,
+    "exam_id": 6,
+    "passage_id": 114,
+    "number": 197,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What does Ms. Abernathy want to do?",
+    "raw_text": "What does Ms. Abernathy want to do?\n(A) Be promoted to management\n(B) Set up a meeting with Ms. Ng\n(C) Take a tour of Sanderson Tech\n(D) Introduce one of her coworkers",
+    "page_start": 276,
+    "page_end": 276,
+    "status": "ready",
+    "exam_number": 6,
+    "correct_label": "B",
+    "answer_page": 827,
+    "explanation": "第一封信的结尾提到“如果您有时间，我非常愿意和您见一面”。由\n此可知，阿伯西内女士想和吴女士见面。答案是 (B)。",
+    "explanation_start": 901,
+    "explanation_end": 901,
+    "options": {
+      "A": "Be promoted to management",
+      "B": "Set up a meeting with Ms. Ng",
+      "C": "Take a tour of Sanderson Tech",
+      "D": "Introduce one of her coworkers"
+    },
+    "passage": {
+      "id": 114,
+      "exam_id": 6,
+      "part": 7,
+      "first_number": 196,
+      "last_number": 200,
+      "instruction": "Questions 196-200 refer to the following e-mails and memo.",
+      "content": "To: George Tower <gtower@sandersontech.com>\nFrom: Melanie Ng <melanieng@sandersontech.com>\nSubject: Clara Abernathy\nDate: October 8\nDear Ms. Ng,\nMy name is Clara Abernathy. A former colleague Greta Huffman, provided\nme with your contact information. I’m moving to Dover as my husband is being\ntransferred there, so she thought I might find work with your firm.\nI’m presently employed at HMR, Inc., where I’m responsible for marketing\nour products, a wide variety of children’s toys and games. While I realize your\nfirm is in a different industry, I possess the skills, experience, and desire to learn\nabout your industry quickly and can become a valuable employee if you give me a\nchance.\nI have attached my résumé and a list of professional references. I will be in\nDover from October 5 to 10 while my husband and I search for a home. If you\nhave time then, I would love to meet you in person.\nSincerely,\nClara Abernathy\nTo: Melanie Ng <melanieng@sandersontech.com>\nFrom: Clara Abernathy <cabernathy@hmr.com>\nSubject: Job Opportunity\nDate: October 3\nGeorge,\nYesterday, I met someone who worked with my old mentor at Crosstown\nConsulting. While she has absolutely no experience in aerospace, I think we\nshould consider hiring her. I believe she’d be perfect for that opening in your\ndepartment.\nI’m going to be dropping by your office to discuss a different matter at 1:00\nP.M., so I’ll bring her résumé and contact information when I arrive. You should\ndefinitely talk to her and see what you think of her for yourself.\nRegards,\nMelanie\nTo: All Employees\nFrom: Trudy West\nSubject: New Employees\nDate: October 28\nNext Monday, November 1, we will be joined by three new employees:\nMark Johnson (R&D Department)\nClara Abernathy (Publicity Department)\nDavid Cross (Engineering Department)\nThey will spend their first day on the job in HR as they learn about the\ncompany and become acquainted with the premises. They will initiate their\nregular duties the following day. Please be sure to give them a warm welcome\nand to make them feel like welcome members of the Sanderson Tech team\nwhenever you see them.",
+      "page_start": 274,
+      "page_end": 276
+    },
+    "assets": [
+      {
+        "id": 217,
+        "page": 274,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "e0a222d2c0ce4d833d06153367f7ac91ac013a5f905aaa3a146e48bf950de0b9"
+      },
+      {
+        "id": 218,
+        "page": 275,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "92f6907227d258da4c794768fb76cd1406452477ed240ece786c5d8322d83d59"
+      },
+      {
+        "id": 219,
+        "page": 276,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          168.48529052734375
+        ],
+        "sha256": "f4bef55a16c483da4fea5615bd90a7131219a4a37ab968999f325bc6ab1d25a7"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 597,
+    "exam": 6,
+    "number": 197,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

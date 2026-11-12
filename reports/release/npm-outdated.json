@@ -1,0 +1,9 @@
+{
+  "typescript": {
+    "current": "6.0.3",
+    "wanted": "6.0.3",
+    "latest": "7.0.2",
+    "dependent": "frontend",
+    "location": "D:\\User\\Documents\\Workspace\\test1000\\frontend\\node_modules\\typescript"
+  }
+}

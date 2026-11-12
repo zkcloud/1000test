@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 922,
+    "exam_id": 10,
+    "passage_id": null,
+    "number": 122,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "While the producer has ------- production of this line, secondhand replacement parts can often be found at specialty stores.",
+    "raw_text": "While the producer has ------- production of this line, secondhand replacement\nparts can often be found at specialty stores.\n(A) alternate\n(B) incomplete\n(C) dependent\n(D) discontinued",
+    "page_start": 410,
+    "page_end": 410,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "D",
+    "answer_page": 1130,
+    "explanation": "宾语是production of this line，横线前又有表示现在完成\n时的has，因此横线处应填入动词的过去分词。“虽然生产商已经停止生产\n这种产品”的句意最恰当，故选 (D) discontinued。",
+    "explanation_start": 1141,
+    "explanation_end": 1141,
+    "options": {
+      "A": "alternate",
+      "B": "incomplete",
+      "C": "dependent",
+      "D": "discontinued"
+    }
+  },
+  "independent_checks": {
+    "id": 922,
+    "exam": 10,
+    "number": 122,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 113,
+    "exam_id": 2,
+    "passage_id": null,
+    "number": 113,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "------- Mr. Bingham’s promotion became official, many of his colleagues have approached him to congratulate him.",
+    "raw_text": "------- Mr. Bingham’s promotion became official, many of his colleagues have\napproached him to congratulate him.\n(A) Despite\n(B) Still\n(C) Since\n(D) During",
+    "page_start": 64,
+    "page_end": 64,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "C",
+    "answer_page": 523,
+    "explanation": "Mr. Bingham’s promotion became official结构完整，因\n此横线处应填入从属连词。备选答案中只有(C)Since(自从)是从属连词。当\n备选答案既有介词也有连词时，可观察横线后跟的是名词短语还是具有完整\n结构的句子，用排除法判断答案，可以节约解题时间。",
+    "explanation_start": 530,
+    "explanation_end": 530,
+    "options": {
+      "A": "Despite",
+      "B": "Still",
+      "C": "Since",
+      "D": "During"
+    }
+  },
+  "independent_checks": {
+    "id": 113,
+    "exam": 2,
+    "number": 113,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

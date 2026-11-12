@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 196,
+    "exam_id": 2,
+    "passage_id": 38,
+    "number": 196,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is NOT indicated about the receptionist position?",
+    "raw_text": "What is NOT indicated about the receptionist position?\n(A) Being able to talk to others is important.\n(B) It requires a college degree.\n(C) Some experience is necessary.\n(D) Applicants must know a foreign language.",
+    "page_start": 103,
+    "page_end": 103,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "D",
+    "answer_page": 523,
+    "explanation": "接待员的职位要求是：两年工作经验、四年制大学学位、举止友好并\n能与人相处融洽、有外语知识者优先，并未要求必须懂一门外语。答案为\n(D)。",
+    "explanation_start": 596,
+    "explanation_end": 596,
+    "options": {
+      "A": "Being able to talk to others is important.",
+      "B": "It requires a college degree.",
+      "C": "Some experience is necessary.",
+      "D": "Applicants must know a foreign language."
+    },
+    "passage": {
+      "id": 38,
+      "exam_id": 2,
+      "part": 7,
+      "first_number": 196,
+      "last_number": 200,
+      "instruction": "Questions 196-200. refer to the following advertisement, e-mail, and memo.",
+      "content": "Apply for a Job at Edison Manufacturing\nEdison Manufacturing is opening a facility in Bynum and requires hundreds\nof new employees. Here are a few of the positions which must be filled:\nAssembly Line Worker (Job #4985) – No experience necessary. High school\ndiploma a must. You’ll be trained for two weeks before starting your job.\n$40,000/year. Full benefits.\nFactory Manager (Job #2912) – 5 years of management experience needed.\nCollege degree required. Must be an outstanding multitasker and have good\npeople skills. $106,000/year. Full benefits.\nReceptionist (Job #5990) – 2 years of experience necessary. Should have a\ndegree from a four-year school. Must have a friendly demeanor and be\ncomfortable dealing with individuals from around the world. Foreign language\nknowledge is a plus. $50,000/year. Full benefits.\nDelivery Driver (Job #8443) – Must have a class C driver’s license and a clean\ndriving record. Must be punctual and be able to lift objects weighing up to 40kg\nnumerous times a day. No diploma necessary. Full-time work. $32,000/year. Full\nbenefits.\nGo to www.edisonmanufacturing.com/jobs to learn about the positions you\ncan apply for. Apply online by clicking here.\nTo: Kelly Steward <kstewart@personalmail.com>\nFrom: Melvin Hubbard <mhubbard@edisonmanufacturing.com>\nSubject: Application\nDate: April 27\nDear Mr. Stewart,\nYour application for job number 4985 at the Bynum facility has been\nreceived. You have been selected to interview for the position at 9:00 A.M. on\nMay 1. Please visit the Bynum facility at 984 Copper Road and tell the\nreceptionist you are scheduled to meet with Mr. Van Herder. You will receive\nfurther instructions there. Should you pass the interview, you will be scheduled\nfor a second one during the second week of May.\nRegards,\nMelvin Hubbard\nHR Department\nEdison Manufacturing\nTo: Jeffrey Wayans\nFrom: Melvin Hubbard\nSubject: New Employees\nDate: May 15\nThe following individuals were offered positions at Edison Manufacturing\nand subsequently accepted them:\nCarol Addison\nDavid Belvedere\nRoger Kirchner\nKelly Stewart\nTheobald Vandyke\nSylvia Wayne\nTheir orientation session is scheduled for May 25. I’ll be sending a longer\nlist of new employees tomorrow. Those individuals will also be receiving\norientation on the 25th.",
+      "page_start": 101,
+      "page_end": 103
+    },
+    "assets": [
+      {
+        "id": 75,
+        "page": 101,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          210.46731567382812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "1650998e7ddbb00b9161bb4c4112cf43e9364a754d6f8bfb6d2e3a0266e000cb"
+      },
+      {
+        "id": 76,
+        "page": 102,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "5edf8e779dc5ab6cbe8efb794bcc6cd5218a32960e609b4955e12d235bbd8342"
+      },
+      {
+        "id": 77,
+        "page": 103,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          183.4788818359375
+        ],
+        "sha256": "f33a551bc8e9c2025d70fd7796c7683a9cf6d8ac7aa2a51ac9ac7bc51f80ad1e"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 196,
+    "exam": 2,
+    "number": 196,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

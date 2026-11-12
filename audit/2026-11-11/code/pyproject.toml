@@ -1,0 +1,15 @@
+[project]
+name = "exercise-practice"
+version = "0.1.0"
+description = "试题练习平台基础骨架"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.162.4",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pymupdf>=2.1",
+    "pypdf>=7.0.1",
+]

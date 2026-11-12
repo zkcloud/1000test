@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 667,
+    "exam_id": 7,
+    "passage_id": 125,
+    "number": 167,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is scheduled to happen following the president’s address?",
+    "raw_text": "What is scheduled to happen following the president’s address?\n(A) Participants will enjoy some Chinese cuisine.\n(B) The attendees will listen to an opening speech by Jack Thornton.\n(C) New employees will participate in group activities.\n(D) Staff members will check the list by the front entrance.",
+    "page_start": 302,
+    "page_end": 302,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "A",
+    "answer_page": 904,
+    "explanation": "CEO的演讲过后，在中餐厅享用午餐。答案是 (A)。",
+    "explanation_start": 949,
+    "explanation_end": 949,
+    "options": {
+      "A": "Participants will enjoy some Chinese cuisine.",
+      "B": "The attendees will listen to an opening speech by Jack Thornton.",
+      "C": "New employees will participate in group activities.",
+      "D": "Staff members will check the list by the front entrance."
+    },
+    "passage": {
+      "id": 125,
+      "exam_id": 7,
+      "part": 7,
+      "first_number": 167,
+      "last_number": 168,
+      "instruction": "Questions 167-168 refer to the following information.",
+      "content": "Straton Life Assurance\nNew Employee Training\nTheme: New Beginnings, New Challenges\n* Please do not forget to write a report to be submitted to your managers\nwhen you return to your branch offices.",
+      "page_start": 301,
+      "page_end": 302
+    },
+    "assets": [
+      {
+        "id": 237,
+        "page": 301,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          259.19647216796875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "498410556aa2e2c5f178a237743cab0a835b817e9306d506da01ce3353737ce9"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 667,
+    "exam": 7,
+    "number": 167,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

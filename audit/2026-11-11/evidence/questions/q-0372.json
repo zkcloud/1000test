@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 372,
+    "exam_id": 4,
+    "passage_id": 70,
+    "number": 172,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Which of the following is NOT required?",
+    "raw_text": "Which of the following is NOT required?\n(A) A copy of a resume\n(B) A duplicate of a teaching certificate\n(C) An introductory letter\n(D) A letter of recommendation",
+    "page_start": 173,
+    "page_end": 173,
+    "status": "ready",
+    "exam_number": 4,
+    "correct_label": "D",
+    "answer_page": 676,
+    "explanation": "招聘广告的最后一段列出了所需资料。其中没有提到的是(D)。",
+    "explanation_start": 722,
+    "explanation_end": 722,
+    "options": {
+      "A": "A copy of a resume",
+      "B": "A duplicate of a teaching certificate",
+      "C": "An introductory letter",
+      "D": "A letter of recommendation"
+    },
+    "passage": {
+      "id": 70,
+      "exam_id": 4,
+      "part": 7,
+      "first_number": 171,
+      "last_number": 173,
+      "instruction": "Questions 171-173 refer to the following advertisement.",
+      "content": "Belgravia Boys’ Grammar School Angelus Boulevard Belgravia 5009\nCurrently seeking : Assistant Teacher-Librarian\nFull-time for Term 2 with the possibility of continuation\nBelgravia B.G.S. requires a qualified and experienced teacher-librarian for\nits Junior High School. This will be a full-time position for the second term with\nthe strong possibility of continuing work on one of our campuses. Experienced\nand dynamic candidates who possess either a graduate diploma in education\n(teacher-librarianship) or a bachelor’s of education (teacher-librarianship) are\nencouraged to apply. One of the principal tasks will be to guide students through\nthe computerized catalog. The successful candidate will also have to train\nstudents in advanced online searching.\nInterested applicants are invited to contact the Deputy Principal (Staffing) at\n673-2215 should they have any enquiries regarding the position or the school.\nPlease send your letter of application, with curriculum vitae, police\nclearance, and a photocopy of your teaching diploma, in triplicate, by Wednesday,\nAugust 5 to:\nThe Deputy Principal (Staffing)\nBelgravia Boys’ Grammar School\nAngelus Boulevard\nBelgravia\nVictoria 5009",
+      "page_start": 172,
+      "page_end": 173
+    },
+    "assets": [
+      {
+        "id": 131,
+        "page": 172,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "acda13b365d3128e04c3ba7899be07fb13a90921d133bda3b200a668e9c9c393"
+      },
+      {
+        "id": 132,
+        "page": 173,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          427.874267578125
+        ],
+        "sha256": "f8ca952979e0f51b7524bd925ae200e34cdfe3604ab77b7cde8b7b8d3e0d9a50"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 372,
+    "exam": 4,
+    "number": 172,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

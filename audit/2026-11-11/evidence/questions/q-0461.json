@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 461,
+    "exam_id": 5,
+    "passage_id": 86,
+    "number": 161,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Which movie received the best review?",
+    "raw_text": "Which movie received the best review?\n(A) In the Minotaur’s Maze\n(B) Sweat and Blood\n(C) Young Hearts in Venice\n(D) Red Rain",
+    "page_start": 211,
+    "page_end": 211,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "B",
+    "answer_page": 749,
+    "explanation": "评价最高的电影得到了4分。答案是 (B)。",
+    "explanation_start": 790,
+    "explanation_end": 790,
+    "options": {
+      "A": "In the Minotaur’s Maze",
+      "B": "Sweat and Blood",
+      "C": "Young Hearts in Venice",
+      "D": "Red Rain"
+    },
+    "passage": {
+      "id": 86,
+      "exam_id": 5,
+      "part": 7,
+      "first_number": 161,
+      "last_number": 163,
+      "instruction": "Questions 161-163 refer to the following movie review.",
+      "content": "MOVIES\nRatings out of 5\nIN THE MINOTAUR’S MAZE\nThis movie belongs to a completely new genre perhaps. It’s a historical\nhorror movie set in ancient Greece, thousands of years ago. Filmed on location in\nbeautiful Crete, it features beautiful young people from all over Greece being\nshipped as sacrifices to the Minotaur. The contrast between the sparkling light of\nthe Greek islands and the darkness of the mysterious Minotaur’s maze is\nstunningly done. A gripping and visually impressive movie. ••• 1/2 Ben King\nSWEAT AND BLOOD\nThis Spanish nonfiction movie set during the Civil War deservedly won the\ncritics’ prize at last year’s Toronto Film Festival. Filmed in a naturalistic style, it\nfollows the lives of 4 once-close friends who are separated by the war. Realistic\nand dramatic, it paints an all-too-believable picture of a world turned upside-\ndown by war. Recommended. (English subtitles) •••• Jane Stevenson\nYOUNG HEARTS IN VENICE\nThis is an awful attempt at a“romantic drama.” Young Hearts in Venice tries\nto exploit the Venetian setting to give this very ordinary little story a lift but\nutterly fails. Two couples intent on a romantic Venetian holiday accidentally\nmeet. They spend time together and… you guessed it: there are unexpected\nchemical reactions. The problem is that the script and acting are so poor that we\ncouldn’t care less about any of the protagonists! Not recommended. • M.H.\nRED RAIN\nIf you enjoy horror movies where city slickers unintentionally get stuck in\nsinister country towns, this movie is for you. Red Rain is a finely crafted effort\nfrom one of the masters of schlock-horror, Jim Middleton. There’s nothing new in\nthe plot, but the special effects, décor, and script are excellent, and the acting,\nmostly by unknowns, is also first-rate. ••• 1/2 Jane Stevenson",
+      "page_start": 210,
+      "page_end": 211
+    },
+    "assets": [
+      {
+        "id": 160,
+        "page": 210,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "6456dc68e1b6927a17a6e74afc124ab49f2b4ef3757dc7916872f60e4d5d17b1"
+      },
+      {
+        "id": 161,
+        "page": 211,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          337.1630859375
+        ],
+        "sha256": "44aec5de78da4178d6a5be497c381c7f2561e9188c4000a62b549a13efd5c4e2"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 461,
+    "exam": 5,
+    "number": 161,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

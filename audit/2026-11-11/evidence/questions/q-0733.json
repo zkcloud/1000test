@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 733,
+    "exam_id": 8,
+    "passage_id": 134,
+    "number": 133,
+    "part": 6,
+    "type": "single_choice",
+    "stem": "选择第 133 空的最佳答案。",
+    "raw_text": "(A) principle\n(B) value\n(C) law\n(D) criteria",
+    "page_start": 329,
+    "page_end": 329,
+    "status": "ready",
+    "exam_number": 8,
+    "correct_label": "D",
+    "answer_page": 979,
+    "explanation": "横线处所填单词被listed above (以上列出的) 修饰，作meet (满\n足) 的宾语。最符合句意的是 (D) criteria (标准)。",
+    "explanation_start": 998,
+    "explanation_end": 998,
+    "options": {
+      "A": "principle",
+      "B": "value",
+      "C": "law",
+      "D": "criteria"
+    },
+    "passage": {
+      "id": 134,
+      "exam_id": 8,
+      "part": 6,
+      "first_number": 131,
+      "last_number": 134,
+      "instruction": "Questions 131-134 refer to the following instructions.",
+      "content": "Emergency Evacuation Functions\n(131) -------- an emergency situation arises, the persons seated near the exits\nmight be called upon to perform the following tasks:\n1. Identify, locate, and operate the mechanisms to open the emergency exits.\n2. Assess the situation quickly, and make a decision to see if opening the\ndoor would expose the passengers to any hazards.\n3. Fasten the emergency exit door to the hinge to ensure a safe flow of\ndeparture for the passengers.\n4. As the exit doors are unlocked, the inflatable slide will automatically be\ndeployed to the ground below. The diagrams posted next to the exit doors\nillustrate this procedure. Alert the other passengers once the slide has been fully\n(132) --------. Exit first to make sure that the situation is safe outside. Once safety\nhas been confirmed, guide the others out of the plane by helping them from the\nbottom of the slide.\nIf your seating allocation is by the exit doors, but you feel that you can’t meet\nthe (133) -------- listed above, or you simply wish not to take on the\nresponsibility, please tell one of the flight attendants before take off. (134) -------\n-.",
+      "page_start": 328,
+      "page_end": 328
+    },
+    "assets": [
+      {
+        "id": 255,
+        "page": 328,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          116.00777435302734,
+          595.2755737304688,
+          620.541748046875
+        ],
+        "sha256": "6ddcfb5912658e8da1bb5e44b678453d2b8ace3e0f4cf9840e19fa4294dc61b9"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 733,
+    "exam": 8,
+    "number": 133,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

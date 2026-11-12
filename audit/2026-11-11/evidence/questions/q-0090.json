@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 90,
+    "exam_id": 1,
+    "passage_id": 17,
+    "number": 190,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "In the memo, the word“terms” in line 4 is closest in meaning to",
+    "raw_text": "In the memo, the word“terms” in line 4 is closest in meaning to\n(A) negotiations\n(B) periods\n(C) opportunities\n(D) conditions",
+    "page_start": 54,
+    "page_end": 54,
+    "status": "ready",
+    "exam_number": 1,
+    "correct_label": "D",
+    "answer_page": 448,
+    "explanation": "“terms”一词指的是提供给两位申请人的年薪、带薪假期、综合医\n疗保险以及其他福利。故答案为(D)。",
+    "explanation_start": 512,
+    "explanation_end": 512,
+    "options": {
+      "A": "negotiations",
+      "B": "periods",
+      "C": "opportunities",
+      "D": "conditions"
+    },
+    "passage": {
+      "id": 17,
+      "exam_id": 1,
+      "part": 7,
+      "first_number": 186,
+      "last_number": 190,
+      "instruction": "Questions 186-190 refer to the following schedule, e-mail, and memo.",
+      "content": "Florentine Engineering\nInterview Schedule\nAll interviews should be recorded. You must inform the applicants this is\nbeing done. Failure to agree will result in the termination of the interview.\nImpressions of the applicant should be written down within two hours of\ncompleting the interview and then sent to the head of the R&D Department.\nTo: Lucian Ball <lball@gregorson.com>\nFrom: Brian Stephenson <brians@florentineengineering.com>\nSubject: Engineering Position\n______________________________________________________________\nDate: June 25\nDear Mr. Ball,\nAfter careful consideration, the hiring committee has decided to extend an\noffer of employment to you for the engineering position. Should you accept our\noffer, you will receive an annual salary of $57,000 as well as two weeks of paid\nvacation, comprehensive medical insurance, and other benefits. These terms are\nidentical to the ones we discussed on the date of your interview.\nAs you will be moving from out of state, we can provide a limited amount of\nfinancial assistance. Please contact Libby Wellman\n(libby_w@florentineengineering.com) in the HR Department with more details.\nWe would like for you to start your employment on July 25. We request that\nyou inform us of your decision by July 1. You can contact me at (803) 837-3836\nif you have any questions regarding the terms of your employment.\nRegards,\nBrian Stephenson\nDirector, R&D Department\nFlorentine Engineering\nTo: Libby Wellman, HR Director\nFrom: Brian Stephenson\nDate: June 30\nSubject: Engineering Position\nI was informed by Mr. Ball this morning that he has turned down our offer of\nemployment even after we said we’d pay him an extra $10,000 a year in salary.\nAs such, we have decided to give the job to Sally McDaniel. Her interviewer\nconvinced me that she’s the best candidate for the position. We will be offering\nher the same terms which we originally offered Mr. Ball. You may receive an e-\nmail from Ms. McDaniel at some point inquiring about various matters,\nparticularly moving from another state.",
+      "page_start": 51,
+      "page_end": 53
+    },
+    "assets": [
+      {
+        "id": 32,
+        "page": 51,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "f31d4f89795e3105d49eb7d8bf1ff4629deb7520c807480fc862d3aaee49a032"
+      },
+      {
+        "id": 33,
+        "page": 52,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "35b35df0a2e260edf4a05dd472ef8e2f5893c4815a5b89a7f0c0b4e662e53781"
+      },
+      {
+        "id": 34,
+        "page": 53,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          283.9358825683594
+        ],
+        "sha256": "d9bfbdfb1d03c65ec284648b5d68fc06dae6f4e80da4facd4c6a483adb820a2e"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 90,
+    "exam": 1,
+    "number": 190,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

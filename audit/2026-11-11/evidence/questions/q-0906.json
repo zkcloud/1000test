@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 906,
+    "exam_id": 10,
+    "passage_id": null,
+    "number": 106,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "This is an excellent time to consider changing jobs because of the large number of positions ------- available in the mining sector.",
+    "raw_text": "This is an excellent time to consider changing jobs because of the large\nnumber of positions ------- available in the mining sector.\n(A) commonly\n(B) currently\n(C) actively\n(D) approvingly",
+    "page_start": 406,
+    "page_end": 406,
+    "status": "ready",
+    "exam_number": 10,
+    "correct_label": "B",
+    "answer_page": 1130,
+    "explanation": "根据this is an excellent time to consider changing\njobs (现在是考虑跳槽的好时机) 判断，之所以是好时机，是因为现有的就\n业岗位很多。故选 (B) currently。",
+    "explanation_start": 1133,
+    "explanation_end": 1133,
+    "options": {
+      "A": "commonly",
+      "B": "currently",
+      "C": "actively",
+      "D": "approvingly"
+    }
+  },
+  "independent_checks": {
+    "id": 906,
+    "exam": 10,
+    "number": 106,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "database": {
+    "id": 32,
+    "exam_id": 1,
+    "passage_id": 1,
+    "number": 132,
+    "part": 6,
+    "type": "single_choice",
+    "stem": "选择第 132 空的最佳答案。",
+    "raw_text": "(A) margin\n(B) allowance\n(C) space\n(D) surplus",
+    "page_start": 23,
+    "page_end": 24,
+    "status": "ready",
+    "exam_number": 1,
+    "correct_label": "A",
+    "answer_page": 448,
+    "explanation": "本题需选择符合句意的名词。本文主要是讲几个银行下调按揭利率的\n内容，应选(A)margin(幅度)。",
+    "explanation_start": 465,
+    "explanation_end": 465,
+    "options": {
+      "A": "margin",
+      "B": "allowance",
+      "C": "space",
+      "D": "surplus"
+    },
+    "passage": {
+      "id": 1,
+      "exam_id": 1,
+      "part": 6,
+      "first_number": 131,
+      "last_number": 134,
+      "instruction": "Questions 131-134 refer to the following article.",
+      "content": "Bank Mortgage Rates Will Fall\nSeveral of Canada’s largest banks (131) -------- to decrease their mortgage\nrates. Royal Ban\nrevealed its plan to cut key mortgage rates by a tenth of a percentage point\nacross the board, while TD Canada Trust will decrease its rates by the same\n(132)-------- except for its 10-year rate.\nThe Bank of Montreal will also lower its fixed-rate mortgages on four-year\nterms and longer by a tenth of a percentage point.\nAnd lastly, Vancouver Trust has also jumped on the wagon by announcing\nthat it is planning to (133) -------- its rates. (134) --------. However, insiders are\npredicting that the reduction rates will be similar to those of other banks.",
+      "page_start": 23,
+      "page_end": 23
+    },
+    "assets": [
+      {
+        "id": 1,
+        "page": 23,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          223.9615478515625,
+          595.2755737304688,
+          579.3093872070312
+        ],
+        "sha256": "1509d7621dff7adb52fd3d6e171379c8a31cc9c49c85a30a2b914d0aeb4a3ece"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 32,
+    "exam": 1,
+    "number": 132,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

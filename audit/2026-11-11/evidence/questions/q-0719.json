@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 719,
+    "exam_id": 8,
+    "passage_id": null,
+    "number": 119,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "We would like to thank all of our sponsors for their generous donations, and we hope to have your ------- support in the future.",
+    "raw_text": "We would like to thank all of our sponsors for their generous donations, and\nwe hope to have your ------- support in the future.\n(A) connected\n(B) consecutive\n(C) continued\n(D) ceaseless",
+    "page_start": 324,
+    "page_end": 325,
+    "status": "ready",
+    "exam_number": 8,
+    "correct_label": "C",
+    "answer_page": 979,
+    "explanation": "句意应为“希望未来能继续得到…”，故选 (C)\ncontinued。(D) ceaseless (不停的，无休止的) 指不中断的连续状态，不\n适合在这种语境下使用。",
+    "explanation_start": 989,
+    "explanation_end": 989,
+    "options": {
+      "A": "connected",
+      "B": "consecutive",
+      "C": "continued",
+      "D": "ceaseless"
+    }
+  },
+  "independent_checks": {
+    "id": 719,
+    "exam": 8,
+    "number": 119,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

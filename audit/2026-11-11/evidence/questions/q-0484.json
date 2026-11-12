@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 484,
+    "exam_id": 5,
+    "passage_id": 92,
+    "number": 184,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "Who is exempted from attending the workshop?",
+    "raw_text": "Who is exempted from attending the workshop?\n(A) John Stack\n(B) James Conway\n(C) Terry Dillon\n(D) Lenny Brown",
+    "page_start": 223,
+    "page_end": 223,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "D",
+    "answer_page": 749,
+    "explanation": "兰尼·布朗因爷爷过世需要回国，故不能参加这次培训。答案是\n(D)。",
+    "explanation_start": 810,
+    "explanation_end": 810,
+    "options": {
+      "A": "John Stack",
+      "B": "James Conway",
+      "C": "Terry Dillon",
+      "D": "Lenny Brown"
+    },
+    "passage": {
+      "id": 92,
+      "exam_id": 5,
+      "part": 7,
+      "first_number": 181,
+      "last_number": 185,
+      "instruction": "Questions 181-185 refer to the following announcement and memorandum.",
+      "content": "New Employee Workshop\nIt has been a tradition at our company to hold orientation workshops\nthroughout the year for our new employees. Those who have been with the\ncompany for less than a year are required to attend these workshops.\n_________________________________________\nPlace: Saranton Hotel - Grand Ball Room\nDate: November 20–21, 2018\n_________________________________________\nThe purpose of these workshops is to provide the most updated training to\nour newest members of our company. During the two days in November, each\nparticipant will get a chance to become acquainted with our executive personnel\nas well as each other. Participants will also be exposed to our latest line of\nproducts and will be informed of the company’s vision and goals for the year\n2019.\nAttendance is mandatory. Those who, for medical or personal reasons,\ncannot attend must get permission from their immediate managers. Thank you, and\nI look forward to seeing you there.\nJames Conway\nDistrict General Manager\nTo: James Conway\nFrom: Harry Stewart\nRe: New Employee Workshop\nDear James,\nYou requested that all managers submit the names of their employees who\nwill be attending the workshop scheduled for November. Here is my list:\nJohn Stack\nMary Fisher\nTerry Dillon\nSean Gomez\nThese four people on my team will be in attendance. As for Lenny Brown,\nhe has provided written permission to be excused from the orientation. The\nreason for his absence is that his grandfather has passed away, so he must make a\ntrip to his home country to attend the funeral. The situation is unfortunate for his\nfamily but as for the orientation, I think it will be okay. Lenny has been with us\njust under a year, and I think he can afford to miss this orientation.",
+      "page_start": 221,
+      "page_end": 223
+    },
+    "assets": [
+      {
+        "id": 172,
+        "page": 221,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          484.1001892089844,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "1348adfb70b65de847eea9143bf36581ec2cbeba48eaae839d3ea48ae7247b1c"
+      },
+      {
+        "id": 173,
+        "page": 222,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "dc231424f895d8c7eba1eb93410e3658b56080c865add9c2387a8c8554e5e870"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 484,
+    "exam": 5,
+    "number": 184,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

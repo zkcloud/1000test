@@ -1,0 +1,52 @@
+{
+  "seed": 20261111,
+  "sample_size": 100,
+  "sample_by_exam": {
+    "1": 9,
+    "2": 13,
+    "3": 11,
+    "4": 8,
+    "5": 15,
+    "6": 4,
+    "7": 10,
+    "8": 11,
+    "9": 9,
+    "10": 10
+  },
+  "sample_by_part": {
+    "5": 29,
+    "6": 15,
+    "7": 56
+  },
+  "before": {
+    "text_passed": 100,
+    "combined_passed": 76,
+    "affected_sample_count": 24,
+    "affected_materials": 59,
+    "affected_question_links": 241,
+    "assets": 357
+  },
+  "after": {
+    "sample_passed": 100,
+    "all_text_questions_passed": 1000,
+    "spatial_checks": 5797,
+    "spatial_failures": 0,
+    "materials": 190,
+    "assets": 359,
+    "regression_tests": 8
+  },
+  "evidence": {
+    "source_page_images": 273,
+    "evidence_files": 976
+  },
+  "unchanged_tables": {
+    "questions": true,
+    "options": true,
+    "answers": true,
+    "explanations": true,
+    "passages": true
+  },
+  "source_sha256": "624412eff38a9e36e1fa9aa9d883626b719fd7b9f6c5216656c2e05f3b69ef8b",
+  "database_sha256": "990b60fdd11b1d1e83a2d156e3dd16903c87b302e4ad86ec723b3b1aa8f7d897",
+  "before_backup_sha256": "abcbf58b4869d9aedb626350d3c110b474209739d8ff9ee7714783257428e2a4"
+}

@@ -1,0 +1,93 @@
+{
+  "database": {
+    "id": 390,
+    "exam_id": 4,
+    "passage_id": 74,
+    "number": 190,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "In the e-mail, the word“cover” in paragraph 2, line 1, is closest in meaning to",
+    "raw_text": "In the e-mail, the word“cover” in paragraph 2, line 1, is closest in meaning to\n(A) take over\n(B) pay for\n(C) ask about\n(D) reserve",
+    "page_start": 183,
+    "page_end": 183,
+    "status": "ready",
+    "exam_number": 4,
+    "correct_label": "B",
+    "answer_page": 676,
+    "explanation": "结合整句话的意思可以推断，cover在这里表示“支付”。答案选\n(B)。",
+    "explanation_start": 738,
+    "explanation_end": 738,
+    "options": {
+      "A": "take over",
+      "B": "pay for",
+      "C": "ask about",
+      "D": "reserve"
+    },
+    "passage": {
+      "id": 74,
+      "exam_id": 4,
+      "part": 7,
+      "first_number": 186,
+      "last_number": 190,
+      "instruction": "Questions 186-190 refer to the following notice, schedule, and e-mail.",
+      "content": "National Association of Agricultural Engineering Conference\nThe National Association of Agricultural Engineering (NAAE) will host its\nannual conference at the Cormack Convention Center from July 10-12 in Helena,\nMontana. The theme will be“trends in organic farming.” The keynote speech will\nbe given by Robert Paulson, a Helena farmer who owns the largest organic farm\nin the region. Individuals interested in speaking at the conference should contact\norganizer Matt Benson at mbenson@naae.org. Be sure to include an abstract of the\ntalk you wish to give and list your accomplishments as a farmer. The NAAE can\nassist with transportation to Helena and accommodations in the city. Contact Jude\nWilson at jwilson@naae.org for help. To register, go to\nwww.naae.org/conference. NAAE members can register for $50 while\nnonmembers must pay $75.\nNAAE Conference Schedule for July 10\nCormack Convention Center\n• 9:00 A.M. Opening Remarks, Matt Benson\n• 9:30 A.M. Keynote Speech,“How Organic Farming Can Benefit Us,”\nManfred Jones\n• 10:30 A.M. Seminar,“Natural Fertilizers,” Angela Simmons\n• Noon Lunch (second-floor restaurant)\n• 1:00 P.M. Workshop,“Organic Farming Methods,” Gordon Voss\n• 2:30 P.M. Roundtable Discussion,“Is Organic Farming Better than\nMechanized Farming?” Dustin Peterson, Wade Verma, Karen Toole\n• 4:00 P.M. Speech,“Profiting from Organic Farming,” Devon Sharp\nAll events will be held in the Yellowstone Room, which is directly across\nfrom Rosewood Auditorium, unless otherwise noted.\nTo: Wade Verma\nFrom: Matt Benson\nSubject: Thank You\nDate: July 7\nDear Mr. Verma,\nThank you for agreeing to be a part of the roundtable discussion on such\nshort notice. Our original keynote speaker had been scheduled to do that;\nhowever, he is unable to attend the conference on account of a personal issue. We\nare positive your two decades of experience in organic farming will prove\ninvaluable to the attendees when you discuss the matter.\nWhile we normally cover the transportation and accommodation costs of our\nspeakers, since you are a local resident, we will not do so in your case.\nHowever, we would like to offer you a payment of $250 for participating. We\nhope this is satisfactory to you.\nSee you in a few days.\nRegards,\nMatt Benson\nOrganizer, NAAE Conference",
+      "page_start": 180,
+      "page_end": 182
+    },
+    "assets": [
+      {
+        "id": 138,
+        "page": 180,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          421.8768310546875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "46494be1084cbd77687bd84fbeae56e6bd6849820288acaf80e2af38e41babf4"
+      },
+      {
+        "id": 139,
+        "page": 181,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "0cc3e8114ad79d9ff2b8eabb1cb49b1f8dffe1001677805d59fb17cabc0f1d03"
+      },
+      {
+        "id": 140,
+        "page": 182,
+        "sequence": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          262.1951904296875
+        ],
+        "sha256": "edfad28c78015354a2b9f18f85b92278db3a82eb6bdfc71c0b231918905a1914"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 390,
+    "exam": 4,
+    "number": 190,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

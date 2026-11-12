@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-11T21:47:12.134912+08:00",
+  "status": "local-acceptance-passed / production-not-deployed",
+  "backend_tests": 21,
+  "browser_tests": 20,
+  "npm_vulnerabilities": 0,
+  "python_vulnerabilities": 0,
+  "bank_unchanged": true,
+  "concurrency": {
+    "scope": "In-process TestClient; 8 threads, 200 read requests; not a production load claim",
+    "requests": 200,
+    "failures": 0,
+    "p50_ms": 22.8,
+    "p95_ms": 164.59,
+    "max_ms": 1685.25
+  },
+  "typescript_compatibility_exception": "6.0.3; latest 7.0.2 incompatible with vue-tsc 3.3.14",
+  "package_sha256": "68bc61c9085559c1b41d829a1f2f56b20a334cc85949b14a8042e7ddea1fd3ed",
+  "package_bytes": 28729387
+}

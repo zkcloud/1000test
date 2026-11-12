@@ -1,0 +1,20 @@
+{
+  "应用": {
+    "file": "app-patched.json",
+    "high_critical": 0,
+    "created": "2026-11-12T01:43:09.199486809Z",
+    "artifact": "reading-platform:20261112-092959-p1"
+  },
+  "NGINX": {
+    "file": "nginx-patched.json",
+    "high_critical": 0,
+    "created": "2026-11-12T01:43:10.658405071Z",
+    "artifact": "reading-nginx:20261112-092959-p1"
+  },
+  "Certbot": {
+    "file": "certbot-patched3.json",
+    "high_critical": 0,
+    "created": "2026-11-12T01:50:35.909069177Z",
+    "artifact": "reading-certbot:20261112-092959-p3"
+  }
+}

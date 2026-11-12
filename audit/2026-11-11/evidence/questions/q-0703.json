@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 703,
+    "exam_id": 8,
+    "passage_id": null,
+    "number": 103,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "The prices charged by your Accounting Department do not match those ------- to me by your Sales Department at the time of purchase.",
+    "raw_text": "The prices charged by your Accounting Department do not match those -------\nto me by your Sales Department at the time of purchase.\n(A) repeated\n(B) informed\n(C) recorded\n(D) quoted",
+    "page_start": 321,
+    "page_end": 321,
+    "status": "ready",
+    "exam_number": 8,
+    "correct_label": "D",
+    "answer_page": 979,
+    "explanation": "those指代的是prices，“购买时销售部给我的报价”的句意\n最恰当，故选 (D) quoted。quote有“引用，摘引”的词义，但在托业中一\n般表示“报价，开价，出价”。",
+    "explanation_start": 980,
+    "explanation_end": 980,
+    "options": {
+      "A": "repeated",
+      "B": "informed",
+      "C": "recorded",
+      "D": "quoted"
+    }
+  },
+  "independent_checks": {
+    "id": 703,
+    "exam": 8,
+    "number": 103,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

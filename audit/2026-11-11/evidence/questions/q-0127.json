@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 127,
+    "exam_id": 2,
+    "passage_id": null,
+    "number": 127,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "The ------- tough training given by our company creates strong and able sales representatives who perform well above others in the same field.",
+    "raw_text": "The ------- tough training given by our company creates strong and able sales\nrepresentatives who perform well above others in the same field.\n(A) indifferently\n(B) presumably\n(C) completely\n(D) unbearably",
+    "page_start": 67,
+    "page_end": 68,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "D",
+    "answer_page": 523,
+    "explanation": "本题需选择可与tough搭配的副词。tough training(高强度\n培训)令人难以忍受，故(D)unbearably(难以忍受地)符合题意。",
+    "explanation_start": 537,
+    "explanation_end": 537,
+    "options": {
+      "A": "indifferently",
+      "B": "presumably",
+      "C": "completely",
+      "D": "unbearably"
+    }
+  },
+  "independent_checks": {
+    "id": 127,
+    "exam": 2,
+    "number": 127,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

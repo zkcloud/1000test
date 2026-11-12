@@ -1,0 +1,104 @@
+Thu Nov 12 01:53:32 AM UTC 2026
+
+-- Containers --
+NAME                       IMAGE                                 COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+reading-platform-app-1     reading-platform:20261112-092959-p1   "python -m uvicorn b…"   app       2 minutes ago   Up 2 minutes (healthy)   8000/tcp
+reading-platform-nginx-1   reading-nginx:20261112-092959-p1      "/docker-entrypoint.…"   nginx     2 minutes ago   Up 2 minutes             0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:443->443/tcp, [::]:443->443/tcp
+
+-- Origin certificate --
+subject=CN = ty.1byte.online
+issuer=C = US, O = Let's Encrypt, CN = YE2
+notBefore=Nov 12 00:46:15 2026 GMT
+notAfter=Feb 10 00:46:14 2027 GMT
+X509v3 Subject Alternative Name: 
+    DNS:ty.1byte.online
+
+-- Trusted origin TLS --
+HTTP/2 200 
+server: nginx
+date: Thu, 12 Nov 2026 01:53:33 GMT
+content-type: application/json
+content-length: 15
+x-content-type-options: nosniff
+referrer-policy: same-origin
+x-frame-options: DENY
+content-security-policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+cache-control: no-store
+strict-transport-security: max-age=31536000
+
+{"status":"ok"}
+-- Public domain --
+HTTP/2 200 
+date: Thu, 12 Nov 2026 01:53:33 GMT
+content-type: application/json
+content-length: 15
+server: cloudflare
+x-content-type-options: nosniff
+referrer-policy: same-origin
+x-frame-options: DENY
+content-security-policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+cache-control: no-store
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ROk1FXDPqqXBRmtiQ9inXmCVZXQyffOD7XmifuJcGKcDTkJdEQL0akOBnwpPz2GnlC6ud%2Bwc6BwlsvNw9WXGef%2BLmahtGb6nnX26go27zoQJHO8dYh1UmH64rBrWUrMSNpw%3D"}]}
+cf-ray: a591e7569e71c37b-ICN
+alt-svc: h3=":443"; ma=86400
+
+{"status":"ok"}
+-- HTTP redirect --
+HTTP/1.1 308 Permanent Redirect
+Server: nginx
+Date: Thu, 12 Nov 2026 01:53:33 GMT
+Content-Type: text/html
+Content-Length: 164
+Connection: keep-alive
+Location: https://ty.1byte.online/
+
+
+-- IP redirect --
+HTTP/1.1 308 Permanent Redirect
+Server: nginx/1.30.6
+Date: Thu, 12 Nov 2026 01:53:33 GMT
+Content-Type: text/html
+Content-Length: 171
+Connection: keep-alive
+Location: https://ty.1byte.online/
+
+
+-- NGINX --
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+-- Timers --
+NEXT                            LEFT LAST PASSED UNIT                     ACTIVATES
+Thu 2026-11-12 12:19:58 CST 2h 26min -         - reading-cert-renew.timer reading-cert-renew.service
+Fri 2026-11-13 03:33:28 CST      17h -         - reading-backup.timer     reading-backup.service
+
+2 timers listed.
+Pass --all to see loaded but inactive timers, too.
+Result=success
+ExecMainStatus=0
+Id=reading-cert-renew.service
+
+Result=success
+ExecMainStatus=0
+Id=reading-backup.service
+
+-- Data integrity --
+bank_sha256 990b60fdd11b1d1e83a2d156e3dd16903c87b302e4ad86ec723b3b1aa8f7d897
+bank_integrity ('ok',)
+runtime_integrity ('ok',)
+
+-- Images --
+[reading-platform:20261112-092959-p1] sha256:57c3b13a34a68e1e0ebe294f44741d3f987cb1d75aa38287ad837d5808a6dcb3
+[reading-nginx:20261112-092959-p1] sha256:82981b67890711650116b4a8346f6af35acf908f05000728f1bc2f4f64b74e87
+[reading-certbot:20261112-092959-p3] sha256:964a6e23b5213ee7f1834e47bac4bf55a20d173f5fefedf676c36968f87e20ef
+
+-- Deployment config hashes --
+e95e82dcea08e635e572b751db9bb645a6b48fee3ba40fe4cf2cb816dc5dce3c  Dockerfile
+e856b2624bd81388dca6395c4068e4320966e224fc9775662a1ce95c23e588c7  compose.yaml
+bd33e8977ee3c262dcbb5492fd2f4e6e602410318c45e33998c9d0eba29427d6  deploy/nginx/site.conf
+7529975ad6a1cd64c911630788fffdeb698729915493249dfad017c5418624ee  deploy/nginx/Dockerfile
+980b5e3d0d7a96a21ecdae1773bd51884a2f089111c93977168db4fe8fc7d765  deploy/certbot/Dockerfile
+337ddcb601fee33e5103964bcb45d7cf7886c51777984111dc582deb29656534  deploy/renew-certificate.sh

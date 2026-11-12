@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 312,
+    "exam_id": 4,
+    "passage_id": null,
+    "number": 112,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "Allways Engineering has guaranteed that ------- one of its employees will lose his or her job as a result of the merger.",
+    "raw_text": "Allways Engineering has guaranteed that ------- one of its employees will lose\nhis or her job as a result of the merger.\n(A) no\n(B) not\n(C) none\n(D) any",
+    "page_start": 151,
+    "page_end": 151,
+    "status": "ready",
+    "exam_number": 4,
+    "correct_label": "B",
+    "answer_page": 676,
+    "explanation": "(A)no表示not one，与横线后的one重复。(C)none表示not a\nsingle one (of)，也与one重复。(D)any可与one 连用，但一般用于否定句\n和疑问句，且不符合句意。(B)not是副词，一般用于not one of...的常用\n结构。答案是(B)。no，not，none的用法容易混淆，要学会正确区分。",
+    "explanation_start": 681,
+    "explanation_end": 681,
+    "options": {
+      "A": "no",
+      "B": "not",
+      "C": "none",
+      "D": "any"
+    }
+  },
+  "independent_checks": {
+    "id": 312,
+    "exam": 4,
+    "number": 112,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

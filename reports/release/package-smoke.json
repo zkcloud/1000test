@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "fresh_runtime_only_environment": true,
+  "node_required": false,
+  "offline_locked_install": true,
+  "checks": [
+    "health",
+    "static_html_and_js",
+    "cookie_csrf",
+    "create_practice",
+    "hidden_answer",
+    "original_image",
+    "save_answer",
+    "reveal_explanation",
+    "submit_result"
+  ]
+}

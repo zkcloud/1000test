@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 821,
+    "exam_id": 9,
+    "passage_id": null,
+    "number": 121,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "Mr. Smith wants you to know that he will be ------- job applicants all day on Thursday, and that all enquiries should be directed to his secretary.",
+    "raw_text": "Mr. Smith wants you to know that he will be ------- job applicants all day on\nThursday, and that all enquiries should be directed to his secretary.\n(A) interview\n(B) interviews\n(C) interviewed\n(D) interviewing",
+    "page_start": 368,
+    "page_end": 368,
+    "status": "ready",
+    "exam_number": 9,
+    "correct_label": "D",
+    "answer_page": 1055,
+    "explanation": "job applicants充当interview的宾语，且横线前有be，故选\n(D) interviewing。将来进行时 (will be doing) 用于描述主语确信的、\n将来肯定会发生的事情。",
+    "explanation_start": 1067,
+    "explanation_end": 1067,
+    "options": {
+      "A": "interview",
+      "B": "interviews",
+      "C": "interviewed",
+      "D": "interviewing"
+    }
+  },
+  "independent_checks": {
+    "id": 821,
+    "exam": 9,
+    "number": 121,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

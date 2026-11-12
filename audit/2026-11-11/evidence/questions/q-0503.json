@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 503,
+    "exam_id": 6,
+    "passage_id": null,
+    "number": 103,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "It is becoming apparent that all medium to large businesses will seek to ------- their operations by reducing the number of middle managers.",
+    "raw_text": "It is becoming apparent that all medium to large businesses will seek to -------\ntheir operations by reducing the number of middle managers.\n(A) streamline\n(B) streamlines\n(C) streamlined\n(D) streamlining",
+    "page_start": 235,
+    "page_end": 235,
+    "status": "ready",
+    "exam_number": 6,
+    "correct_label": "A",
+    "answer_page": 827,
+    "explanation": "seek 可以接不定式作宾语，因此横线处应填入动词原形 (A)\nstreamline (使有效率；使增产节约)。",
+    "explanation_start": 828,
+    "explanation_end": 828,
+    "options": {
+      "A": "streamline",
+      "B": "streamlines",
+      "C": "streamlined",
+      "D": "streamlining"
+    }
+  },
+  "independent_checks": {
+    "id": 503,
+    "exam": 6,
+    "number": 103,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

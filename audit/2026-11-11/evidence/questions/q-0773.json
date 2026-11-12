@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 773,
+    "exam_id": 8,
+    "passage_id": 146,
+    "number": 173,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is the consequence for those who do not follow the rules?",
+    "raw_text": "What is the consequence for those who do not follow the rules?\n(A) They may be removed from the group.\n(B) They could be put into another group.\n(C) They won’t be able to come back for a year.\n(D) They will be forced to stay on the bus.",
+    "page_start": 346,
+    "page_end": 346,
+    "status": "ready",
+    "exam_number": 8,
+    "correct_label": "A",
+    "answer_page": 979,
+    "explanation": "如果不遵守上述要求，有被强制驱逐的可能。答案是 (A)。",
+    "explanation_start": 1028,
+    "explanation_end": 1028,
+    "options": {
+      "A": "They may be removed from the group.",
+      "B": "They could be put into another group.",
+      "C": "They won’t be able to come back for a year.",
+      "D": "They will be forced to stay on the bus."
+    },
+    "passage": {
+      "id": 146,
+      "exam_id": 8,
+      "part": 7,
+      "first_number": 172,
+      "last_number": 173,
+      "instruction": "Questions 172-173 refer to the following pamphlet.",
+      "content": "Amazing Zoo Tour\nWelcome to our Amazing Zoo Tour! In the next three hours, you will see the\nhighlights that make this zoo the most amazing zoo in all the country. We will be\nseeing a lot of animals and covering a lot of ground, so let’s get started with a\nshort list of reminders:\n------------------------------------------------------------------\n- Please enter and exit the bus in an orderly fashion.\n- Please stay with your tour guide at all times so that no one gets left behind.\n- Do not feed any animals, as their regular feeding cycles will be\ninterrupted.\n- Please refrain from touching the animals through the fence and making any\nundue noise.\n- When riding on the bus, please keep the windows closed and your hands\ninside the bus.\n------------------------------------------------------------------\nFor parents of young children: please ensure that they are supervised at all\ntimes. Some animals may appear friendly and cuddly to your child but should be\napproached with caution.\nBy following our rules, you and the rest of the group will enjoy a safe and\nhappy tour! Please note that those who choose not to follow the above rules may\nbe asked to leave.",
+      "page_start": 345,
+      "page_end": 346
+    },
+    "assets": [
+      {
+        "id": 273,
+        "page": 345,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          274.9397277832031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "c54315e1983add849a9647a0f15c9eeb52b5c5f90c15f8ca4051773b72292ef6"
+      },
+      {
+        "id": 274,
+        "page": 346,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          151.24267578125
+        ],
+        "sha256": "5f21450f3474526c70031db62074e93e4b725b825a27e307730312e8f9d1dd39"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 773,
+    "exam": 8,
+    "number": 173,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

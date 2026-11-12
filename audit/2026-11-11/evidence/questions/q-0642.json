@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 642,
+    "exam_id": 7,
+    "passage_id": 117,
+    "number": 142,
+    "part": 6,
+    "type": "single_choice",
+    "stem": "选择第 142 空的最佳答案。",
+    "raw_text": "(A) The audience could well understand clichés in the movie.\n(B) The movie was about Canada’s two official cultures clash.\n(C) It was a movie that boasted wonderful performances of its actors.\n(D) The plot was too obvious to receive a good rating.",
+    "page_start": 289,
+    "page_end": 290,
+    "status": "ready",
+    "exam_number": 7,
+    "correct_label": "D",
+    "answer_page": 904,
+    "explanation": "上句描写作者对电影的消极评价，下句也应描写作者对电影的消极评\n价，因此选项 (D)“情节太过平淡无奇，因此不能获得好评”意思符合，故\n为正确答案。",
+    "explanation_start": 928,
+    "explanation_end": 928,
+    "options": {
+      "A": "The audience could well understand clichés in the movie.",
+      "B": "The movie was about Canada’s two official cultures clash.",
+      "C": "It was a movie that boasted wonderful performances of its actors.",
+      "D": "The plot was too obvious to receive a good rating."
+    },
+    "passage": {
+      "id": 117,
+      "exam_id": 7,
+      "part": 6,
+      "first_number": 139,
+      "last_number": 142,
+      "instruction": "Questions 139-142 refer to the following review.",
+      "content": "AT THE MOVIES\nReviews by Elisa Reigns\nRatings out of 5\nSTRAIGHT COP CROOKED COP\nCanada’s two official cultures clash (139) -------- an uptight, by-the-book\npolice officer (Jerry Kirkland) from Vancouver hooks up with a rule-breaking\nstreet cop from Quebec (Bruce Huard) for a drug-related murder investigation.\nThe chemistry (140) -------- the lead actors is good, but the outdated Canadian\nclichés displayed throughout the movie sometimes were a bit too much for the\naudience. The story line begins (141) -------- but starts to lag on toward the latter\nhalf of the movie. (142) --------. •• Elisa Reigns",
+      "page_start": 288,
+      "page_end": 289
+    },
+    "assets": [
+      {
+        "id": 223,
+        "page": 288,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          701.507080078125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "b24d6338aeaff9d7f7183e8d26c1af20b20bc4df6d412e134c9f360b611da936"
+      },
+      {
+        "id": 224,
+        "page": 289,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          317.67144775390625
+        ],
+        "sha256": "7694eaf01ea5325d65f6f2c3c5f719de4fde9980ef651b544c8320de9dab44c4"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 642,
+    "exam": 7,
+    "number": 142,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

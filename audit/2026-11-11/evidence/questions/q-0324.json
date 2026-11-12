@@ -1,0 +1,43 @@
+{
+  "database": {
+    "id": 324,
+    "exam_id": 4,
+    "passage_id": null,
+    "number": 124,
+    "part": 5,
+    "type": "single_choice",
+    "stem": "Any staff members traveling overseas on company business will be ------- for exceeding their expense allowances.",
+    "raw_text": "Any staff members traveling overseas on company business will be ------- for\nexceeding their expense allowances.\n(A) billed\n(B) arranged\n(C) replaced\n(D) produced",
+    "page_start": 154,
+    "page_end": 154,
+    "status": "ready",
+    "exam_number": 4,
+    "correct_label": "A",
+    "answer_page": 676,
+    "explanation": "由traveling overseas(海外出差)和exceeding their\nexpense allowances(超出费用津贴)可判断，答案应该是跟“费用”有关的\n动词。主语是any staff members，动词为被动语态。根据句意，最恰当的\n是(A)billed。",
+    "explanation_start": 688,
+    "explanation_end": 688,
+    "options": {
+      "A": "billed",
+      "B": "arranged",
+      "C": "replaced",
+      "D": "produced"
+    }
+  },
+  "independent_checks": {
+    "id": 324,
+    "exam": 4,
+    "number": 124,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

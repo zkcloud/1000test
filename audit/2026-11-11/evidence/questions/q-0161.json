@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 161,
+    "exam_id": 2,
+    "passage_id": 28,
+    "number": 161,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "At 10:22 A.M., what does Mr. Rimes mean when he writes,“Agreed”?",
+    "raw_text": "At 10:22 A.M., what does Mr. Rimes mean when he writes,“Agreed”?\n(A) To indicate he is willing to meet\n(B) To show he approves of the contract\n(C) To note he can meet the next day\n(D) To say Ms. Wilson’s plan will work",
+    "page_start": 81,
+    "page_end": 81,
+    "status": "ready",
+    "exam_number": 2,
+    "correct_label": "A",
+    "answer_page": 523,
+    "explanation": "朱莉提出在所有工作开始之前大家先见一面，莱姆斯先生回复说“同\n意”，表明他同意见面。所以答案是 (A)。",
+    "explanation_start": 563,
+    "explanation_end": 563,
+    "options": {
+      "A": "To indicate he is willing to meet",
+      "B": "To show he approves of the contract",
+      "C": "To note he can meet the next day",
+      "D": "To say Ms. Wilson’s plan will work"
+    },
+    "passage": {
+      "id": 28,
+      "exam_id": 2,
+      "part": 7,
+      "first_number": 158,
+      "last_number": 161,
+      "instruction": "Questions 158-161. refer to the following online chat discussion.",
+      "content": "Harold Rimes [10:11 A.M.]\nGreat news, everyone. The owner of the building at 465 Washington Avenue\nagreed to rent the space to us.\nJulie Wilson [10:13 A.M.]\nExcellent. Now we can open our café. Did we get the price we requested?\nSusanna Chapman [10:14 A.M.]\nI can’t wait to start.\nHarold Rimes [10:15 A.M.]\nAlmost. We’re paying $50 a month more than we requested. And we have to\nsign a contract this month, so we’ll get the place a month earlier than we wanted.\nSusanna Chapman [10:16 A.M.]\nWe can just move the timeline up then.\nJulie Wilson [10:17 A.M.]\nWhat about the inspector? We can’t open until he visits.\nSusanna Chapman [10:18 A.M.]\nI’m sure we can get him to come a month early. We’ll also have to talk with\nour suppliers.\nHarold Rimes [10:19 A.M.]\nI’ll handle that. Julie, you know the interior decorator, so speak to her and\nask her to come early.\nJulie Wilson [10:20 A.M.]\nGot it. But before we do anything, we ought to meet in person. Let’s discuss\neverything to make sure everyone’s on the same page.\nSusanna Chapman [10:21 A.M.]\nOkay. How about the usual place at 6:00 this evening?\nHarold Rimes [10:22 A.M.]\nAgreed.",
+      "page_start": 79,
+      "page_end": 80
+    },
+    "assets": [
+      {
+        "id": 53,
+        "page": 79,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "b4f266f6189732b401f1de8c666b9ff2043d2e4e1eda25f8a14d36da6fb45933"
+      },
+      {
+        "id": 54,
+        "page": 80,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          608.546875
+        ],
+        "sha256": "1a10a09cfc5910472e887e95bdde0472c4948ca588fdbcebdf60b45fbaadb5a6"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 161,
+    "exam": 2,
+    "number": 161,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

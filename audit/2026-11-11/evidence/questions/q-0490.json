@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 490,
+    "exam_id": 5,
+    "passage_id": 93,
+    "number": 190,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What is suggested about the first day of the spring festival?",
+    "raw_text": "What is suggested about the first day of the spring festival?\n(A) An attendance record was set.\n(B) The weather was rainy.\n(C) Some sporting events were held.\n(D) A few performances were canceled.",
+    "page_start": 226,
+    "page_end": 226,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "B",
+    "answer_page": 749,
+    "explanation": "由第二篇日程安排表格下方的内容可知，如遇下雨天气，演唱会将改\n在位于松树公园街对面的弗雷德里克斯堡社区中心举行。在第三篇的信中我\n们得知，格雷格·鲍尔斯是节日第一天在社区中心进行演出的，所以那天一\n定是下雨了。故选择 (B)。",
+    "explanation_start": 815,
+    "explanation_end": 815,
+    "options": {
+      "A": "An attendance record was set.",
+      "B": "The weather was rainy.",
+      "C": "Some sporting events were held.",
+      "D": "A few performances were canceled."
+    },
+    "passage": {
+      "id": 93,
+      "exam_id": 5,
+      "part": 7,
+      "first_number": 186,
+      "last_number": 190,
+      "instruction": "Questions 186-190 refer to the following advertisement, schedule, and letter.",
+      "content": "The Fredericksburg Spring Festival\nIt’s time once again for the biggest event of the year in Fredericksburg.\nThis year, the festival will take place from May 1 to 5.\nDue to the recent increase in attendees, the festival is being moved to Pine Tree\nPark.\nSome of this year’s events will include flower displays, athletic contests,\nsporting events, arts and crafts, an auction, a petting zoo, and\na daily parade and fireworks show.\nThere will be numerous concerts by local performers, and the world-famous band\nPeter and the Gang will be there, too.\nTickets are $3 per day or $10 for all five days of the event.\nCall 584-9373 for more information regarding the schedule, tickets, and parking.\nFredericksburg Spring Festival\nConcert Schedule\nMay 1\nThis schedule is subject to change. In case of rain, concerts will be moved\nto the Fredericksburg Community Center, located across the street from Pine Tree\nPark.\nMay 7\nDear Tina,\nI just got back home to Dayton. I really appreciating your inviting me to the\nspring festival in your town this year. I had such a great time. I thought I would be\nbored going to the festival every single day, but my initial thoughts were incorrect.\nInstead, there was something different for us to do on every day of the event. I\nreally loved watching Greg Powers perform in the community center on the first\nday of the festival. That’s something I won’t ever forget.\nI hope to be able to attend next year’s festival as well. I’m sure it will be just\nas good as this year’s.\nRegards,\nSusan",
+      "page_start": 224,
+      "page_end": 225
+    },
+    "assets": [
+      {
+        "id": 174,
+        "page": 224,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "4425be1894dd569de024e2ad3d0eab647e2537c5359ef0e53e8d206394a278cf"
+      },
+      {
+        "id": 175,
+        "page": 225,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          618.292724609375
+        ],
+        "sha256": "84e95e88bfb65bfd97b5e0d69272e2c7eced1c7beeefcd96e18bab7e46f5e20f"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 490,
+    "exam": 5,
+    "number": 190,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

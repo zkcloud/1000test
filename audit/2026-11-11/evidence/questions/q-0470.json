@@ -1,0 +1,81 @@
+{
+  "database": {
+    "id": 470,
+    "exam_id": 5,
+    "passage_id": 89,
+    "number": 170,
+    "part": 7,
+    "type": "single_choice",
+    "stem": "What will most likely happen tomorrow?",
+    "raw_text": "What will most likely happen tomorrow?\n(A) Some pictures will be taken.\n(B) Material will be printed.\n(C) A client will be signed.\n(D) A meeting with Mr. Edwards will be held.",
+    "page_start": 216,
+    "page_end": 216,
+    "status": "ready",
+    "exam_number": 5,
+    "correct_label": "A",
+    "answer_page": 749,
+    "explanation": "墨菲先生提议给克里斯托夫传媒公司打电话，请一位摄影师明天过来\n拍照。答案是 (A)。",
+    "explanation_start": 798,
+    "explanation_end": 798,
+    "options": {
+      "A": "Some pictures will be taken.",
+      "B": "Material will be printed.",
+      "C": "A client will be signed.",
+      "D": "A meeting with Mr. Edwards will be held."
+    },
+    "passage": {
+      "id": 89,
+      "exam_id": 5,
+      "part": 7,
+      "first_number": 168,
+      "last_number": 171,
+      "instruction": "Questions 168-171 refer to the following online chat discussion.",
+      "content": "Justine Murphy [1:42 P.M.]\nMr. Edwards informed me that he wants to create a catalog for customers\nsince we’ve been expanding so much. He wants the first draft by next Monday.\nSue Robinson [1:43 P.M.]\nThat’s not much time. Did he say what it should look like?\nJustine Murphy [1:44 P.M.]\nI’ve got a list of requirements. We’d better meet today to review them. We’re\ngoing to need tons of pictures. Suggestions?\nGeorge Winters [1:45 P.M.]\nDon’t we have some on file? Can’t we use them?\nSue Robinson [1:46 P.M.]\nThey’re not professional quality. We need something better looking.\nBelinda Carter [1:47 P.M.]\nWe could hire Kristof Media again. The work its photographers did for us\nlast year was outstanding.\nJustine Murphy [1:48 P.M.]\nGood thinking. How about calling someone there and asking for a\nphotographer to come tomorrow? In the meantime, we’re gathering in the\nconference room in thirty minutes.\nGeorge Winters [1:49 P.M.]\nI just wrapped up a meeting at a client’s office.\nJustine Murphy [1:50 P.M.]\nThen get back as soon as possible. If you miss anything crucial, somebody\ncan fill you in.",
+      "page_start": 214,
+      "page_end": 215
+    },
+    "assets": [
+      {
+        "id": 165,
+        "page": 214,
+        "sequence": 1,
+        "bbox": [
+          0.0,
+          488.662109375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "sha256": "e210968a9bf6f78548f0414610a715b87cae8ad7ff9cc12be00a629407f43742"
+      },
+      {
+        "id": 166,
+        "page": 215,
+        "sequence": 2,
+        "bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          511.088623046875
+        ],
+        "sha256": "b5b9bc7926dcb3c2bf5d64f1bf99eeeb46dedc7610ca45dfeb957e9785abf05d"
+      }
+    ]
+  },
+  "independent_checks": {
+    "id": 470,
+    "exam": 5,
+    "number": 170,
+    "checks": {
+      "stem": true,
+      "answer": true,
+      "explanation": true,
+      "option_A": true,
+      "option_B": true,
+      "option_C": true,
+      "option_D": true,
+      "material_text": true
+    },
+    "passed": true,
+    "differences": {}
+  }
+}

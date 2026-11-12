@@ -1,0 +1,30 @@
+Thu Nov 12 02:08:11 AM UTC 2026
+NAME                       IMAGE                                 COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+reading-platform-app-1     reading-platform:20261112-092959-p1   "python -m uvicorn b…"   app       16 minutes ago   Up 16 minutes (healthy)   8000/tcp
+reading-platform-nginx-1   reading-nginx:20261112-092959-p1      "/docker-entrypoint.…"   nginx     2 minutes ago    Up 2 minutes              0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:443->443/tcp, [::]:443->443/tcp, 0.0.0.0:443->443/udp, [::]:443->443/udp
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess                                    
+UNCONN 0      0         127.0.0.54:53        0.0.0.0:*    users:(("systemd-resolve",pid=944,fd=16)) 
+UNCONN 0      0      127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=944,fd=14)) 
+UNCONN 0      0      10.8.0.4%eth0:68        0.0.0.0:*    users:(("systemd-network",pid=3132,fd=21))
+UNCONN 0      0          127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=3274,fd=5))         
+UNCONN 0      0            0.0.0.0:443       0.0.0.0:*    users:(("docker-proxy",pid=29138,fd=7))   
+UNCONN 0      0              [::1]:323          [::]:*    users:(("chronyd",pid=3274,fd=6))         
+UNCONN 0      0               [::]:443          [::]:*    users:(("docker-proxy",pid=29143,fd=7))   
+e3aa8f5d4133e989bea64c56e5203eba3fba3dbacb540643d9267076b631c03d  compose.yaml
+ceb473cef130381c42a99c53e912dd2fa9f23e1d7b225278b34104474cc946a2  deploy/nginx/site.conf
+HTTP/2 200 
+server: nginx
+date: Thu, 12 Nov 2026 02:08:12 GMT
+content-type: application/json
+content-length: 15
+x-content-type-options: nosniff
+referrer-policy: same-origin
+x-frame-options: DENY
+content-security-policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+cache-control: no-store
+strict-transport-security: max-age=31536000
+alt-svc: h3=":443"; ma=86400
+
+{"status":"ok"}

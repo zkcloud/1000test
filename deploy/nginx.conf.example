@@ -1,0 +1,12 @@
+# 在已有 TLS server 内引入；证书与域名由部署环境配置。
+client_max_body_size 16k;
+client_body_timeout 10s;
+add_header Strict-Transport-Security "max-age=31536000" always;
+location / {
+    proxy_pass http://127.0.0.1:8000;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_read_timeout 30s;
+    proxy_connect_timeout 5s;
+}

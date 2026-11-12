@@ -1,0 +1,4536 @@
+[
+  {
+    "passage_id": 2,
+    "exam": 1,
+    "first": 135,
+    "last": 138,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 24,
+        "before_bbox": [
+          0.0,
+          419.6277770996094,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          419.6277770996094,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-002-page-0024-before.jpg",
+        "after_image": "evidence/comparisons/passage-002-page-0024-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 3,
+    "exam": 1,
+    "first": 139,
+    "last": 142,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 25,
+        "before_bbox": [
+          0.0,
+          706.005126953125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          706.005126953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-003-page-0025-before.jpg",
+        "after_image": "evidence/comparisons/passage-003-page-0025-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 6,
+    "exam": 1,
+    "first": 151,
+    "last": 152,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 30,
+        "before_bbox": [
+          0.0,
+          729.994873046875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          729.994873046875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-006-page-0030-before.jpg",
+        "after_image": "evidence/comparisons/passage-006-page-0030-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 7,
+    "exam": 1,
+    "first": 153,
+    "last": 156,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 32,
+        "before_bbox": [
+          0.0,
+          145.24525451660156,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          145.24525451660156,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-007-page-0032-before.jpg",
+        "after_image": "evidence/comparisons/passage-007-page-0032-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 8,
+    "exam": 1,
+    "first": 157,
+    "last": 158,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 34,
+        "before_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-008-page-0034-before.jpg",
+        "after_image": "evidence/comparisons/passage-008-page-0034-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 9,
+    "exam": 1,
+    "first": 159,
+    "last": 161,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 35,
+        "before_bbox": [
+          0.0,
+          440.6188049316406,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          440.6188049316406,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-009-page-0035-before.jpg",
+        "after_image": "evidence/comparisons/passage-009-page-0035-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 10,
+    "exam": 1,
+    "first": 162,
+    "last": 164,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 37,
+        "before_bbox": [
+          0.0,
+          274.9397277832031,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          274.9397277832031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-010-page-0037-before.jpg",
+        "after_image": "evidence/comparisons/passage-010-page-0037-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 11,
+    "exam": 1,
+    "first": 165,
+    "last": 167,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 39,
+        "before_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-011-page-0039-before.jpg",
+        "after_image": "evidence/comparisons/passage-011-page-0039-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 12,
+    "exam": 1,
+    "first": 168,
+    "last": 169,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 40,
+        "before_bbox": [
+          0.0,
+          762.9807739257812,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          762.9807739257812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-012-page-0040-before.jpg",
+        "after_image": "evidence/comparisons/passage-012-page-0040-after.jpg"
+      },
+      {
+        "page": 41,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-012-page-0041-before.jpg",
+        "after_image": "evidence/comparisons/passage-012-page-0041-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 13,
+    "exam": 1,
+    "first": 170,
+    "last": 173,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 42,
+        "before_bbox": [
+          0.0,
+          372.39801025390625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          372.39801025390625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-013-page-0042-before.jpg",
+        "after_image": "evidence/comparisons/passage-013-page-0042-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 14,
+    "exam": 1,
+    "first": 174,
+    "last": 175,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 44,
+        "before_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-014-page-0044-before.jpg",
+        "after_image": "evidence/comparisons/passage-014-page-0044-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 15,
+    "exam": 1,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 45,
+        "before_bbox": [
+          0.0,
+          614.5443115234375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          614.5443115234375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-015-page-0045-before.jpg",
+        "after_image": "evidence/comparisons/passage-015-page-0045-after.jpg"
+      },
+      {
+        "page": 46,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-015-page-0046-before.jpg",
+        "after_image": "evidence/comparisons/passage-015-page-0046-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 16,
+    "exam": 1,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 48,
+        "before_bbox": [
+          0.0,
+          665.5224609375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          665.5224609375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-016-page-0048-before.jpg",
+        "after_image": "evidence/comparisons/passage-016-page-0048-after.jpg"
+      },
+      {
+        "page": 49,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-016-page-0049-before.jpg",
+        "after_image": "evidence/comparisons/passage-016-page-0049-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 17,
+    "exam": 1,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 51,
+        "before_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-017-page-0051-before.jpg",
+        "after_image": "evidence/comparisons/passage-017-page-0051-after.jpg"
+      },
+      {
+        "page": 52,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-017-page-0052-before.jpg",
+        "after_image": "evidence/comparisons/passage-017-page-0052-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 18,
+    "exam": 1,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 54,
+        "before_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-018-page-0054-before.jpg",
+        "after_image": "evidence/comparisons/passage-018-page-0054-after.jpg"
+      },
+      {
+        "page": 55,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-018-page-0055-before.jpg",
+        "after_image": "evidence/comparisons/passage-018-page-0055-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 19,
+    "exam": 1,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 57,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-019-page-0057-before.jpg",
+        "after_image": "evidence/comparisons/passage-019-page-0057-after.jpg"
+      },
+      {
+        "page": 58,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-019-page-0058-before.jpg",
+        "after_image": "evidence/comparisons/passage-019-page-0058-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 21,
+    "exam": 2,
+    "first": 135,
+    "last": 138,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 70,
+        "before_bbox": [
+          0.0,
+          372.39801025390625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          372.39801025390625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-021-page-0070-before.jpg",
+        "after_image": "evidence/comparisons/passage-021-page-0070-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 22,
+    "exam": 2,
+    "first": 139,
+    "last": 142,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 71,
+        "before_bbox": [
+          0.0,
+          567.3145141601562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          567.3145141601562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-022-page-0071-before.jpg",
+        "after_image": "evidence/comparisons/passage-022-page-0071-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 24,
+    "exam": 2,
+    "first": 147,
+    "last": 149,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 74,
+        "before_bbox": [
+          0.0,
+          467.60723876953125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          467.60723876953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-024-page-0074-before.jpg",
+        "after_image": "evidence/comparisons/passage-024-page-0074-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 25,
+    "exam": 2,
+    "first": 150,
+    "last": 152,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 75,
+        "before_bbox": [
+          0.0,
+          688.0128784179688,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          688.0128784179688,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-025-page-0075-before.jpg",
+        "after_image": "evidence/comparisons/passage-025-page-0075-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 26,
+    "exam": 2,
+    "first": 153,
+    "last": 154,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 77,
+        "before_bbox": [
+          0.0,
+          309.4249572753906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          309.4249572753906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-026-page-0077-before.jpg",
+        "after_image": "evidence/comparisons/passage-026-page-0077-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 28,
+    "exam": 2,
+    "first": 158,
+    "last": 161,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 79,
+        "before_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-028-page-0079-before.jpg",
+        "after_image": "evidence/comparisons/passage-028-page-0079-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 29,
+    "exam": 2,
+    "first": 162,
+    "last": 165,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 81,
+        "before_bbox": [
+          0.0,
+          501.3428039550781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          501.3428039550781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-029-page-0081-before.jpg",
+        "after_image": "evidence/comparisons/passage-029-page-0081-after.jpg"
+      },
+      {
+        "page": 82,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-029-page-0082-before.jpg",
+        "after_image": "evidence/comparisons/passage-029-page-0082-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 30,
+    "exam": 2,
+    "first": 166,
+    "last": 168,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 84,
+        "before_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-030-page-0084-before.jpg",
+        "after_image": "evidence/comparisons/passage-030-page-0084-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 31,
+    "exam": 2,
+    "first": 169,
+    "last": 171,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 86,
+        "before_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-031-page-0086-before.jpg",
+        "after_image": "evidence/comparisons/passage-031-page-0086-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 32,
+    "exam": 2,
+    "first": 172,
+    "last": 173,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 87,
+        "before_bbox": [
+          0.0,
+          601.0501098632812,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          601.0501098632812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-032-page-0087-before.jpg",
+        "after_image": "evidence/comparisons/passage-032-page-0087-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 34,
+    "exam": 2,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 90,
+        "before_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-034-page-0090-before.jpg",
+        "after_image": "evidence/comparisons/passage-034-page-0090-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 35,
+    "exam": 2,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 92,
+        "before_bbox": [
+          0.0,
+          501.3428039550781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          501.3428039550781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-035-page-0092-before.jpg",
+        "after_image": "evidence/comparisons/passage-035-page-0092-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 36,
+    "exam": 2,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 94,
+        "before_bbox": [
+          0.0,
+          663.2734375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          663.2734375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-036-page-0094-before.jpg",
+        "after_image": "evidence/comparisons/passage-036-page-0094-after.jpg"
+      },
+      {
+        "page": 95,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-036-page-0095-before.jpg",
+        "after_image": "evidence/comparisons/passage-036-page-0095-after.jpg"
+      },
+      {
+        "page": 96,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-036-page-0096-before.jpg",
+        "after_image": "evidence/comparisons/passage-036-page-0096-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 37,
+    "exam": 2,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 98,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-037-page-0098-before.jpg",
+        "after_image": "evidence/comparisons/passage-037-page-0098-after.jpg"
+      },
+      {
+        "page": 99,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-037-page-0099-before.jpg",
+        "after_image": "evidence/comparisons/passage-037-page-0099-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 38,
+    "exam": 2,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 101,
+        "before_bbox": [
+          0.0,
+          210.46731567382812,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          210.46731567382812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-038-page-0101-before.jpg",
+        "after_image": "evidence/comparisons/passage-038-page-0101-after.jpg"
+      },
+      {
+        "page": 102,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-038-page-0102-before.jpg",
+        "after_image": "evidence/comparisons/passage-038-page-0102-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 40,
+    "exam": 3,
+    "first": 135,
+    "last": 138,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 114,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-040-page-0114-before.jpg",
+        "after_image": "evidence/comparisons/passage-040-page-0114-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 42,
+    "exam": 3,
+    "first": 143,
+    "last": 146,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 117,
+        "before_bbox": [
+          0.0,
+          342.4108581542969,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          342.4108581542969,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-042-page-0117-before.jpg",
+        "after_image": "evidence/comparisons/passage-042-page-0117-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 43,
+    "exam": 3,
+    "first": 147,
+    "last": 148,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 119,
+        "before_bbox": [
+          0.0,
+          500.5931091308594,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          500.5931091308594,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-043-page-0119-before.jpg",
+        "after_image": "evidence/comparisons/passage-043-page-0119-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 44,
+    "exam": 3,
+    "first": 149,
+    "last": 152,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 120,
+        "before_bbox": [
+          0.0,
+          620.541748046875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          620.541748046875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-044-page-0120-before.jpg",
+        "after_image": "evidence/comparisons/passage-044-page-0120-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 45,
+    "exam": 3,
+    "first": 153,
+    "last": 154,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 122,
+        "before_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-045-page-0122-before.jpg",
+        "after_image": "evidence/comparisons/passage-045-page-0122-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 46,
+    "exam": 3,
+    "first": 155,
+    "last": 158,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 123,
+        "before_bbox": [
+          0.0,
+          591.3042602539062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          591.3042602539062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-046-page-0123-before.jpg",
+        "after_image": "evidence/comparisons/passage-046-page-0123-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 48,
+    "exam": 3,
+    "first": 162,
+    "last": 164,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 126,
+        "before_bbox": [
+          0.0,
+          553.0706176757812,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          553.0706176757812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-048-page-0126-before.jpg",
+        "after_image": "evidence/comparisons/passage-048-page-0126-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 49,
+    "exam": 3,
+    "first": 165,
+    "last": 167,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 128,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-049-page-0128-before.jpg",
+        "after_image": "evidence/comparisons/passage-049-page-0128-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 50,
+    "exam": 3,
+    "first": 168,
+    "last": 171,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 129,
+        "before_bbox": null,
+        "after_bbox": [
+          0.0,
+          771.2272338867188,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": null,
+        "after_image": "evidence/comparisons/passage-050-page-0129-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 51,
+    "exam": 3,
+    "first": 172,
+    "last": 173,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 131,
+        "before_bbox": [
+          0.0,
+          648.2798461914062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          648.2798461914062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-051-page-0131-before.jpg",
+        "after_image": "evidence/comparisons/passage-051-page-0131-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 53,
+    "exam": 3,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 134,
+        "before_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-053-page-0134-before.jpg",
+        "after_image": "evidence/comparisons/passage-053-page-0134-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 54,
+    "exam": 3,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 136,
+        "before_bbox": [
+          0.0,
+          586.0565185546875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          586.0565185546875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-054-page-0136-before.jpg",
+        "after_image": "evidence/comparisons/passage-054-page-0136-after.jpg"
+      },
+      {
+        "page": 137,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-054-page-0137-before.jpg",
+        "after_image": "evidence/comparisons/passage-054-page-0137-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 55,
+    "exam": 3,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 139,
+        "before_bbox": [
+          0.0,
+          210.46731567382812,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          210.46731567382812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-055-page-0139-before.jpg",
+        "after_image": "evidence/comparisons/passage-055-page-0139-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 56,
+    "exam": 3,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 141,
+        "before_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-056-page-0141-before.jpg",
+        "after_image": "evidence/comparisons/passage-056-page-0141-after.jpg"
+      },
+      {
+        "page": 142,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-056-page-0142-before.jpg",
+        "after_image": "evidence/comparisons/passage-056-page-0142-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 57,
+    "exam": 3,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 144,
+        "before_bbox": [
+          0.0,
+          762.9807739257812,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          762.9807739257812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-057-page-0144-before.jpg",
+        "after_image": "evidence/comparisons/passage-057-page-0144-after.jpg"
+      },
+      {
+        "page": 145,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-057-page-0145-before.jpg",
+        "after_image": "evidence/comparisons/passage-057-page-0145-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 61,
+    "exam": 4,
+    "first": 143,
+    "last": 146,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 159,
+        "before_bbox": [
+          0.0,
+          454.8627014160156,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          454.8627014160156,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-061-page-0159-before.jpg",
+        "after_image": "evidence/comparisons/passage-061-page-0159-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 63,
+    "exam": 4,
+    "first": 149,
+    "last": 150,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 162,
+        "before_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-063-page-0162-before.jpg",
+        "after_image": "evidence/comparisons/passage-063-page-0162-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 64,
+    "exam": 4,
+    "first": 151,
+    "last": 153,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 163,
+        "before_bbox": [
+          0.0,
+          537.327392578125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          537.327392578125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-064-page-0163-before.jpg",
+        "after_image": "evidence/comparisons/passage-064-page-0163-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 65,
+    "exam": 4,
+    "first": 154,
+    "last": 156,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 164,
+        "before_bbox": null,
+        "after_bbox": [
+          0.0,
+          771.9769287109375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": null,
+        "after_image": "evidence/comparisons/passage-065-page-0164-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 67,
+    "exam": 4,
+    "first": 160,
+    "last": 163,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 167,
+        "before_bbox": [
+          0.0,
+          388.8909606933594,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          388.8909606933594,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-067-page-0167-before.jpg",
+        "after_image": "evidence/comparisons/passage-067-page-0167-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 68,
+    "exam": 4,
+    "first": 164,
+    "last": 167,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 169,
+        "before_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-068-page-0169-before.jpg",
+        "after_image": "evidence/comparisons/passage-068-page-0169-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 69,
+    "exam": 4,
+    "first": 168,
+    "last": 170,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 171,
+        "before_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-069-page-0171-before.jpg",
+        "after_image": "evidence/comparisons/passage-069-page-0171-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 70,
+    "exam": 4,
+    "first": 171,
+    "last": 173,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 172,
+        "before_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-070-page-0172-before.jpg",
+        "after_image": "evidence/comparisons/passage-070-page-0172-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 72,
+    "exam": 4,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 175,
+        "before_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-072-page-0175-before.jpg",
+        "after_image": "evidence/comparisons/passage-072-page-0175-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 73,
+    "exam": 4,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 178,
+        "before_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-073-page-0178-before.jpg",
+        "after_image": "evidence/comparisons/passage-073-page-0178-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 74,
+    "exam": 4,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 180,
+        "before_bbox": [
+          0.0,
+          421.8768310546875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          421.8768310546875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-074-page-0180-before.jpg",
+        "after_image": "evidence/comparisons/passage-074-page-0180-after.jpg"
+      },
+      {
+        "page": 181,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-074-page-0181-before.jpg",
+        "after_image": "evidence/comparisons/passage-074-page-0181-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 75,
+    "exam": 4,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 183,
+        "before_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-075-page-0183-before.jpg",
+        "after_image": "evidence/comparisons/passage-075-page-0183-after.jpg"
+      },
+      {
+        "page": 184,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-075-page-0184-before.jpg",
+        "after_image": "evidence/comparisons/passage-075-page-0184-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 76,
+    "exam": 4,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 186,
+        "before_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-076-page-0186-before.jpg",
+        "after_image": "evidence/comparisons/passage-076-page-0186-after.jpg"
+      },
+      {
+        "page": 187,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-076-page-0187-before.jpg",
+        "after_image": "evidence/comparisons/passage-076-page-0187-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 79,
+    "exam": 5,
+    "first": 139,
+    "last": 142,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 200,
+        "before_bbox": [
+          0.0,
+          502.0924987792969,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          502.0924987792969,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-079-page-0200-before.jpg",
+        "after_image": "evidence/comparisons/passage-079-page-0200-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 80,
+    "exam": 5,
+    "first": 143,
+    "last": 146,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 201,
+        "before_bbox": [
+          0.0,
+          720.9987182617188,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          720.9987182617188,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-080-page-0201-before.jpg",
+        "after_image": "evidence/comparisons/passage-080-page-0201-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 81,
+    "exam": 5,
+    "first": 147,
+    "last": 148,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 203,
+        "before_bbox": [
+          0.0,
+          697.0728759765625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          697.0728759765625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-081-page-0203-before.jpg",
+        "after_image": "evidence/comparisons/passage-081-page-0203-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 82,
+    "exam": 5,
+    "first": 149,
+    "last": 151,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 204,
+        "before_bbox": [
+          0.0,
+          753.984619140625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          753.984619140625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-082-page-0204-before.jpg",
+        "after_image": "evidence/comparisons/passage-082-page-0204-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 84,
+    "exam": 5,
+    "first": 155,
+    "last": 157,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 207,
+        "before_bbox": [
+          0.0,
+          535.8280029296875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          535.8280029296875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-084-page-0207-before.jpg",
+        "after_image": "evidence/comparisons/passage-084-page-0207-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 86,
+    "exam": 5,
+    "first": 161,
+    "last": 163,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 210,
+        "before_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-086-page-0210-before.jpg",
+        "after_image": "evidence/comparisons/passage-086-page-0210-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 88,
+    "exam": 5,
+    "first": 166,
+    "last": 167,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 213,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-088-page-0213-before.jpg",
+        "after_image": "evidence/comparisons/passage-088-page-0213-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 89,
+    "exam": 5,
+    "first": 168,
+    "last": 171,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 214,
+        "before_bbox": [
+          0.0,
+          488.662109375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          488.662109375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-089-page-0214-before.jpg",
+        "after_image": "evidence/comparisons/passage-089-page-0214-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 90,
+    "exam": 5,
+    "first": 172,
+    "last": 175,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 216,
+        "before_bbox": [
+          0.0,
+          421.8768310546875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          421.8768310546875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-090-page-0216-before.jpg",
+        "after_image": "evidence/comparisons/passage-090-page-0216-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 91,
+    "exam": 5,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 218,
+        "before_bbox": [
+          0.0,
+          439.11944580078125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          439.11944580078125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-091-page-0218-before.jpg",
+        "after_image": "evidence/comparisons/passage-091-page-0218-after.jpg"
+      },
+      {
+        "page": 219,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-091-page-0219-before.jpg",
+        "after_image": "evidence/comparisons/passage-091-page-0219-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 92,
+    "exam": 5,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 221,
+        "before_bbox": [
+          0.0,
+          484.1001892089844,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          484.1001892089844,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-092-page-0221-before.jpg",
+        "after_image": "evidence/comparisons/passage-092-page-0221-after.jpg"
+      },
+      {
+        "page": 222,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-092-page-0222-before.jpg",
+        "after_image": "evidence/comparisons/passage-092-page-0222-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 93,
+    "exam": 5,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 224,
+        "before_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-093-page-0224-before.jpg",
+        "after_image": "evidence/comparisons/passage-093-page-0224-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 94,
+    "exam": 5,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 226,
+        "before_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-094-page-0226-before.jpg",
+        "after_image": "evidence/comparisons/passage-094-page-0226-after.jpg"
+      },
+      {
+        "page": 227,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-094-page-0227-before.jpg",
+        "after_image": "evidence/comparisons/passage-094-page-0227-after.jpg"
+      },
+      {
+        "page": 228,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-094-page-0228-before.jpg",
+        "after_image": "evidence/comparisons/passage-094-page-0228-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 95,
+    "exam": 5,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 230,
+        "before_bbox": [
+          0.0,
+          436.8703918457031,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          436.8703918457031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-095-page-0230-before.jpg",
+        "after_image": "evidence/comparisons/passage-095-page-0230-after.jpg"
+      },
+      {
+        "page": 231,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-095-page-0231-before.jpg",
+        "after_image": "evidence/comparisons/passage-095-page-0231-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 97,
+    "exam": 6,
+    "first": 135,
+    "last": 138,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 243,
+        "before_bbox": [
+          0.0,
+          326.6676025390625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          326.6676025390625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-097-page-0243-before.jpg",
+        "after_image": "evidence/comparisons/passage-097-page-0243-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 98,
+    "exam": 6,
+    "first": 139,
+    "last": 142,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 244,
+        "before_bbox": [
+          0.0,
+          584.55712890625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          584.55712890625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-098-page-0244-before.jpg",
+        "after_image": "evidence/comparisons/passage-098-page-0244-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 100,
+    "exam": 6,
+    "first": 147,
+    "last": 149,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 247,
+        "before_bbox": [
+          0.0,
+          500.5931091308594,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          500.5931091308594,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-100-page-0247-before.jpg",
+        "after_image": "evidence/comparisons/passage-100-page-0247-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 101,
+    "exam": 6,
+    "first": 150,
+    "last": 152,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 248,
+        "before_bbox": [
+          0.0,
+          750.9859008789062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          750.9859008789062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-101-page-0248-before.jpg",
+        "after_image": "evidence/comparisons/passage-101-page-0248-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 102,
+    "exam": 6,
+    "first": 153,
+    "last": 155,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 250,
+        "before_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-102-page-0250-before.jpg",
+        "after_image": "evidence/comparisons/passage-102-page-0250-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 103,
+    "exam": 6,
+    "first": 156,
+    "last": 159,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 252,
+        "before_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          80.77285766601562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-103-page-0252-before.jpg",
+        "after_image": "evidence/comparisons/passage-103-page-0252-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 104,
+    "exam": 6,
+    "first": 160,
+    "last": 162,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 253,
+        "before_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-104-page-0253-before.jpg",
+        "after_image": "evidence/comparisons/passage-104-page-0253-after.jpg"
+      },
+      {
+        "page": 254,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-104-page-0254-before.jpg",
+        "after_image": "evidence/comparisons/passage-104-page-0254-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 105,
+    "exam": 6,
+    "first": 163,
+    "last": 165,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 255,
+        "before_bbox": [
+          0.0,
+          601.0501098632812,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          601.0501098632812,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-105-page-0255-before.jpg",
+        "after_image": "evidence/comparisons/passage-105-page-0255-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 106,
+    "exam": 6,
+    "first": 166,
+    "last": 169,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 256,
+        "before_bbox": [
+          0.0,
+          737.4916381835938,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          737.4916381835938,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-106-page-0256-before.jpg",
+        "after_image": "evidence/comparisons/passage-106-page-0256-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 107,
+    "exam": 6,
+    "first": 170,
+    "last": 171,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 258,
+        "before_bbox": [
+          0.0,
+          631.0372314453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          631.0372314453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-107-page-0258-before.jpg",
+        "after_image": "evidence/comparisons/passage-107-page-0258-after.jpg"
+      },
+      {
+        "page": 259,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-107-page-0259-before.jpg",
+        "after_image": "evidence/comparisons/passage-107-page-0259-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 108,
+    "exam": 6,
+    "first": 172,
+    "last": 173,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 260,
+        "before_bbox": [
+          0.0,
+          389.640625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          389.640625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-108-page-0260-before.jpg",
+        "after_image": "evidence/comparisons/passage-108-page-0260-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 109,
+    "exam": 6,
+    "first": 174,
+    "last": 175,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 261,
+        "before_bbox": [
+          0.0,
+          489.3479309082031,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          489.3479309082031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-109-page-0261-before.jpg",
+        "after_image": "evidence/comparisons/passage-109-page-0261-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 110,
+    "exam": 6,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 262,
+        "before_bbox": [
+          0.0,
+          756.233642578125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          756.233642578125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-110-page-0262-before.jpg",
+        "after_image": "evidence/comparisons/passage-110-page-0262-after.jpg"
+      },
+      {
+        "page": 263,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-110-page-0263-before.jpg",
+        "after_image": "evidence/comparisons/passage-110-page-0263-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 111,
+    "exam": 6,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 265,
+        "before_bbox": [
+          0.0,
+          372.39801025390625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          372.39801025390625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-111-page-0265-before.jpg",
+        "after_image": "evidence/comparisons/passage-111-page-0265-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 112,
+    "exam": 6,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 267,
+        "before_bbox": [
+          0.0,
+          680.5160522460938,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          680.5160522460938,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-112-page-0267-before.jpg",
+        "after_image": "evidence/comparisons/passage-112-page-0267-after.jpg"
+      },
+      {
+        "page": 268,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-112-page-0268-before.jpg",
+        "after_image": "evidence/comparisons/passage-112-page-0268-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 113,
+    "exam": 6,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 271,
+        "before_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-113-page-0271-before.jpg",
+        "after_image": "evidence/comparisons/passage-113-page-0271-after.jpg"
+      },
+      {
+        "page": 272,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-113-page-0272-before.jpg",
+        "after_image": "evidence/comparisons/passage-113-page-0272-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 114,
+    "exam": 6,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 274,
+        "before_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-114-page-0274-before.jpg",
+        "after_image": "evidence/comparisons/passage-114-page-0274-after.jpg"
+      },
+      {
+        "page": 275,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-114-page-0275-before.jpg",
+        "after_image": "evidence/comparisons/passage-114-page-0275-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 116,
+    "exam": 7,
+    "first": 135,
+    "last": 138,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 287,
+        "before_bbox": [
+          0.0,
+          340.16180419921875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          340.16180419921875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-116-page-0287-before.jpg",
+        "after_image": "evidence/comparisons/passage-116-page-0287-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 117,
+    "exam": 7,
+    "first": 139,
+    "last": 142,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 288,
+        "before_bbox": [
+          0.0,
+          701.507080078125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          701.507080078125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-117-page-0288-before.jpg",
+        "after_image": "evidence/comparisons/passage-117-page-0288-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 119,
+    "exam": 7,
+    "first": 147,
+    "last": 148,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 291,
+        "before_bbox": [
+          0.0,
+          565.0654907226562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          565.0654907226562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-119-page-0291-before.jpg",
+        "after_image": "evidence/comparisons/passage-119-page-0291-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 120,
+    "exam": 7,
+    "first": 149,
+    "last": 151,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 292,
+        "before_bbox": [
+          0.0,
+          722.4981079101562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          722.4981079101562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-120-page-0292-before.jpg",
+        "after_image": "evidence/comparisons/passage-120-page-0292-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 121,
+    "exam": 7,
+    "first": 152,
+    "last": 155,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 294,
+        "before_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-121-page-0294-before.jpg",
+        "after_image": "evidence/comparisons/passage-121-page-0294-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 122,
+    "exam": 7,
+    "first": 156,
+    "last": 159,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 296,
+        "before_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          113.0090560913086,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-122-page-0296-before.jpg",
+        "after_image": "evidence/comparisons/passage-122-page-0296-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 124,
+    "exam": 7,
+    "first": 163,
+    "last": 166,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 299,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-124-page-0299-before.jpg",
+        "after_image": "evidence/comparisons/passage-124-page-0299-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 125,
+    "exam": 7,
+    "first": 167,
+    "last": 168,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 301,
+        "before_bbox": [
+          0.0,
+          259.19647216796875,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          259.19647216796875,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-125-page-0301-before.jpg",
+        "after_image": "evidence/comparisons/passage-125-page-0301-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 126,
+    "exam": 7,
+    "first": 169,
+    "last": 171,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 302,
+        "before_bbox": [
+          0.0,
+          406.88323974609375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          406.88323974609375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-126-page-0302-before.jpg",
+        "after_image": "evidence/comparisons/passage-126-page-0302-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 129,
+    "exam": 7,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 306,
+        "before_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          339.4121398925781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-129-page-0306-before.jpg",
+        "after_image": "evidence/comparisons/passage-129-page-0306-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 130,
+    "exam": 7,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 308,
+        "before_bbox": [
+          0.0,
+          648.2798461914062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          648.2798461914062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-130-page-0308-before.jpg",
+        "after_image": "evidence/comparisons/passage-130-page-0308-after.jpg"
+      },
+      {
+        "page": 309,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-130-page-0309-before.jpg",
+        "after_image": "evidence/comparisons/passage-130-page-0309-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 131,
+    "exam": 7,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 311,
+        "before_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-131-page-0311-before.jpg",
+        "after_image": "evidence/comparisons/passage-131-page-0311-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 132,
+    "exam": 7,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 313,
+        "before_bbox": [
+          0.0,
+          760.731689453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          760.731689453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-132-page-0313-before.jpg",
+        "after_image": "evidence/comparisons/passage-132-page-0313-after.jpg"
+      },
+      {
+        "page": 314,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-132-page-0314-before.jpg",
+        "after_image": "evidence/comparisons/passage-132-page-0314-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 133,
+    "exam": 7,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 316,
+        "before_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-133-page-0316-before.jpg",
+        "after_image": "evidence/comparisons/passage-133-page-0316-after.jpg"
+      },
+      {
+        "page": 317,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-133-page-0317-before.jpg",
+        "after_image": "evidence/comparisons/passage-133-page-0317-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 137,
+    "exam": 8,
+    "first": 143,
+    "last": 146,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 331,
+        "before_bbox": [
+          0.0,
+          551.5712890625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          551.5712890625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-137-page-0331-before.jpg",
+        "after_image": "evidence/comparisons/passage-137-page-0331-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 139,
+    "exam": 8,
+    "first": 149,
+    "last": 151,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 334,
+        "before_bbox": [
+          0.0,
+          341.6611633300781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          341.6611633300781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-139-page-0334-before.jpg",
+        "after_image": "evidence/comparisons/passage-139-page-0334-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 140,
+    "exam": 8,
+    "first": 152,
+    "last": 154,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 335,
+        "before_bbox": [
+          0.0,
+          634.78564453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          634.78564453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-140-page-0335-before.jpg",
+        "after_image": "evidence/comparisons/passage-140-page-0335-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 142,
+    "exam": 8,
+    "first": 158,
+    "last": 161,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 338,
+        "before_bbox": [
+          0.0,
+          439.11944580078125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          439.11944580078125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-142-page-0338-before.jpg",
+        "after_image": "evidence/comparisons/passage-142-page-0338-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 143,
+    "exam": 8,
+    "first": 162,
+    "last": 164,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 340,
+        "before_bbox": [
+          0.0,
+          503.5918273925781,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          503.5918273925781,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-143-page-0340-before.jpg",
+        "after_image": "evidence/comparisons/passage-143-page-0340-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 145,
+    "exam": 8,
+    "first": 168,
+    "last": 171,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 343,
+        "before_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          307.1759338378906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-145-page-0343-before.jpg",
+        "after_image": "evidence/comparisons/passage-145-page-0343-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 146,
+    "exam": 8,
+    "first": 172,
+    "last": 173,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 345,
+        "before_bbox": [
+          0.0,
+          274.9397277832031,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          274.9397277832031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-146-page-0345-before.jpg",
+        "after_image": "evidence/comparisons/passage-146-page-0345-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 147,
+    "exam": 8,
+    "first": 174,
+    "last": 175,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 346,
+        "before_bbox": [
+          0.0,
+          475.1040344238281,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          475.1040344238281,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-147-page-0346-before.jpg",
+        "after_image": "evidence/comparisons/passage-147-page-0346-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 148,
+    "exam": 8,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 347,
+        "before_bbox": [
+          0.0,
+          604.7984619140625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          604.7984619140625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-148-page-0347-before.jpg",
+        "after_image": "evidence/comparisons/passage-148-page-0347-after.jpg"
+      },
+      {
+        "page": 348,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-148-page-0348-before.jpg",
+        "after_image": "evidence/comparisons/passage-148-page-0348-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 149,
+    "exam": 8,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 350,
+        "before_bbox": [
+          0.0,
+          663.2734375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          663.2734375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-149-page-0350-before.jpg",
+        "after_image": "evidence/comparisons/passage-149-page-0350-after.jpg"
+      },
+      {
+        "page": 351,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-149-page-0351-before.jpg",
+        "after_image": "evidence/comparisons/passage-149-page-0351-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 150,
+    "exam": 8,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 353,
+        "before_bbox": [
+          0.0,
+          670.0205688476562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          670.0205688476562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-150-page-0353-before.jpg",
+        "after_image": "evidence/comparisons/passage-150-page-0353-after.jpg"
+      },
+      {
+        "page": 354,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-150-page-0354-before.jpg",
+        "after_image": "evidence/comparisons/passage-150-page-0354-after.jpg"
+      },
+      {
+        "page": 355,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-150-page-0355-before.jpg",
+        "after_image": "evidence/comparisons/passage-150-page-0355-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 151,
+    "exam": 8,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 357,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-151-page-0357-before.jpg",
+        "after_image": "evidence/comparisons/passage-151-page-0357-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 152,
+    "exam": 8,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 360,
+        "before_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-152-page-0360-before.jpg",
+        "after_image": "evidence/comparisons/passage-152-page-0360-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 154,
+    "exam": 9,
+    "first": 135,
+    "last": 138,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 372,
+        "before_bbox": [
+          0.0,
+          274.9397277832031,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          274.9397277832031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-154-page-0372-before.jpg",
+        "after_image": "evidence/comparisons/passage-154-page-0372-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 155,
+    "exam": 9,
+    "first": 139,
+    "last": 142,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 373,
+        "before_bbox": [
+          0.0,
+          567.3145141601562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          567.3145141601562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-155-page-0373-before.jpg",
+        "after_image": "evidence/comparisons/passage-155-page-0373-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 156,
+    "exam": 9,
+    "first": 143,
+    "last": 146,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 374,
+        "before_bbox": [
+          0.0,
+          652.7779541015625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          652.7779541015625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-156-page-0374-before.jpg",
+        "after_image": "evidence/comparisons/passage-156-page-0374-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 159,
+    "exam": 9,
+    "first": 152,
+    "last": 154,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 378,
+        "before_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-159-page-0378-before.jpg",
+        "after_image": "evidence/comparisons/passage-159-page-0378-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 161,
+    "exam": 9,
+    "first": 158,
+    "last": 159,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 381,
+        "before_bbox": [
+          0.0,
+          488.5982666015625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          488.5982666015625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-161-page-0381-before.jpg",
+        "after_image": "evidence/comparisons/passage-161-page-0381-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 162,
+    "exam": 9,
+    "first": 160,
+    "last": 163,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 383,
+        "before_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          48.536659240722656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-162-page-0383-before.jpg",
+        "after_image": "evidence/comparisons/passage-162-page-0383-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 163,
+    "exam": 9,
+    "first": 164,
+    "last": 166,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 384,
+        "before_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          713.501953125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-163-page-0384-before.jpg",
+        "after_image": "evidence/comparisons/passage-163-page-0384-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 164,
+    "exam": 9,
+    "first": 167,
+    "last": 169,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 386,
+        "before_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-164-page-0386-before.jpg",
+        "after_image": "evidence/comparisons/passage-164-page-0386-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 165,
+    "exam": 9,
+    "first": 170,
+    "last": 172,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 387,
+        "before_bbox": [
+          0.0,
+          700.7573852539062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          700.7573852539062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-165-page-0387-before.jpg",
+        "after_image": "evidence/comparisons/passage-165-page-0387-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 166,
+    "exam": 9,
+    "first": 173,
+    "last": 175,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 389,
+        "before_bbox": [
+          0.0,
+          356.6547546386719,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          356.6547546386719,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-166-page-0389-before.jpg",
+        "after_image": "evidence/comparisons/passage-166-page-0389-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 167,
+    "exam": 9,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 390,
+        "before_bbox": [
+          0.0,
+          668.5211791992188,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          668.5211791992188,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-167-page-0390-before.jpg",
+        "after_image": "evidence/comparisons/passage-167-page-0390-after.jpg"
+      },
+      {
+        "page": 391,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-167-page-0391-before.jpg",
+        "after_image": "evidence/comparisons/passage-167-page-0391-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 168,
+    "exam": 9,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 393,
+        "before_bbox": [
+          0.0,
+          354.40570068359375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          354.40570068359375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-168-page-0393-before.jpg",
+        "after_image": "evidence/comparisons/passage-168-page-0393-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 169,
+    "exam": 9,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 395,
+        "before_bbox": [
+          0.0,
+          631.0372314453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          631.0372314453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-169-page-0395-before.jpg",
+        "after_image": "evidence/comparisons/passage-169-page-0395-after.jpg"
+      },
+      {
+        "page": 396,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-169-page-0396-before.jpg",
+        "after_image": "evidence/comparisons/passage-169-page-0396-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 170,
+    "exam": 9,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 398,
+        "before_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          469.1065979003906,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-170-page-0398-before.jpg",
+        "after_image": "evidence/comparisons/passage-170-page-0398-after.jpg"
+      },
+      {
+        "page": 399,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-170-page-0399-before.jpg",
+        "after_image": "evidence/comparisons/passage-170-page-0399-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 171,
+    "exam": 9,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 401,
+        "before_bbox": [
+          0.0,
+          598.801025390625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          598.801025390625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-171-page-0401-before.jpg",
+        "after_image": "evidence/comparisons/passage-171-page-0401-after.jpg"
+      },
+      {
+        "page": 402,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-171-page-0402-before.jpg",
+        "after_image": "evidence/comparisons/passage-171-page-0402-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 174,
+    "exam": 10,
+    "first": 139,
+    "last": 142,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 415,
+        "before_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-174-page-0415-before.jpg",
+        "after_image": "evidence/comparisons/passage-174-page-0415-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 175,
+    "exam": 10,
+    "first": 143,
+    "last": 146,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 416,
+        "before_bbox": [
+          0.0,
+          619.7920532226562,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          619.7920532226562,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-175-page-0416-before.jpg",
+        "after_image": "evidence/comparisons/passage-175-page-0416-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 178,
+    "exam": 10,
+    "first": 152,
+    "last": 155,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 420,
+        "before_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-178-page-0420-before.jpg",
+        "after_image": "evidence/comparisons/passage-178-page-0420-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 180,
+    "exam": 10,
+    "first": 159,
+    "last": 161,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 423,
+        "before_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          404.63421630859375,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-180-page-0423-before.jpg",
+        "after_image": "evidence/comparisons/passage-180-page-0423-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 181,
+    "exam": 10,
+    "first": 162,
+    "last": 165,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 424,
+        "before_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-181-page-0424-before.jpg",
+        "after_image": "evidence/comparisons/passage-181-page-0424-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 182,
+    "exam": 10,
+    "first": 166,
+    "last": 168,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 426,
+        "before_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-182-page-0426-before.jpg",
+        "after_image": "evidence/comparisons/passage-182-page-0426-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 183,
+    "exam": 10,
+    "first": 169,
+    "last": 170,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 428,
+        "before_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          177.4814453125,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-183-page-0428-before.jpg",
+        "after_image": "evidence/comparisons/passage-183-page-0428-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 184,
+    "exam": 10,
+    "first": 171,
+    "last": 173,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 429,
+        "before_bbox": [
+          0.0,
+          389.640625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          389.640625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-184-page-0429-before.jpg",
+        "after_image": "evidence/comparisons/passage-184-page-0429-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 185,
+    "exam": 10,
+    "first": 174,
+    "last": 175,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 431,
+        "before_bbox": [
+          0.0,
+          389.640625,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          389.640625,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-185-page-0431-before.jpg",
+        "after_image": "evidence/comparisons/passage-185-page-0431-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 186,
+    "exam": 10,
+    "first": 176,
+    "last": 180,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 432,
+        "before_bbox": [
+          0.0,
+          522.3338012695312,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          522.3338012695312,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-186-page-0432-before.jpg",
+        "after_image": "evidence/comparisons/passage-186-page-0432-after.jpg"
+      },
+      {
+        "page": 433,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-186-page-0433-before.jpg",
+        "after_image": "evidence/comparisons/passage-186-page-0433-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 187,
+    "exam": 10,
+    "first": 181,
+    "last": 185,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 435,
+        "before_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          534.3286743164062,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-187-page-0435-before.jpg",
+        "after_image": "evidence/comparisons/passage-187-page-0435-after.jpg"
+      },
+      {
+        "page": 436,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-187-page-0436-before.jpg",
+        "after_image": "evidence/comparisons/passage-187-page-0436-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 188,
+    "exam": 10,
+    "first": 186,
+    "last": 190,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 438,
+        "before_bbox": [
+          0.0,
+          356.6547546386719,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          356.6547546386719,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-188-page-0438-before.jpg",
+        "after_image": "evidence/comparisons/passage-188-page-0438-after.jpg"
+      },
+      {
+        "page": 439,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-188-page-0439-before.jpg",
+        "after_image": "evidence/comparisons/passage-188-page-0439-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 189,
+    "exam": 10,
+    "first": 191,
+    "last": 195,
+    "had_missing_text": false,
+    "changes": [
+      {
+        "page": 441,
+        "before_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          242.70350646972656,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-189-page-0441-before.jpg",
+        "after_image": "evidence/comparisons/passage-189-page-0441-after.jpg"
+      },
+      {
+        "page": 442,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-189-page-0442-before.jpg",
+        "after_image": "evidence/comparisons/passage-189-page-0442-after.jpg"
+      }
+    ]
+  },
+  {
+    "passage_id": 190,
+    "exam": 10,
+    "first": 196,
+    "last": 200,
+    "had_missing_text": true,
+    "changes": [
+      {
+        "page": 444,
+        "before_bbox": [
+          0.0,
+          436.8703918457031,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          436.8703918457031,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-190-page-0444-before.jpg",
+        "after_image": "evidence/comparisons/passage-190-page-0444-after.jpg"
+      },
+      {
+        "page": 445,
+        "before_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          774.5385888671875
+        ],
+        "after_bbox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          805.7124633789062
+        ],
+        "before_image": "evidence/comparisons/passage-190-page-0445-before.jpg",
+        "after_image": "evidence/comparisons/passage-190-page-0445-after.jpg"
+      }
+    ]
+  }
+]
