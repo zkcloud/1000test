@@ -1,0 +1,2360 @@
+{
+  "accept": [
+    {
+      "example": "The supplier accepted our offer to extend the deadline.",
+      "example_translation": "供应商接受了我们延长截止时间的提议。",
+      "meaning": "接受",
+      "pos": "v.",
+      "usage": "accept an offer / apology，表示接纳提议或接受道歉。"
+    }
+  ],
+  "access": [
+    {
+      "example": "Only managers have access to these records.",
+      "example_translation": "只有经理有权查阅这些记录。",
+      "meaning": "使用权",
+      "pos": "n.",
+      "usage": "have access to files，表示有权访问文件。"
+    },
+    {
+      "example": "The west entrance provides access to the building.",
+      "example_translation": "从西门可以进入这栋大楼。",
+      "meaning": "通路",
+      "pos": "n.",
+      "usage": "access to the building，指进入大楼的通道。"
+    },
+    {
+      "example": "Employees can access the database from the office.",
+      "example_translation": "员工可以在办公室访问数据库。",
+      "meaning": "访问",
+      "pos": "v.",
+      "usage": "access a database，表示访问数据库。"
+    },
+    {
+      "example": "You can access the meeting room with your key card.",
+      "example_translation": "你可以用门卡进入会议室。",
+      "meaning": "进入",
+      "pos": "v.",
+      "usage": "access a room using a key card，表示用门卡进入某处。"
+    }
+  ],
+  "accommodate": [
+    {
+      "example": "The main hall can accommodate up to 250 guests.",
+      "example_translation": "主厅最多可容纳 250 位宾客。",
+      "meaning": "容纳",
+      "pos": "v.",
+      "usage": "accommodate + 人数，表示空间足够容纳这么多人。"
+    }
+  ],
+  "accommodation": [
+    {
+      "example": "We will arrange accommodation for the visiting trainers.",
+      "example_translation": "我们会为来访的培训师安排住宿。",
+      "meaning": "住宿",
+      "pos": "n.",
+      "usage": "arrange accommodation for + 人，指为某人安排住宿。"
+    },
+    {
+      "example": "The conference fee includes accommodation and breakfast.",
+      "example_translation": "会议费用包含住宿和早餐。",
+      "meaning": "膳宿",
+      "pos": "n.",
+      "usage": "accommodation 在差旅语境中通常指住宿，套餐是否含餐由上下文说明。"
+    }
+  ],
+  "accounting": [
+    {
+      "example": "The accounting department checks each invoice before paying it.",
+      "example_translation": "会计部门在付款前核查每张发票。",
+      "meaning": "会计",
+      "pos": "n.",
+      "usage": "the accounting department 指负责记账和会计业务的部门。"
+    }
+  ],
+  "additional": [
+    {
+      "example": "Please contact reception if you need additional information.",
+      "example_translation": "如需更多信息，请联系接待处。",
+      "meaning": "附加的",
+      "pos": "adj.",
+      "spelling_prompt": "附加的、额外的，例如随通知提供的补充信息",
+      "usage": "additional + 名词，常与 information、cost、staff 搭配。"
+    },
+    {
+      "example": "Please contact reception if you need additional information.",
+      "example_translation": "如需更多信息，请联系接待处。",
+      "meaning": "额外的",
+      "pos": "adj.",
+      "spelling_prompt": "附加的、额外的，例如随通知提供的补充信息",
+      "usage": "additional + 名词，常与 information、cost、staff 搭配。"
+    }
+  ],
+  "advantage": [
+    {
+      "example": "The earlier launch gave us an advantage over our competitors.",
+      "example_translation": "较早推出产品让我们相对竞争对手更有优势。",
+      "meaning": "优势",
+      "pos": "n.",
+      "usage": "an advantage over a competitor，表示相对竞争对手的优势。"
+    },
+    {
+      "example": "One advantage of booking online is that you can compare prices.",
+      "example_translation": "在线预订的一个优点是可以比较价格。",
+      "meaning": "优点",
+      "pos": "n.",
+      "usage": "one advantage of doing something，指做某事的一个优点。"
+    },
+    {
+      "example": "The main advantage of this route is its shorter travel time.",
+      "example_translation": "这条路线的主要好处是用时更短。",
+      "meaning": "好处",
+      "pos": "n.",
+      "usage": "the main advantage of something，指某事物的主要好处。"
+    }
+  ],
+  "advise": [
+    {
+      "example": "The technician advised us to replace the battery.",
+      "example_translation": "技术员建议我们更换电池。",
+      "meaning": "建议",
+      "pos": "v.",
+      "usage": "advise someone to do something，表示建议某人做某事。"
+    }
+  ],
+  "anniversary": [
+    {
+      "example": "The museum will mark its fiftieth anniversary in April.",
+      "example_translation": "博物馆将在四月迎来五十周年纪念。",
+      "meaning": "周年纪念日",
+      "pos": "n.",
+      "spelling_prompt": "周年纪念日，指某一事件发生后每年的纪念日期",
+      "usage": "mark / celebrate an anniversary，表示纪念或庆祝周年。"
+    }
+  ],
+  "announce": [
+    {
+      "example": "The board will announce its decision on Monday.",
+      "example_translation": "董事会将在星期一公布决定。",
+      "meaning": "宣布",
+      "pos": "v.",
+      "usage": "announce a decision，表示公开宣布决定。"
+    }
+  ],
+  "announcement": [
+    {
+      "example": "The airline made an announcement about the gate change.",
+      "example_translation": "航空公司广播了登机口变更的通知。",
+      "meaning": "宣告",
+      "pos": "n.",
+      "usage": "make an announcement about + 事项，表示公开宣布该事项。"
+    }
+  ],
+  "annual": [
+    {
+      "example": "We publish our annual report in March.",
+      "example_translation": "我们在三月发布年报。",
+      "meaning": "每年的",
+      "pos": "adj.",
+      "usage": "annual report / meeting，表示每年发布的报告或每年举行的会议。"
+    },
+    {
+      "example": "The board approved the annual budget on Tuesday.",
+      "example_translation": "董事会周二批准了年度预算。",
+      "meaning": "年度的",
+      "pos": "adj.",
+      "usage": "annual budget，指覆盖一个财政年度的预算。"
+    }
+  ],
+  "apologize": [
+    {
+      "example": "She apologized to the client for the late delivery.",
+      "example_translation": "她因送货迟到向客户道歉。",
+      "meaning": "道歉",
+      "pos": "v.",
+      "usage": "apologize to someone for + 原因，表示就某事向某人道歉。"
+    }
+  ],
+  "apology": [
+    {
+      "example": "The hotel offered an apology for the booking error.",
+      "example_translation": "酒店为预订错误致歉。",
+      "meaning": "道歉",
+      "pos": "n.",
+      "spelling_prompt": "道歉，常和正式表达歉意的 offer 或 accept 搭配",
+      "usage": "offer an apology for + 原因，表示为某事道歉。"
+    }
+  ],
+  "applicant": [
+    {
+      "example": "Each applicant for the position must provide two references.",
+      "example_translation": "每位应聘该职位的人都必须提供两份推荐证明。",
+      "meaning": "申请者",
+      "pos": "n.",
+      "spelling_prompt": "申请者，指已提交职位、资格或入会申请的人",
+      "usage": "an applicant for + 职位或资格，表示该职位或资格的申请者。"
+    }
+  ],
+  "application": [
+    {
+      "example": "Please fill out an application before you visit.",
+      "example_translation": "请在来访前填写申请表。",
+      "meaning": "申请表",
+      "pos": "n.",
+      "usage": "fill out an application，表示填写申请表。"
+    },
+    {
+      "example": "She submitted her application for the position yesterday.",
+      "example_translation": "她昨天提交了该职位的申请。",
+      "meaning": "申请",
+      "pos": "n.",
+      "usage": "submit an application for a position，表示提交职位申请。"
+    },
+    {
+      "example": "The course covers the practical application of these techniques.",
+      "example_translation": "课程介绍了这些技术的实际应用。",
+      "meaning": "应用",
+      "pos": "n.",
+      "usage": "the practical application of an idea，指一个想法的实际应用。"
+    }
+  ],
+  "apply for": [
+    {
+      "example": "You can apply for the position online.",
+      "example_translation": "你可以在线申请这个职位。",
+      "meaning": "申请",
+      "pos": "phr.",
+      "usage": "apply for + 职位、贷款或许可，表示提出申请。"
+    }
+  ],
+  "appoint": [
+    {
+      "example": "The board appointed Ms. Lopez as finance director.",
+      "example_translation": "董事会任命洛佩斯女士担任财务总监。",
+      "meaning": "任命",
+      "pos": "v.",
+      "usage": "appoint someone as + 职位，表示任命某人担任该职位。"
+    }
+  ],
+  "appointment": [
+    {
+      "example": "The company announced the appointment of a new director.",
+      "example_translation": "公司宣布任命了一名新总监。",
+      "meaning": "任命",
+      "pos": "n.",
+      "usage": "announce an appointment，表示公布人事任命。"
+    },
+    {
+      "example": "Please make an appointment with the adviser before coming in.",
+      "example_translation": "来访前请先和顾问预约。",
+      "meaning": "预约",
+      "pos": "n.",
+      "usage": "make an appointment with someone，表示与某人约好见面的时间。"
+    }
+  ],
+  "appreciate": [
+    {
+      "example": "We appreciate your taking the time to review our proposal.",
+      "example_translation": "感谢您抽时间审阅我们的提案。",
+      "meaning": "感激",
+      "pos": "v.",
+      "usage": "appreciate + 名词或动名词，表示感谢他人帮忙。"
+    },
+    {
+      "example": "We appreciate your patience while the new system is installed.",
+      "example_translation": "安装新系统期间，感谢您的耐心等候。",
+      "meaning": "感谢",
+      "pos": "v.",
+      "usage": "appreciate your patience，常用于感谢对方耐心等候。"
+    }
+  ],
+  "appreciation": [
+    {
+      "example": "We held a dinner to show appreciation for the volunteers' work.",
+      "example_translation": "我们举办晚宴以感谢志愿者的工作。",
+      "meaning": "感",
+      "pos": "n.",
+      "usage": "show appreciation for something，表示对某事表达感谢。"
+    },
+    {
+      "example": "The manager showed appreciation for her team's creativity.",
+      "example_translation": "经理对团队的创造力表示认可。",
+      "meaning": "赏识",
+      "pos": "n.",
+      "usage": "show appreciation for someone's skills，表示认可或赏识某人的能力。"
+    }
+  ],
+  "approach": [
+    {
+      "example": "We need a new approach to training part-time staff.",
+      "example_translation": "我们需要用新的方法培训兼职员工。",
+      "meaning": "方法",
+      "pos": "n.",
+      "usage": "an approach to + 名词或动名词，表示处理某事的方法。"
+    }
+  ],
+  "approximate": [
+    {
+      "example": "Please include an approximate delivery date in the quote.",
+      "example_translation": "请在报价中注明大致交货日期。",
+      "meaning": "近似的",
+      "pos": "adj.",
+      "usage": "an approximate cost / time，表示估算的费用或时间。"
+    }
+  ],
+  "aspect": [
+    {
+      "example": "Cost is only one aspect of the decision.",
+      "example_translation": "成本只是作这项决定时要考虑的一个方面。",
+      "meaning": "方面",
+      "pos": "n.",
+      "usage": "one aspect of + 事物，表示其中的一个方面。"
+    }
+  ],
+  "assign": [
+    {
+      "example": "The supervisor assigned the inventory check to Rosa.",
+      "example_translation": "主管把盘点任务分配给了罗莎。",
+      "meaning": "分配",
+      "pos": "v.",
+      "usage": "assign a task to someone，表示将任务分配给某人。"
+    }
+  ],
+  "assistance": [
+    {
+      "example": "Our staff can provide assistance with the registration form.",
+      "example_translation": "我们的工作人员可以协助您填写报名表。",
+      "meaning": "帮助",
+      "pos": "n.",
+      "usage": "provide assistance with + 事项，表示就某事提供帮助。"
+    }
+  ],
+  "assure": [
+    {
+      "example": "I assured the customer that the order would arrive on time.",
+      "example_translation": "我向顾客保证订单会准时送达。",
+      "meaning": "保证",
+      "pos": "v.",
+      "usage": "assure someone that + 从句，表示向某人保证某事。"
+    },
+    {
+      "example": "The representative assured us of continued support.",
+      "example_translation": "这位代表向我们保证会继续提供支持。",
+      "meaning": "确信",
+      "pos": "v.",
+      "usage": "assure someone of something，表示使某人相信或对某事放心。"
+    }
+  ],
+  "attach": [
+    {
+      "example": "Please attach the signed form to your email.",
+      "example_translation": "请在电子邮件中附上签好的表格。",
+      "meaning": "附上",
+      "pos": "v.",
+      "usage": "attach something to an email / form，表示把文件附在邮件或表格上。"
+    }
+  ],
+  "attachment": [
+    {
+      "example": "Please review the attachment before tomorrow’s meeting.",
+      "example_translation": "请在明天开会前查阅附件。",
+      "meaning": "附件",
+      "pos": "n.",
+      "usage": "open / download an attachment，表示打开或下载邮件附件。"
+    }
+  ],
+  "attend": [
+    {
+      "example": "Please let us know whether you can attend the orientation.",
+      "example_translation": "请告知您能否参加入职介绍会。",
+      "meaning": "出席",
+      "pos": "v.",
+      "usage": "attend a meeting / conference，直接接活动名称。"
+    }
+  ],
+  "attendee": [
+    {
+      "example": "Every conference attendee received a schedule at the entrance.",
+      "example_translation": "每位与会者都在入口处领到一份日程表。",
+      "meaning": "出席者",
+      "pos": "n.",
+      "spelling_prompt": "出席者，指到会议或活动现场报到的人",
+      "usage": "conference attendee，指到场参加会议的人。"
+    }
+  ],
+  "available": [
+    {
+      "example": "Are you available for a call at two?",
+      "example_translation": "你两点有空通电话吗？",
+      "meaning": "有空",
+      "pos": "adj.",
+      "usage": "be available at a specific time，表示某个时间有空。"
+    },
+    {
+      "example": "The updated schedule is available online.",
+      "example_translation": "更新后的时间表可以在网上查看。",
+      "meaning": "可",
+      "pos": "adj.",
+      "usage": "be available online，表示可以在网上获得或使用。"
+    }
+  ],
+  "benefit": [
+    {
+      "example": "New employees will benefit from the training.",
+      "example_translation": "新员工将从这项培训中受益。",
+      "meaning": "受益",
+      "pos": "v.",
+      "usage": "benefit from training，表示从培训中获益。"
+    },
+    {
+      "example": "The new train service will benefit local businesses.",
+      "example_translation": "新增的列车服务将使当地企业受益。",
+      "meaning": "有益",
+      "pos": "v.",
+      "usage": "benefit local businesses，表示使当地企业受益。"
+    },
+    {
+      "example": "Health insurance is one of our employee benefits.",
+      "example_translation": "健康保险是我们的员工福利之一。",
+      "meaning": "福利",
+      "pos": "n.",
+      "usage": "employee benefits，指员工享有的福利。"
+    },
+    {
+      "example": "The main benefit of online booking is convenience.",
+      "example_translation": "在线预订的主要好处是方便。",
+      "meaning": "好处",
+      "pos": "n.",
+      "usage": "the main benefit of doing something，指做某件事的主要好处。"
+    },
+    {
+      "example": "The survey explains the benefits of a flexible schedule.",
+      "example_translation": "这项调查说明了灵活排班的好处。",
+      "meaning": "益处",
+      "pos": "n.",
+      "usage": "the benefits of a flexible schedule，指灵活安排的好处。"
+    }
+  ],
+  "brochure": [
+    {
+      "example": "The visitor center has a brochure about local walking tours.",
+      "example_translation": "游客中心备有介绍当地徒步游览项目的小册子。",
+      "meaning": "小册子",
+      "pos": "n.",
+      "usage": "a brochure about + 主题，常指介绍服务或景点的小册子。"
+    }
+  ],
+  "budget": [
+    {
+      "example": "We need to budget for equipment repairs next year.",
+      "example_translation": "我们需要为明年的设备维修预留预算。",
+      "meaning": "做预算",
+      "pos": "v.",
+      "usage": "budget for + 支出项目，表示为该项目预留预算。"
+    },
+    {
+      "example": "The renovation was completed within budget.",
+      "example_translation": "翻修工程完工了，开支在预算之内。",
+      "meaning": "预算",
+      "pos": "n.",
+      "usage": "within budget 表示开支处于预算额度内。"
+    }
+  ],
+  "cancelation": [
+    {
+      "example": "The hotel charges a cancelation fee for late changes.",
+      "example_translation": "临近入住日期才更改预订，酒店会收取取消费用。",
+      "meaning": "取消",
+      "pos": "n.",
+      "spell_variants": [
+        "cancellation"
+      ],
+      "usage": "a cancelation fee，表示取消预订可能产生的费用。"
+    }
+  ],
+  "cause": [
+    {
+      "example": "The team is investigating the cause of the delay.",
+      "example_translation": "团队正在调查延误的原因。",
+      "meaning": "原因",
+      "pos": "n.",
+      "usage": "the cause of a delay，指造成延误的原因。"
+    },
+    {
+      "example": "Our staff volunteered to support a local cause.",
+      "example_translation": "员工自愿支持当地一项公益事业。",
+      "meaning": "事业",
+      "pos": "n.",
+      "usage": "support a cause，表示支持一项事业或公益目标。"
+    },
+    {
+      "example": "A broken conveyor belt caused a delay in production.",
+      "example_translation": "传送带故障导致生产延误。",
+      "meaning": "引起",
+      "pos": "v.",
+      "usage": "cause a delay，表示造成延误。"
+    }
+  ],
+  "charge": [
+    {
+      "example": "The hotel does not charge guests for parking.",
+      "example_translation": "酒店不向住客收取停车费。",
+      "meaning": "索要费用",
+      "pos": "v.",
+      "usage": "charge someone for a service，表示向某人收取服务费。"
+    },
+    {
+      "example": "The courier charges a fee for same-day delivery.",
+      "example_translation": "这家快递公司对当日送达服务收费。",
+      "meaning": "要价",
+      "pos": "v.",
+      "usage": "charge a fee for a service，表示对服务收费。"
+    },
+    {
+      "example": "A service charge is included in the bill.",
+      "example_translation": "账单已包含服务费。",
+      "meaning": "费用",
+      "pos": "n.",
+      "usage": "a service charge，表示服务费。"
+    },
+    {
+      "example": "We only charge for delivery outside the city.",
+      "example_translation": "我们只针对市外配送收取送货费。",
+      "meaning": "收费",
+      "pos": "v.",
+      "usage": "charge for delivery，表示收取送货费。"
+    }
+  ],
+  "colleague": [
+    {
+      "example": "I worked with a colleague from the finance department.",
+      "example_translation": "我和财务部的一位同事一起工作。",
+      "meaning": "同事",
+      "pos": "n.",
+      "usage": "a colleague from another department，指来自另一个部门的同事。"
+    }
+  ],
+  "commence": [
+    {
+      "example": "The hearing will commence at nine o’clock.",
+      "example_translation": "听证会将于九点开始。",
+      "meaning": "开始",
+      "pos": "v.",
+      "usage": "commence at + 时间，表示会议等在某时开始，语气正式。"
+    }
+  ],
+  "commitment": [
+    {
+      "example": "The company made a commitment to improve workplace safety.",
+      "example_translation": "公司承诺改善工作场所的安全状况。",
+      "meaning": "承诺",
+      "pos": "n.",
+      "usage": "make a commitment to do something，表示承诺做某事。"
+    },
+    {
+      "example": "Her commitment to training helped new employees settle in.",
+      "example_translation": "她在培训工作上的投入帮助新员工适应了环境。",
+      "meaning": "投入",
+      "pos": "n.",
+      "usage": "commitment to + 工作或目标，表示为此持续投入。"
+    }
+  ],
+  "commuter": [
+    {
+      "example": "The earlier train is popular with commuters.",
+      "example_translation": "较早的一班火车很受通勤者欢迎。",
+      "meaning": "通勤者",
+      "pos": "n.",
+      "spelling_prompt": "通勤者，指经常往返住处和工作地点的人",
+      "usage": "a daily commuter，指日常往返住处与工作地点的人。"
+    }
+  ],
+  "competition": [
+    {
+      "example": "Six teams entered the regional design competition.",
+      "example_translation": "有六支队伍报名参加地区设计比赛。",
+      "meaning": "比赛",
+      "pos": "n.",
+      "usage": "enter a competition，表示报名参加比赛。"
+    }
+  ],
+  "complaint": [
+    {
+      "example": "A customer filed a complaint about the delayed delivery.",
+      "example_translation": "一位客户就迟迟未送达的货物提出了投诉。",
+      "meaning": "投诉",
+      "pos": "n.",
+      "spelling_prompt": "投诉，指客户因服务或商品问题提出的正式不满",
+      "usage": "file a complaint about + 事项，表示就某事提出正式投诉。"
+    }
+  ],
+  "concern": [
+    {
+      "example": "Several residents expressed concern about the noise.",
+      "example_translation": "几位居民对噪声表示担忧。",
+      "meaning": "忧虑",
+      "pos": "n.",
+      "usage": "express concern about + 事情，表示就该事情表达担忧。"
+    }
+  ],
+  "confirm": [
+    {
+      "example": "Could you confirm our booking before we send the deposit?",
+      "example_translation": "您能在我们支付订金前确认预订吗？",
+      "meaning": "确认",
+      "pos": "v.",
+      "usage": "confirm a booking / reservation，表示正式确认预订。"
+    },
+    {
+      "example": "We will confirm the meeting date this afternoon.",
+      "example_translation": "我们今天下午会确定会议日期。",
+      "meaning": "确定",
+      "pos": "v.",
+      "usage": "confirm an appointment or a date，表示确认或确定约定的时间。"
+    }
+  ],
+  "congratulate": [
+    {
+      "example": "We congratulated Leah on her promotion.",
+      "example_translation": "我们祝贺莉娅晋升。",
+      "meaning": "祝贺",
+      "pos": "v.",
+      "spelling_prompt": "向获得晋升、奖项或其他成就的人表示祝贺",
+      "usage": "congratulate someone on + 成就，表示因某项成就而祝贺某人。"
+    }
+  ],
+  "consider": [
+    {
+      "example": "We are considering extending the store’s opening hours.",
+      "example_translation": "我们正在考虑延长门店的营业时间。",
+      "meaning": "考虑",
+      "pos": "v.",
+      "usage": "consider doing something，表示认真考虑采取某项行动。"
+    }
+  ],
+  "construction": [
+    {
+      "example": "The new terminal is still under construction.",
+      "example_translation": "新航站楼仍在施工。",
+      "meaning": "建设",
+      "pos": "n.",
+      "spelling_prompt": "建设、施工，指建造建筑物或设施的过程",
+      "usage": "under construction，表示建筑物或设施正在施工。"
+    }
+  ],
+  "contact": [
+    {
+      "example": "Please contact the warehouse manager about the missing shipment.",
+      "example_translation": "有关未收到的货物，请联系仓库经理。",
+      "meaning": "联系",
+      "pos": "v.",
+      "usage": "contact + 人或部门，用于表示直接联系某人。"
+    }
+  ],
+  "contract": [
+    {
+      "example": "We signed a two-year contract with the cleaning company.",
+      "example_translation": "我们与保洁公司签订了为期两年的合同。",
+      "meaning": "合同",
+      "pos": "n.",
+      "usage": "sign a contract with + 对方，表示和对方签订合同。"
+    }
+  ],
+  "contribution": [
+    {
+      "example": "The director thanked Janet for her contribution to the project.",
+      "example_translation": "总监感谢珍妮特为项目作出的贡献。",
+      "meaning": "贡献",
+      "pos": "n.",
+      "usage": "make a contribution to + 项目或组织，表示对该工作有所贡献。"
+    }
+  ],
+  "convince": [
+    {
+      "example": "The pilot program convinced the team to adopt the new system.",
+      "example_translation": "试点项目促使团队接受了采用新系统的建议。",
+      "meaning": "说服",
+      "pos": "v.",
+      "usage": "convince someone to do something，表示说服某人采取行动。"
+    }
+  ],
+  "cooperation": [
+    {
+      "example": "The project required cooperation between two departments.",
+      "example_translation": "该项目需要两个部门合作。",
+      "meaning": "合作",
+      "pos": "n.",
+      "usage": "cooperation between + 各方，表示多方共同开展工作。"
+    }
+  ],
+  "cost": [
+    {
+      "example": "We calculated the cost of replacing the old equipment.",
+      "example_translation": "我们算出了更换旧设备的成本。",
+      "meaning": "成本",
+      "pos": "n.",
+      "usage": "the cost of + 名词或动名词，表示购买或进行某事的成本。"
+    }
+  ],
+  "current": [
+    {
+      "example": "Please send me a copy of the current price list.",
+      "example_translation": "请把目前的价目表发我一份。",
+      "meaning": "现在的",
+      "pos": "adj.",
+      "usage": "current + 名词，表示目前的状态或计划。"
+    }
+  ],
+  "currently": [
+    {
+      "example": "The team is currently reviewing the contract.",
+      "example_translation": "团队目前正在审查合同。",
+      "meaning": "目前",
+      "pos": "adv.",
+      "usage": "currently + 动词，表示眼下正在进行的事情。"
+    },
+    {
+      "example": "Two meeting rooms are currently available.",
+      "example_translation": "目前有两间会议室可用。",
+      "meaning": "现在",
+      "pos": "adv.",
+      "usage": "be currently available，表示当前可用。"
+    }
+  ],
+  "damage": [
+    {
+      "example": "Improper storage can damage the equipment.",
+      "example_translation": "存放不当可能损坏设备。",
+      "meaning": "损坏",
+      "pos": "v.",
+      "usage": "damage equipment / property，表示损坏设备或财物。"
+    }
+  ],
+  "delay": [
+    {
+      "example": "A delay in shipping forced us to revise the delivery schedule.",
+      "example_translation": "发货延误迫使我们调整了交付时间表。",
+      "meaning": "耽搁",
+      "pos": "n.",
+      "usage": "a delay in + 名词或动名词，表示某件事出现延迟。"
+    }
+  ],
+  "delivery": [
+    {
+      "example": "The supplier confirmed the delivery date this morning.",
+      "example_translation": "供应商今天上午确认了送货日期。",
+      "meaning": "运送",
+      "pos": "n.",
+      "usage": "delivery time / date，指货物预计送达的时间或日期。"
+    },
+    {
+      "example": "Delivery to remote areas may take an extra day.",
+      "example_translation": "递送到偏远地区可能需要多一天。",
+      "meaning": "递送",
+      "pos": "n.",
+      "usage": "delivery to + 地点，表示把货物递送到某处。"
+    }
+  ],
+  "description": [
+    {
+      "example": "The report includes a brief description of the accident.",
+      "example_translation": "报告简要描述了此次事故。",
+      "meaning": "描述",
+      "pos": "n.",
+      "usage": "a description of + 事物，表示对其特征或经过的描述。"
+    },
+    {
+      "example": "The brochure gives a detailed description of each tour route.",
+      "example_translation": "宣传册详细描述了每条游览路线。",
+      "meaning": "描绘",
+      "pos": "n.",
+      "usage": "a detailed description of + 对象，表示对其外观或特征的详细描绘。"
+    }
+  ],
+  "destination": [
+    {
+      "example": "The shipment reached its destination ahead of schedule.",
+      "example_translation": "货物提前到达了目的地。",
+      "meaning": "目的地",
+      "pos": "n.",
+      "spelling_prompt": "行程的目的地，即旅客或货物计划最终到达的地点",
+      "usage": "reach a destination，表示抵达行程的目的地。"
+    }
+  ],
+  "detail": [
+    {
+      "example": "The supervisor explained the safety procedure in detail.",
+      "example_translation": "主管详细解释了安全操作程序。",
+      "meaning": "细节",
+      "pos": "n.",
+      "usage": "in detail，表示逐一细谈情况或步骤。"
+    }
+  ],
+  "determine": [
+    {
+      "example": "The survey results will determine our service hours.",
+      "example_translation": "调查结果将决定我们的营业时间。",
+      "meaning": "决定",
+      "pos": "v.",
+      "usage": "determine + 名词，表示决定某事，例如 determine the schedule。"
+    }
+  ],
+  "develop": [
+    {
+      "example": "The team is developing a new system for tracking orders.",
+      "example_translation": "团队正在开发一套新的订单跟踪系统。",
+      "meaning": "开发",
+      "pos": "v.",
+      "usage": "develop a product / system，表示开发产品或系统。"
+    }
+  ],
+  "discount": [
+    {
+      "example": "The store discounts older models at the end of the season.",
+      "example_translation": "这家店会在季末给老款商品打折。",
+      "meaning": "打折",
+      "pos": "v.",
+      "usage": "discount selected products，表示给选定的商品打折。"
+    },
+    {
+      "example": "The hotel offers a discount on longer stays.",
+      "example_translation": "酒店对住得较久的顾客提供折扣。",
+      "meaning": "折扣",
+      "pos": "n.",
+      "usage": "offer a discount on something，表示对某件商品或服务提供折扣。"
+    }
+  ],
+  "distribute": [
+    {
+      "example": "Volunteers distributed information leaflets to visitors.",
+      "example_translation": "志愿者向来访者分发了信息传单。",
+      "meaning": "分发",
+      "pos": "v.",
+      "usage": "distribute something to + 接收者，表示把物品分发给对方。"
+    }
+  ],
+  "district": [
+    {
+      "example": "Our new office is in the central business district.",
+      "example_translation": "我们的新办公室位于中央商务区。",
+      "meaning": "地区",
+      "pos": "n.",
+      "usage": "a business / shopping district，表示城市中商业或购物集中的区域。"
+    }
+  ],
+  "effective": [
+    {
+      "example": "Regular training is an effective way to reduce errors.",
+      "example_translation": "定期培训是减少错误的有效方式。",
+      "meaning": "有效的",
+      "pos": "adj.",
+      "usage": "an effective way to do something，表示能达到预期效果的做法。"
+    }
+  ],
+  "employee": [
+    {
+      "example": "Each full-time employee may apply for a parking permit.",
+      "example_translation": "每位全职员工都可以申请停车许可。",
+      "meaning": "雇员",
+      "pos": "n.",
+      "spelling_prompt": "雇员，指受雇于公司并由该公司支付薪酬的人",
+      "usage": "full-time employee，指与单位有雇佣关系的全职员工。"
+    },
+    {
+      "example": "All new employees attend a training session on their first day.",
+      "example_translation": "所有新员工在入职第一天都要参加培训。",
+      "meaning": "员工",
+      "pos": "n.",
+      "usage": "new employee orientation，表示为新员工举办的入职介绍会。"
+    }
+  ],
+  "employment": [
+    {
+      "example": "The program helps recent graduates find employment.",
+      "example_translation": "该项目帮助应届毕业生找到工作。",
+      "meaning": "就业",
+      "pos": "n.",
+      "usage": "find employment，表示找到工作，此义通常不可数。"
+    }
+  ],
+  "ensure": [
+    {
+      "example": "Please ensure that all files are backed up.",
+      "example_translation": "请确保所有文件都已备份。",
+      "meaning": "保",
+      "pos": "v.",
+      "usage": "ensure that + 从句，表示确认或采取措施确保某事。"
+    }
+  ],
+  "equipment": [
+    {
+      "example": "The company replaced its old office equipment.",
+      "example_translation": "公司更换了老旧的办公设备。",
+      "meaning": "设备",
+      "pos": "n.",
+      "usage": "office equipment，指办公设备。通常作不可数名词。"
+    }
+  ],
+  "essential": [
+    {
+      "example": "Clear instructions are essential for a safe installation.",
+      "example_translation": "清楚的说明对安全安装必不可少。",
+      "meaning": "必要",
+      "pos": "adj.",
+      "usage": "be essential for something，表示对某件事必不可少。"
+    },
+    {
+      "example": "Regular maintenance is an essential part of building management.",
+      "example_translation": "定期维护是楼宇管理不可缺少的一部分。",
+      "meaning": "重要",
+      "pos": "adj.",
+      "usage": "an essential part of something，指不可缺少的一部分。"
+    }
+  ],
+  "executive": [
+    {
+      "example": "A senior executive will speak at the annual meeting.",
+      "example_translation": "一名高级管理人员将在年会上发言。",
+      "meaning": "行政人员",
+      "pos": "n.",
+      "usage": "a senior executive 指在组织中担任高级管理职务的人。"
+    }
+  ],
+  "existing": [
+    {
+      "example": "The discount also applies to existing customers.",
+      "example_translation": "这个折扣也适用于现有客户。",
+      "meaning": "现有的",
+      "pos": "adj.",
+      "usage": "existing + 顾客、合同或设备，指已经存在或在使用的对象。"
+    }
+  ],
+  "expand": [
+    {
+      "example": "Could you expand on the last point in your report?",
+      "example_translation": "你能详细说明报告中的最后一点吗？",
+      "meaning": "详述",
+      "pos": "v.",
+      "usage": "expand on a point，表示详细说明某一点。"
+    },
+    {
+      "example": "The company hopes to expand into new markets next year.",
+      "example_translation": "这家公司希望明年拓展新市场。",
+      "meaning": "扩",
+      "pos": "v.",
+      "usage": "expand into new markets，表示扩展到新市场。"
+    }
+  ],
+  "experience": [
+    {
+      "example": "Jon has experience in managing overseas accounts.",
+      "example_translation": "乔恩有管理海外客户账户的经验。",
+      "meaning": "经验",
+      "pos": "n.",
+      "usage": "have experience in + 领域，表示在该领域有经验，此义通常不可数。"
+    },
+    {
+      "example": "Customers can experience the new service before signing up.",
+      "example_translation": "顾客可以在注册前体验这项新服务。",
+      "meaning": "体验",
+      "pos": "v.",
+      "usage": "experience a service firsthand，表示亲自体验某项服务。"
+    },
+    {
+      "example": "Employees may experience stress during a system change.",
+      "example_translation": "系统变更期间，员工可能会感到压力。",
+      "meaning": "感受",
+      "pos": "v.",
+      "usage": "experience stress or discomfort，表示感到压力或不适。"
+    }
+  ],
+  "experienced": [
+    {
+      "example": "An experienced technician inspected the equipment.",
+      "example_translation": "一位经验丰富的技术人员检查了设备。",
+      "meaning": "经验丰富的",
+      "pos": "adj.",
+      "usage": "an experienced + 人员，表示某人在其职业方面经验丰富。"
+    }
+  ],
+  "extend": [
+    {
+      "example": "The director agreed to extend the deadline by a week.",
+      "example_translation": "主管同意把截止期限延长一周。",
+      "meaning": "延长",
+      "pos": "v.",
+      "usage": "extend a deadline，表示延长截止期限。"
+    },
+    {
+      "example": "The association extended an invitation to local business owners.",
+      "example_translation": "协会向当地企业主发出了邀请。",
+      "meaning": "给予",
+      "pos": "v.",
+      "usage": "extend an invitation to someone，表示向某人发出邀请。"
+    },
+    {
+      "example": "The bus route now extends to the train station.",
+      "example_translation": "公交线路现已延伸到火车站。",
+      "meaning": "延伸",
+      "pos": "v.",
+      "usage": "extend to a location，表示延伸到某处。"
+    },
+    {
+      "example": "The company extended its delivery service to three more towns.",
+      "example_translation": "公司把配送服务扩展到了另外三个城镇。",
+      "meaning": "扩",
+      "pos": "v.",
+      "usage": "extend a service to more locations，表示扩大服务覆盖范围。"
+    }
+  ],
+  "extremely": [
+    {
+      "example": "The first week after the launch was extremely busy.",
+      "example_translation": "上线后的第一周极其忙碌。",
+      "meaning": "极端地",
+      "pos": "adv.",
+      "usage": "extremely + 形容词，强化程度。"
+    }
+  ],
+  "face": [
+    {
+      "example": "Passengers may face delays during the maintenance work.",
+      "example_translation": "检修期间，乘客可能会遇到延误。",
+      "meaning": "面临",
+      "pos": "v.",
+      "usage": "face a delay / problem，直接接面临的问题，无需介词。"
+    }
+  ],
+  "facility": [
+    {
+      "example": "The company opened a training facility outside the city.",
+      "example_translation": "公司在城外开设了一处培训场所。",
+      "meaning": "设施",
+      "pos": "n.",
+      "usage": "a training / testing facility，表示用于特定目的的场所或设施。"
+    },
+    {
+      "example": "The new training facility can seat one hundred people.",
+      "example_translation": "新培训场所可容纳一百人。",
+      "meaning": "场所",
+      "pos": "n.",
+      "usage": "a training facility，指用于培训的场所或设施。"
+    },
+    {
+      "example": "The campus has modern research facilities.",
+      "example_translation": "校园配备了现代化的研究设施。",
+      "meaning": "设备",
+      "pos": "n.",
+      "usage": "research facilities，指供研究工作使用的设施或设备。"
+    }
+  ],
+  "favorable": [
+    {
+      "example": "The new freight rates created favorable conditions for expansion.",
+      "example_translation": "新的运价为业务扩张创造了有利条件。",
+      "meaning": "有利的",
+      "pos": "adj.",
+      "spell_variants": [
+        "favourable"
+      ],
+      "usage": "favorable conditions for + 事项，表示有利于该事项的条件。"
+    }
+  ],
+  "feature": [
+    {
+      "example": "The magazine published a feature on local manufacturers.",
+      "example_translation": "杂志刊登了一篇关于本地制造商的专题报道。",
+      "meaning": "特写",
+      "pos": "n.",
+      "usage": "a feature on something，指关于某主题的深度报道。"
+    },
+    {
+      "example": "I read a feature article about the city's new library.",
+      "example_translation": "我读了一篇介绍该市新图书馆的特写文章。",
+      "meaning": "特载",
+      "pos": "n.",
+      "usage": "a feature article，指专门刊登的一篇报道。"
+    },
+    {
+      "example": "The exhibition features photographs by local artists.",
+      "example_translation": "展览以本地艺术家的摄影作品为特色。",
+      "meaning": "以…为特色",
+      "pos": "v.",
+      "usage": "feature something，表示把某事物作为亮点展示。"
+    },
+    {
+      "example": "A key feature of the new phone is its long battery life.",
+      "example_translation": "这部新手机的一大特点是电池续航长。",
+      "meaning": "特征",
+      "pos": "n.",
+      "usage": "a key feature，指一项突出的特点。"
+    },
+    {
+      "example": "The rooftop garden is one of the hotel's main features.",
+      "example_translation": "屋顶花园是这家酒店的主要特色之一。",
+      "meaning": "特色",
+      "pos": "n.",
+      "usage": "one of the main features，指主要特色之一。"
+    }
+  ],
+  "field": [
+    {
+      "example": "She has worked in the field of urban planning for ten years.",
+      "example_translation": "她在城市规划领域工作了十年。",
+      "meaning": "领域",
+      "pos": "n.",
+      "usage": "in the field of + 专业，表示在某个专业领域。"
+    }
+  ],
+  "financial": [
+    {
+      "example": "The committee reviewed the quarterly financial report.",
+      "example_translation": "委员会审阅了季度财务报告。",
+      "meaning": "财务的",
+      "pos": "adj.",
+      "usage": "financial report 指反映某机构财务状况的报告。"
+    },
+    {
+      "example": "The rules apply to all local financial institutions.",
+      "example_translation": "这些规定适用于当地所有金融机构。",
+      "meaning": "金融的",
+      "pos": "adj.",
+      "usage": "financial institution 指提供银行、信贷等服务的金融机构。"
+    }
+  ],
+  "forward": [
+    {
+      "example": "Please forward the revised agenda to the sales team.",
+      "example_translation": "请将修订后的议程转发给销售团队。",
+      "meaning": "转寄",
+      "pos": "v.",
+      "usage": "forward a message to someone，表示把已经收到的消息转发给某人。"
+    }
+  ],
+  "goods": [
+    {
+      "example": "The carrier delivers goods to our regional offices every Monday.",
+      "example_translation": "承运商每周一向我们的地区办事处运送货物。",
+      "meaning": "货物",
+      "pos": "n.",
+      "usage": "deliver goods，表示运送商品或货物。"
+    }
+  ],
+  "guarantee": [
+    {
+      "example": "We cannot guarantee delivery by Friday.",
+      "example_translation": "我们无法保证在星期五前送达。",
+      "meaning": "保证",
+      "pos": "v.",
+      "usage": "guarantee delivery by + 日期，表示保证在指定日期前送达。"
+    }
+  ],
+  "guideline": [
+    {
+      "example": "Please follow the guidelines for processing returns.",
+      "example_translation": "请遵循退货处理指南。",
+      "meaning": "导",
+      "pos": "n.",
+      "usage": "follow the guidelines for something，表示遵循某项工作的指南。"
+    },
+    {
+      "example": "The safety guidelines apply to everyone in the lab.",
+      "example_translation": "这些安全准则适用于实验室里的所有人。",
+      "meaning": "准则",
+      "pos": "n.",
+      "usage": "safety guidelines，指应当遵循的安全准则。"
+    }
+  ],
+  "handle": [
+    {
+      "example": "Our support team handles refund requests within two business days.",
+      "example_translation": "我们的客服团队在两个工作日内处理退款请求。",
+      "meaning": "处理",
+      "pos": "v.",
+      "usage": "handle a complaint / request，表示处理投诉或请求。"
+    }
+  ],
+  "handpick": [
+    {
+      "example": "The director handpicked three designers for the project.",
+      "example_translation": "主管亲自为该项目选了三位设计师。",
+      "meaning": "精选",
+      "pos": "v.",
+      "spelling_prompt": "亲自精挑细选（例如由主管亲自选定项目成员）",
+      "usage": "handpick someone for a role，指亲自挑选某人担任一个角色。"
+    }
+  ],
+  "head": [
+    {
+      "example": "Ms. Chen will head the new sales team.",
+      "example_translation": "陈女士将带领新销售团队。",
+      "meaning": "带领",
+      "pos": "v.",
+      "usage": "head a team / department，表示领导一个团队或部门。"
+    }
+  ],
+  "hesitate": [
+    {
+      "example": "She hesitated to raise the issue during the meeting.",
+      "example_translation": "她犹豫是否要在会上提出这个问题。",
+      "meaning": "犹豫",
+      "pos": "v.",
+      "usage": "hesitate to do something 表示犹豫是否做某事。"
+    }
+  ],
+  "imply": [
+    {
+      "example": "His reply implied that the schedule might change.",
+      "example_translation": "他的回复暗示日程可能会调整。",
+      "meaning": "暗示",
+      "pos": "v.",
+      "usage": "imply that + 从句，表示话里暗含某个意思。"
+    }
+  ],
+  "improvement": [
+    {
+      "example": "We saw an improvement in delivery times after adding a second team.",
+      "example_translation": "增加第二支团队后，配送时间有所缩短。",
+      "meaning": "改善",
+      "pos": "n.",
+      "usage": "an improvement in + 指标，表示某一指标有所改善。"
+    }
+  ],
+  "include": [
+    {
+      "example": "The price includes breakfast and parking.",
+      "example_translation": "这个价格包含早餐及停车费。",
+      "meaning": "包括",
+      "pos": "v.",
+      "usage": "include something in a price，表示价格包含某项费用。"
+    }
+  ],
+  "inconvenience": [
+    {
+      "example": "The entrance closure may cause inconvenience to visitors.",
+      "example_translation": "入口关闭可能给来访者带来不便。",
+      "meaning": "不便",
+      "pos": "n.",
+      "usage": "cause inconvenience to + 人，表示给某人带来不便。"
+    }
+  ],
+  "indicate": [
+    {
+      "example": "The latest figures indicate that demand may be slowing.",
+      "example_translation": "最新数据显示需求增速可能正在放缓。",
+      "meaning": "暗示",
+      "pos": "v.",
+      "usage": "indicate that + 从句，表示某个迹象暗示了什么。"
+    },
+    {
+      "example": "Please indicate your preferred delivery date on the form.",
+      "example_translation": "请在表格上注明您希望安排的送货日期。",
+      "meaning": "指",
+      "pos": "v.",
+      "usage": "indicate a preference，表示说明自己的偏好。"
+    },
+    {
+      "example": "The report indicates that sales increased last month.",
+      "example_translation": "报告显示上个月销售额有所增长。",
+      "meaning": "表明",
+      "pos": "v.",
+      "usage": "indicate that + 从句，表示用数据或迹象表明情况。"
+    }
+  ],
+  "inform": [
+    {
+      "example": "An employee informed on the manager who had falsified the accounts.",
+      "example_translation": "一名员工告发了伪造账目的经理。",
+      "meaning": "告发",
+      "pos": "v.",
+      "usage": "inform on someone，表示向当局告发某人。"
+    },
+    {
+      "example": "We will inform all staff of the change by email.",
+      "example_translation": "我们会通过电子邮件通知全体员工这项变动。",
+      "meaning": "通知",
+      "pos": "v.",
+      "usage": "inform someone of a change，表示把变动通知某人。"
+    },
+    {
+      "example": "The receptionist informed me that the meeting had moved.",
+      "example_translation": "接待员告诉我会议已改地点。",
+      "meaning": "告知",
+      "pos": "v.",
+      "usage": "inform someone that + 从句，表示将情况告知某人。"
+    }
+  ],
+  "inquire": [
+    {
+      "example": "Please call the hotel to inquire about room availability.",
+      "example_translation": "请致电酒店询问是否还有空房。",
+      "meaning": "询问",
+      "pos": "v.",
+      "usage": "inquire about availability，表示询问是否有空位或货源。"
+    },
+    {
+      "example": "She called to inquire about the training program.",
+      "example_translation": "她打电话询问培训项目的情况。",
+      "meaning": "打听",
+      "pos": "v.",
+      "usage": "inquire about something，表示打听或查询信息。"
+    }
+  ],
+  "inquiry": [
+    {
+      "example": "We received an inquiry about the group discount.",
+      "example_translation": "我们收到了一条关于团体折扣的咨询。",
+      "meaning": "询问",
+      "pos": "n.",
+      "usage": "an inquiry about + 事项，表示就某事项进行咨询。"
+    }
+  ],
+  "install": [
+    {
+      "example": "A technician will install the new badge reader tomorrow.",
+      "example_translation": "技术人员明天将安装新的工牌读取器。",
+      "meaning": "安装",
+      "pos": "v.",
+      "usage": "install software / equipment，表示安装软件或设备。"
+    }
+  ],
+  "investment": [
+    {
+      "example": "The company increased its investment in warehouse automation.",
+      "example_translation": "公司增加了对仓库自动化的投资。",
+      "meaning": "投资",
+      "pos": "n.",
+      "usage": "investment in + 技术或资产，表示将资金投入某个领域。"
+    }
+  ],
+  "invitation": [
+    {
+      "example": "We accepted an invitation to the opening ceremony.",
+      "example_translation": "我们接受了出席开幕式的邀请。",
+      "meaning": "邀请",
+      "pos": "n.",
+      "usage": "accept an invitation to + 活动，表示接受参加活动的邀请。"
+    }
+  ],
+  "invoice": [
+    {
+      "example": "The supplier will issue an invoice when the goods are shipped.",
+      "example_translation": "供应商会在货物发出时开具发票。",
+      "meaning": "发票",
+      "pos": "n.",
+      "usage": "issue / send an invoice，表示开具或发送发票。"
+    }
+  ],
+  "involve": [
+    {
+      "example": "We want to involve more staff in the project.",
+      "example_translation": "我们希望让更多员工参与这个项目。",
+      "meaning": "参与",
+      "pos": "v.",
+      "usage": "involve someone in a project，表示让某人参与项目。"
+    },
+    {
+      "example": "The job involves traveling to client sites.",
+      "example_translation": "这项工作需要到客户现场出差。",
+      "meaning": "包括",
+      "pos": "v.",
+      "usage": "involve doing something，表示某项工作包括做某事。"
+    },
+    {
+      "example": "Updating the website involves three teams.",
+      "example_translation": "更新网站涉及三个团队。",
+      "meaning": "涉及",
+      "pos": "v.",
+      "usage": "involve several teams，表示涉及多个团队。"
+    },
+    {
+      "example": "The investigation involved several departments.",
+      "example_translation": "这项调查牵涉多个部门。",
+      "meaning": "牵涉",
+      "pos": "v.",
+      "usage": "involve several departments，表示牵涉多个部门。"
+    }
+  ],
+  "issue": [
+    {
+      "example": "The article appeared in the latest issue of the magazine.",
+      "example_translation": "这篇文章刊登在该杂志最新一期上。",
+      "meaning": "期号",
+      "pos": "n.",
+      "usage": "the latest issue of a magazine，指杂志的最新一期。"
+    },
+    {
+      "example": "The technician resolved the issue before noon.",
+      "example_translation": "技术人员在中午前解决了这个问题。",
+      "meaning": "问题",
+      "pos": "n.",
+      "usage": "resolve an issue，表示解决问题。"
+    },
+    {
+      "example": "The city issued an announcement about the road closure.",
+      "example_translation": "市政府发布了有关道路封闭的公告。",
+      "meaning": "发布",
+      "pos": "v.",
+      "usage": "issue an announcement，表示正式发布公告。"
+    },
+    {
+      "example": "The cashier issued a receipt for the purchase.",
+      "example_translation": "收银员为这笔购物开具了收据。",
+      "meaning": "发",
+      "pos": "v.",
+      "usage": "issue a receipt，表示开具收据。"
+    }
+  ],
+  "maintain": [
+    {
+      "example": "A contractor maintains the elevators every month.",
+      "example_translation": "承包商每月对电梯进行保养。",
+      "meaning": "保养",
+      "pos": "v.",
+      "usage": "maintain equipment，指进行定期保养以保持设备可用。"
+    },
+    {
+      "example": "The hotel maintains a high standard of service during the peak season.",
+      "example_translation": "酒店在旺季也保持着高标准的服务。",
+      "meaning": "保持",
+      "pos": "v.",
+      "usage": "maintain + 标准、联系或状态，表示使其持续。"
+    }
+  ],
+  "majority": [
+    {
+      "example": "The majority of respondents preferred morning sessions.",
+      "example_translation": "大多数受访者更喜欢上午的场次。",
+      "meaning": "多数",
+      "pos": "n.",
+      "usage": "the majority of + 复数名词，表示其中的大多数。"
+    }
+  ],
+  "management": [
+    {
+      "example": "Senior management approved the plan to renovate the lobby.",
+      "example_translation": "高层管理人员批准了翻修大厅的计划。",
+      "meaning": "管理层",
+      "pos": "n.",
+      "usage": "senior management，指企业中负责重要决策的高层管理人员。"
+    },
+    {
+      "example": "He oversees the management of the company’s rental properties.",
+      "example_translation": "他负责管理公司的出租物业。",
+      "meaning": "经营",
+      "pos": "n.",
+      "usage": "the management of + 业务或资源，指组织和管理这项业务或资源。"
+    }
+  ],
+  "morale": [
+    {
+      "example": "The manager thanked the crew to boost morale after a difficult week.",
+      "example_translation": "艰难的一周过后，经理向团队致谢以鼓舞士气。",
+      "meaning": "士气",
+      "pos": "n.",
+      "spelling_prompt": "士气，尤指员工或团队整体的精神状态",
+      "usage": "boost staff morale，表示提高员工士气，此义不可数。"
+    }
+  ],
+  "negotiation": [
+    {
+      "example": "We entered into negotiations with a new freight provider.",
+      "example_translation": "我们开始与一家新的货运服务商谈判。",
+      "meaning": "谈判",
+      "pos": "n.",
+      "usage": "enter into negotiations with + 对方，表示与某方开始商谈。"
+    }
+  ],
+  "nonrefundable": [
+    {
+      "example": "Please note that the registration fee is nonrefundable.",
+      "example_translation": "请注意，报名费不可退还。",
+      "meaning": "不能退款的",
+      "pos": "adj.",
+      "spell_variants": [
+        "non-refundable"
+      ],
+      "spelling_prompt": "不能退款的，指费用或款项按规定不予退回",
+      "usage": "a nonrefundable deposit / fare，表示付款后无法退款。"
+    }
+  ],
+  "notify": [
+    {
+      "example": "We will notify all applicants of the result by email.",
+      "example_translation": "我们将通过电子邮件通知所有申请者结果。",
+      "meaning": "通告",
+      "pos": "v.",
+      "usage": "notify someone of + 事项，表示正式通知某人。"
+    }
+  ],
+  "observe": [
+    {
+      "example": "The trainer observed how employees handled customer complaints.",
+      "example_translation": "培训师观察了员工处理客户投诉的方式。",
+      "meaning": "观察",
+      "pos": "v.",
+      "usage": "observe + 对象，表示认真观察该对象或情况。"
+    }
+  ],
+  "obtain": [
+    {
+      "example": "Visitors must obtain permission before entering the laboratory.",
+      "example_translation": "访客进入实验室之前必须取得许可。",
+      "meaning": "获得",
+      "pos": "v.",
+      "usage": "obtain permission from + 人或机构，表示取得许可。"
+    }
+  ],
+  "offer": [
+    {
+      "example": "The hotel offers guests a free airport shuttle.",
+      "example_translation": "酒店为宾客提供免费机场接驳车。",
+      "meaning": "提供",
+      "pos": "v.",
+      "usage": "offer someone something，给某人提供某物。"
+    }
+  ],
+  "on-going": [
+    {
+      "example": "The office will remain open during the ongoing renovations.",
+      "example_translation": "翻修期间，办公室将继续开放。",
+      "meaning": "持续的",
+      "pos": "adj.",
+      "spell_variants": [
+        "ongoing"
+      ],
+      "usage": "an ongoing investigation，表示调查仍在进行。"
+    }
+  ],
+  "opportunity": [
+    {
+      "example": "The internship offers an opportunity to learn about marketing.",
+      "example_translation": "这次实习提供了了解市场营销的机会。",
+      "meaning": "机会",
+      "pos": "n.",
+      "usage": "an opportunity to do something，指做某事的机会。"
+    }
+  ],
+  "outcome": [
+    {
+      "example": "We will announce the outcome of the vote on Friday.",
+      "example_translation": "我们将在周五公布投票结果。",
+      "meaning": "结果",
+      "pos": "n.",
+      "usage": "the outcome of + 活动或过程，表示该活动或过程的最终结果。"
+    }
+  ],
+  "outstanding": [
+    {
+      "example": "Please pay the outstanding balance by the end of the month.",
+      "example_translation": "请在月底前付清尚未结清的余额。",
+      "meaning": "未偿付的",
+      "pos": "adj.",
+      "usage": "an outstanding balance，指应付而尚未结清的余额。"
+    },
+    {
+      "example": "Maya received an award for outstanding customer service.",
+      "example_translation": "玛雅因出色的客户服务而获奖。",
+      "meaning": "杰出的",
+      "pos": "adj.",
+      "usage": "outstanding service / performance，表示表现远超通常标准。"
+    }
+  ],
+  "participant": [
+    {
+      "example": "Each participant in the trial completed a feedback form.",
+      "example_translation": "试点项目的每位参与者都填写了反馈表。",
+      "meaning": "参加者",
+      "pos": "n.",
+      "spelling_prompt": "参加者，指实际参加试验或项目并完成其中任务的人",
+      "usage": "participant in + 活动，指实际参与某项任务或活动的人。"
+    }
+  ],
+  "payment": [
+    {
+      "example": "You can make a payment through the customer portal.",
+      "example_translation": "您可以通过客户门户付款。",
+      "meaning": "付款",
+      "pos": "n.",
+      "usage": "make a payment 表示付一笔款，可用于租金、账单或分期款。"
+    }
+  ],
+  "perform": [
+    {
+      "example": "The orchestra will perform at the theater on Saturday.",
+      "example_translation": "管弦乐团将于星期六在剧院演出。",
+      "meaning": "表演",
+      "pos": "v.",
+      "usage": "perform at a venue，表示在某处登台演出。"
+    },
+    {
+      "example": "She performed well under pressure during the presentation.",
+      "example_translation": "她在演示过程中顶住压力，表现出色。",
+      "meaning": "表现",
+      "pos": "v.",
+      "usage": "perform well under pressure，表示在压力下表现出色。"
+    },
+    {
+      "example": "A technician will perform an inspection of the equipment.",
+      "example_translation": "技术人员将对设备进行检查。",
+      "meaning": "执行",
+      "pos": "v.",
+      "usage": "perform an inspection，表示进行检查。"
+    }
+  ],
+  "performance": [
+    {
+      "example": "Managers review employee performance twice a year.",
+      "example_translation": "经理每年评估两次员工的工作表现。",
+      "meaning": "表现",
+      "pos": "n.",
+      "usage": "review employee performance，表示评估员工的工作表现。"
+    },
+    {
+      "example": "The theater added a second performance on Saturday.",
+      "example_translation": "剧院在周六增加了第二场演出。",
+      "meaning": "表演",
+      "pos": "n.",
+      "usage": "a live performance，表示在观众面前现场表演。"
+    }
+  ],
+  "position": [
+    {
+      "example": "He applied for a position in customer service.",
+      "example_translation": "他申请了一个客服岗位。",
+      "meaning": "职位",
+      "pos": "n.",
+      "usage": "apply for a position，表示申请一个职位。"
+    },
+    {
+      "example": "The firm is advertising a full-time position in accounting.",
+      "example_translation": "这家公司正在招聘一名全职会计。",
+      "meaning": "岗位",
+      "pos": "n.",
+      "usage": "a full-time position，指全职岗位。"
+    },
+    {
+      "example": "Position the package near the front door for pickup.",
+      "example_translation": "把包裹放在前门附近，方便取件。",
+      "meaning": "处于",
+      "pos": "v.",
+      "usage": "position something near something，表示把某物放在某处附近。"
+    },
+    {
+      "example": "Please mark the position of the door on the drawing.",
+      "example_translation": "请在图纸上标出门的位置。",
+      "meaning": "位置",
+      "pos": "n.",
+      "usage": "the position of an object，指物体所处的位置。"
+    }
+  ],
+  "positive": [
+    {
+      "example": "The new training program received positive feedback from staff.",
+      "example_translation": "新的培训项目得到了员工的积极评价。",
+      "meaning": "积极的",
+      "pos": "adj.",
+      "usage": "positive feedback 指肯定或赞扬某事的反馈。"
+    }
+  ],
+  "potential": [
+    {
+      "example": "The new system has the potential to reduce delivery delays.",
+      "example_translation": "新系统有潜力减少送货延误。",
+      "meaning": "潜力，潜能",
+      "pos": "n.",
+      "usage": "have the potential to do something，表示有做某事的潜力。"
+    },
+    {
+      "example": "The company contacted several potential customers.",
+      "example_translation": "公司联系了几位潜在客户。",
+      "meaning": "潜在",
+      "pos": "adj.",
+      "usage": "a potential customer，指潜在顾客。"
+    }
+  ],
+  "precisely": [
+    {
+      "example": "The live broadcast began precisely at noon.",
+      "example_translation": "直播于正午整开始。",
+      "meaning": "精确地",
+      "pos": "adv.",
+      "spelling_prompt": "精确地，或强调恰好在某个确切时间",
+      "usage": "precisely at + 时间，强调恰在某个时刻。"
+    }
+  ],
+  "predict": [
+    {
+      "example": "Analysts predict that demand will rise next month.",
+      "example_translation": "分析师预计下个月需求会上升。",
+      "meaning": "预测",
+      "pos": "v.",
+      "usage": "predict that + 从句，表示预计某种情况将发生。"
+    }
+  ],
+  "presentation": [
+    {
+      "example": "Nora will give a presentation on the updated returns policy.",
+      "example_translation": "诺拉将介绍更新后的退货政策。",
+      "meaning": "陈述",
+      "pos": "n.",
+      "usage": "give a presentation on + 主题，表示就该主题作介绍。"
+    }
+  ],
+  "procedure": [
+    {
+      "example": "Staff must follow the same procedure when issuing refunds.",
+      "example_translation": "员工办理退款时必须遵循同一流程。",
+      "meaning": "程序",
+      "pos": "n.",
+      "spelling_prompt": "办理某事项时须按顺序执行的一套规定步骤",
+      "usage": "follow a procedure，表示按规定步骤办理。"
+    }
+  ],
+  "process": [
+    {
+      "example": "The factory processes raw materials on site.",
+      "example_translation": "这家工厂在现场加工原材料。",
+      "meaning": "加工",
+      "pos": "v.",
+      "usage": "process raw materials，表示加工原材料。"
+    },
+    {
+      "example": "It takes three days to process an application.",
+      "example_translation": "处理一份申请需要三天。",
+      "meaning": "处理",
+      "pos": "v.",
+      "usage": "process an application，表示处理申请。"
+    },
+    {
+      "example": "The hiring process includes two interviews.",
+      "example_translation": "招聘流程包括两轮面试。",
+      "meaning": "过程",
+      "pos": "n.",
+      "usage": "the hiring process，指招聘流程。"
+    },
+    {
+      "example": "The new production process uses less energy.",
+      "example_translation": "新的生产工序消耗的能源更少。",
+      "meaning": "工序",
+      "pos": "n.",
+      "usage": "a production process，指生产过程或工序。"
+    }
+  ],
+  "professional": [
+    {
+      "example": "A trained professional should inspect the wiring.",
+      "example_translation": "应由受过培训的专业人员检查电线线路。",
+      "meaning": "专业人员",
+      "pos": "n.",
+      "usage": "a trained professional 指受过相关培训的专业人员。"
+    },
+    {
+      "example": "We sought professional advice before signing the lease.",
+      "example_translation": "我们在签署租约前征求了专业意见。",
+      "meaning": "专业的",
+      "pos": "adj.",
+      "usage": "professional advice 指有资质或经验的人给出的专业意见。"
+    }
+  ],
+  "property": [
+    {
+      "example": "The firm manages commercial property near the station.",
+      "example_translation": "该公司在车站附近管理商业房地产。",
+      "meaning": "房地产",
+      "pos": "n.",
+      "usage": "commercial property，指用于经营的房屋或房地产。"
+    }
+  ],
+  "provide": [
+    {
+      "example": "The hotel provides guests with free internet access.",
+      "example_translation": "酒店为住客提供免费上网服务。",
+      "meaning": "提供",
+      "pos": "v.",
+      "usage": "provide someone with something，表示向某人提供某物。"
+    }
+  ],
+  "purchase": [
+    {
+      "example": "You can return the purchase to any of our stores.",
+      "example_translation": "你可以到我们的任何一家门店退回所购商品。",
+      "meaning": "所购之物",
+      "pos": "n.",
+      "usage": "return a purchase，表示退回所购商品。"
+    },
+    {
+      "example": "Keep your receipt as proof of purchase.",
+      "example_translation": "请保留购物收据作为购买凭证。",
+      "meaning": "购买品",
+      "pos": "n.",
+      "usage": "proof of purchase，指购买凭证。"
+    },
+    {
+      "example": "We plan to purchase new equipment in March.",
+      "example_translation": "我们计划在三月份购买新设备。",
+      "meaning": "购买",
+      "pos": "v.",
+      "usage": "purchase equipment from a supplier，表示从供应商购买设备。"
+    }
+  ],
+  "purpose": [
+    {
+      "example": "The purpose of the meeting is to review the results.",
+      "example_translation": "开会的目的是审查这些结果。",
+      "meaning": "目的",
+      "pos": "n.",
+      "usage": "the purpose of + 活动，表示进行该活动的目的。"
+    }
+  ],
+  "qualification": [
+    {
+      "example": "Professional certification is one of the qualifications for the role.",
+      "example_translation": "专业认证是这个岗位所需的资格之一。",
+      "meaning": "资格",
+      "pos": "n.",
+      "usage": "qualifications for + 职位，指应聘该职位所需的资格。"
+    }
+  ],
+  "qualified": [
+    {
+      "example": "Both applicants are qualified for the position.",
+      "example_translation": "两位申请人都具备担任该职位的资格。",
+      "meaning": "资格的",
+      "pos": "adj.",
+      "usage": "be qualified for a position，表示具备担任该职位的资格。"
+    }
+  ],
+  "rate": [
+    {
+      "example": "The bank lowered the interest rate on new loans.",
+      "example_translation": "银行下调了新增贷款的利率。",
+      "meaning": "利率",
+      "pos": "n.",
+      "usage": "the interest rate on a loan，指贷款的利率。"
+    },
+    {
+      "example": "The contractor charges an hourly rate for repairs.",
+      "example_translation": "承包商按小时收取维修费。",
+      "meaning": "费用",
+      "pos": "n.",
+      "usage": "an hourly rate，表示每小时的收费标准。"
+    },
+    {
+      "example": "Conference guests can book rooms at a discounted rate.",
+      "example_translation": "参会人员可以按优惠价预订客房。",
+      "meaning": "价格",
+      "pos": "n.",
+      "usage": "a discounted rate，指优惠价。"
+    },
+    {
+      "example": "Customers can rate the service after checkout.",
+      "example_translation": "顾客结账后可以评价服务。",
+      "meaning": "评价",
+      "pos": "v.",
+      "usage": "rate a service，表示给服务打分或评价。"
+    },
+    {
+      "example": "The completion rate improved after the training was shortened.",
+      "example_translation": "培训时间缩短后，完成率有所提高。",
+      "meaning": "率",
+      "pos": "n.",
+      "usage": "the completion rate，指完成事项占总数的比例。"
+    }
+  ],
+  "recommend": [
+    {
+      "example": "I recommend the afternoon workshop to new supervisors.",
+      "example_translation": "我向新任主管推荐下午的研讨班。",
+      "meaning": "推荐",
+      "pos": "v.",
+      "usage": "recommend something to someone，表示向某人推荐某物。"
+    },
+    {
+      "example": "We recommend booking early to secure a seat.",
+      "example_translation": "我们建议尽早预订以确保有座位。",
+      "meaning": "建议",
+      "pos": "v.",
+      "usage": "recommend doing something，表示建议采取某项行动。"
+    }
+  ],
+  "recruit": [
+    {
+      "example": "Each new recruit receives a week of training.",
+      "example_translation": "每名新成员都接受为期一周的培训。",
+      "meaning": "新成员",
+      "pos": "n.",
+      "usage": "train a new recruit，表示培训新成员。"
+    },
+    {
+      "example": "The hospital is recruiting additional staff.",
+      "example_translation": "这家医院正在增聘员工。",
+      "meaning": "募",
+      "pos": "v.",
+      "usage": "recruit staff for a department，表示为部门招聘员工。"
+    },
+    {
+      "example": "We are recruiting an assistant for the finance department.",
+      "example_translation": "我们正在为财务部门招聘一名助理。",
+      "meaning": "招聘",
+      "pos": "v.",
+      "usage": "recruit someone for a role，表示为某个岗位招人。"
+    }
+  ],
+  "reduce": [
+    {
+      "example": "The new routing system reduced delivery delays.",
+      "example_translation": "新的路线规划系统减少了送货延误。",
+      "meaning": "减少",
+      "pos": "v.",
+      "usage": "reduce costs / delays，表示使成本、延误等减少。"
+    }
+  ],
+  "reduction": [
+    {
+      "example": "The new contract led to a reduction in shipping costs.",
+      "example_translation": "新合同降低了运输成本。",
+      "meaning": "降低",
+      "pos": "n.",
+      "usage": "a reduction in shipping costs 表示运输成本降低。"
+    }
+  ],
+  "regarding": [
+    {
+      "example": "I am writing regarding your recent invoice.",
+      "example_translation": "我写信是想谈谈您最近收到的那张发票。",
+      "meaning": "关于",
+      "pos": "prep.",
+      "usage": "regarding + 名词，用于正式邮件中引出主题。"
+    },
+    {
+      "example": "I am writing regarding your question about the contract.",
+      "example_translation": "我写信是为了回复您关于合同的问题。",
+      "meaning": "涉及",
+      "pos": "prep.",
+      "usage": "regarding + 名词，表示关于或涉及该事项。"
+    }
+  ],
+  "registration": [
+    {
+      "example": "Registration for the training session closes on Monday.",
+      "example_translation": "这场培训的报名将于周一截止。",
+      "meaning": "登记",
+      "pos": "n.",
+      "usage": "registration for + 活动，表示为参加该活动而登记。"
+    }
+  ],
+  "release": [
+    {
+      "example": "The singer will discuss her latest release on the radio.",
+      "example_translation": "这位歌手将在电台谈论她最近发行的新作品。",
+      "meaning": "新专辑",
+      "pos": "n.",
+      "usage": "the latest release，指最近发行的新作。"
+    },
+    {
+      "example": "The committee will release the results on Friday.",
+      "example_translation": "委员会将在星期五公布结果。",
+      "meaning": "公布",
+      "pos": "v.",
+      "usage": "release the results，表示正式公布结果。"
+    },
+    {
+      "example": "The company plans to release a new camera next month.",
+      "example_translation": "这家公司计划下个月推出一款新相机。",
+      "meaning": "发",
+      "pos": "v.",
+      "usage": "release a new product，表示推出新产品。"
+    },
+    {
+      "example": "The company will not release any personal information to the public.",
+      "example_translation": "公司不会向公众公开任何个人信息。",
+      "meaning": "泄露",
+      "pos": "v.",
+      "usage": "release information to the public，表示向公众公开信息。"
+    }
+  ],
+  "remarkable": [
+    {
+      "example": "The new workflow led to a remarkable improvement in accuracy.",
+      "example_translation": "新的工作流程显著提高了准确率。",
+      "meaning": "显著的",
+      "pos": "adj.",
+      "usage": "a remarkable improvement，表示幅度足以引人注意的改善。"
+    }
+  ],
+  "remind": [
+    {
+      "example": "The receptionist reminded visitors to sign out before leaving.",
+      "example_translation": "接待员提醒来访者离开前签字登记。",
+      "meaning": "提醒",
+      "pos": "v.",
+      "usage": "remind someone to do something，表示提醒某人做某事。"
+    }
+  ],
+  "replacement": [
+    {
+      "example": "The board will appoint a replacement for the retiring director.",
+      "example_translation": "董事会将任命一人接替即将退休的总监。",
+      "meaning": "接替者",
+      "pos": "n.",
+      "usage": "a replacement for + 人，指接任某人工作的人。"
+    },
+    {
+      "example": "The budget covers the replacement of two delivery vans.",
+      "example_translation": "预算涵盖了更换两辆送货货车的费用。",
+      "meaning": "更换",
+      "pos": "n.",
+      "usage": "replacement of + 旧物，表示把已有物品换成新的。"
+    },
+    {
+      "example": "The technician ordered a replacement part for the printer.",
+      "example_translation": "技术人员为打印机订购了一个替换零件。",
+      "meaning": "替换",
+      "pos": "n.",
+      "usage": "a replacement part，指用于替换已损坏或磨损的零件。"
+    }
+  ],
+  "request": [
+    {
+      "example": "The supervisor approved my request for leave.",
+      "example_translation": "主管批准了我的请假申请。",
+      "meaning": "要求的事物",
+      "pos": "n.",
+      "usage": "a request for leave，指请假申请。"
+    },
+    {
+      "example": "Customers can request a refund within thirty days.",
+      "example_translation": "顾客可以在三十天内申请退款。",
+      "meaning": "要求",
+      "pos": "v.",
+      "usage": "request a refund，表示正式提出退款要求。"
+    }
+  ],
+  "require": [
+    {
+      "example": "The new rule requires drivers to check the vehicle before each trip.",
+      "example_translation": "新规定要求司机每次出车前都检查车辆。",
+      "meaning": "要求",
+      "pos": "v.",
+      "usage": "require someone to do something，表示依规定要求某人做某事。"
+    }
+  ],
+  "requirement": [
+    {
+      "example": "A current license is a requirement for this role.",
+      "example_translation": "这个岗位要求持有仍然有效的执照。",
+      "meaning": "要求",
+      "pos": "n.",
+      "spelling_prompt": "必须满足的要求，例如任职资格规定的一项条件",
+      "usage": "meet a requirement，表示满足工作、报名等方面的要求。"
+    }
+  ],
+  "reservation": [
+    {
+      "example": "I made a reservation for two nights at the hotel.",
+      "example_translation": "我在那家酒店预订了两晚住宿。",
+      "meaning": "预订",
+      "pos": "n.",
+      "usage": "make a reservation for + 人数、日期或服务，表示事先预订。"
+    }
+  ],
+  "reserve": [
+    {
+      "example": "Could you reserve a meeting room for Thursday afternoon?",
+      "example_translation": "您能预订一间周四下午用的会议室吗？",
+      "meaning": "预订",
+      "pos": "v.",
+      "usage": "reserve a room / seat，表示事先订好房间或座位。"
+    }
+  ],
+  "resident": [
+    {
+      "example": "Local residents can use the new park free of charge.",
+      "example_translation": "当地居民可以免费使用这座新公园。",
+      "meaning": "居民",
+      "pos": "n.",
+      "usage": "local residents 指住在当地的人。"
+    }
+  ],
+  "respond": [
+    {
+      "example": "Please respond to the invitation by noon on Tuesday.",
+      "example_translation": "请在周二中午前回复邀请。",
+      "meaning": "响应",
+      "pos": "v.",
+      "usage": "respond to + 消息或请求，表示回应。"
+    }
+  ],
+  "result in": [
+    {
+      "example": "The software update resulted in fewer processing errors.",
+      "example_translation": "软件更新后，处理错误减少了。",
+      "meaning": "导致",
+      "pos": "phr.",
+      "usage": "result in + 结果，表示前面的事件导致后面的结果。"
+    }
+  ],
+  "retail": [
+    {
+      "example": "Working in retail taught him to deal with customer complaints.",
+      "example_translation": "零售业的工作经历让他学会了处理客户投诉。",
+      "meaning": "零售",
+      "pos": "n.",
+      "usage": "work in retail，表示在零售行业工作。"
+    }
+  ],
+  "retirement": [
+    {
+      "example": "After retirement, Ms. Rao plans to mentor small business owners.",
+      "example_translation": "饶女士退休后计划指导小企业业主。",
+      "meaning": "退休",
+      "pos": "n.",
+      "spelling_prompt": "退休，指结束职业生涯的状态或时点",
+      "usage": "after retirement，表示退休后的时间。"
+    }
+  ],
+  "review": [
+    {
+      "example": "Could you review the draft contract before Tuesday?",
+      "example_translation": "您能在星期二前审阅合同草案吗？",
+      "meaning": "审阅",
+      "pos": "v.",
+      "usage": "review a draft / document，表示审阅草稿或文件。"
+    },
+    {
+      "example": "The committee will review all applications next week.",
+      "example_translation": "委员会将在下周审查所有申请。",
+      "meaning": "审查",
+      "pos": "v.",
+      "usage": "review an application，表示审查申请的内容。"
+    }
+  ],
+  "schedule": [
+    {
+      "example": "Please check the training schedule before booking your trip.",
+      "example_translation": "请在预订行程前查看培训时间表。",
+      "meaning": "时间表",
+      "pos": "n.",
+      "usage": "check the schedule，表示查看时间表。"
+    },
+    {
+      "example": "The manager has a busy schedule this week.",
+      "example_translation": "经理这周的日程排得很满。",
+      "meaning": "日程安排",
+      "pos": "n.",
+      "usage": "a busy schedule，指排得很满的日程。"
+    },
+    {
+      "example": "We scheduled the interview for Tuesday morning.",
+      "example_translation": "我们把面试安排在星期二上午。",
+      "meaning": "安排",
+      "pos": "v.",
+      "usage": "schedule a meeting for a time，表示把会议安排在某个时间。"
+    }
+  ],
+  "significant": [
+    {
+      "example": "The figures show a significant decrease in delivery times.",
+      "example_translation": "数据表明配送时间明显缩短了。",
+      "meaning": "显著的",
+      "pos": "adj.",
+      "usage": "a significant increase / decrease 表示幅度显著的增长或下降。"
+    },
+    {
+      "example": "Transport costs are a significant factor in our decision.",
+      "example_translation": "运输成本是我们作决定时考虑的重要因素。",
+      "meaning": "重要的",
+      "pos": "adj.",
+      "usage": "a significant factor 指会对结果产生重要影响的因素。"
+    }
+  ],
+  "specialist": [
+    {
+      "example": "We consulted a specialist in workplace safety.",
+      "example_translation": "我们咨询了一位工作场所安全专家。",
+      "meaning": "专家",
+      "pos": "n.",
+      "usage": "a specialist in + 领域，指专门从事该领域工作的人。"
+    }
+  ],
+  "step down": [
+    {
+      "example": "Mr. Wong will step down as chair at the end of the year.",
+      "example_translation": "王先生将在年底辞去主席职务。",
+      "meaning": "辞职",
+      "pos": "phr.",
+      "usage": "step down as + 职位，表示辞去该职位。"
+    }
+  ],
+  "stock": [
+    {
+      "example": "The store stocks replacement batteries for older models.",
+      "example_translation": "该店备有旧型号设备使用的替换电池。",
+      "meaning": "贮存",
+      "pos": "v.",
+      "usage": "stock a product，表示囤有某种商品以备出售或使用。"
+    }
+  ],
+  "strict": [
+    {
+      "example": "The laboratory is strict about wearing safety glasses.",
+      "example_translation": "实验室严格要求佩戴护目镜。",
+      "meaning": "严格的",
+      "pos": "adj.",
+      "usage": "be strict about + 事项，表示对该事项要求严格。"
+    }
+  ],
+  "submit": [
+    {
+      "example": "Please submit the expense report by Friday.",
+      "example_translation": "请在周五前提交费用报销单。",
+      "meaning": "提交",
+      "pos": "v.",
+      "usage": "submit an application / report，表示按要求提交材料。"
+    },
+    {
+      "example": "Please submit your expense report to the finance team.",
+      "example_translation": "请将费用报告递交给财务团队。",
+      "meaning": "递交",
+      "pos": "v.",
+      "usage": "submit a report to + 收件方，表示向其递交报告。"
+    }
+  ],
+  "successful": [
+    {
+      "example": "After a successful launch, the team expanded the service to three cities.",
+      "example_translation": "服务成功推出后，团队将它扩展到了三个城市。",
+      "meaning": "成功的",
+      "pos": "adj.",
+      "usage": "a successful launch，表示取得预期成效的发布。"
+    }
+  ],
+  "superior": [
+    {
+      "example": "Please report the issue to your immediate superior.",
+      "example_translation": "请向你的直属上司报告这个问题。",
+      "meaning": "上级，长官",
+      "pos": "n.",
+      "usage": "an immediate superior 指直属上司。"
+    },
+    {
+      "example": "The new model is superior to the old one in reliability.",
+      "example_translation": "这款新型号在可靠性上优于旧型号。",
+      "meaning": "优于",
+      "pos": "adj.",
+      "usage": "be superior to + 比较对象，表示质量或性能优于对方。"
+    }
+  ],
+  "supply": [
+    {
+      "example": "We ordered more office supplies online.",
+      "example_translation": "我们在网上增订了一些办公用品。",
+      "meaning": "供应品",
+      "pos": "n.",
+      "usage": "office supplies 指办公用品，如纸和笔，常用复数形式。"
+    },
+    {
+      "example": "The vendor supplies our offices with drinking water.",
+      "example_translation": "这家供应商为我们的办公室供应饮用水。",
+      "meaning": "供给",
+      "pos": "v.",
+      "usage": "supply someone with something，表示向某人供应某物。"
+    }
+  ],
+  "support": [
+    {
+      "example": "Most committee members supported the proposal.",
+      "example_translation": "大多数委员支持这项提案。",
+      "meaning": "支持",
+      "pos": "v.",
+      "usage": "support a proposal / project，表示赞成提案或支持项目。"
+    }
+  ],
+  "take place": [
+    {
+      "example": "The orientation will take place in Conference Room B.",
+      "example_translation": "入职介绍会将在 B 会议室举行。",
+      "meaning": "发生",
+      "pos": "phr.",
+      "usage": "take place + 时间或地点，常用于说明活动何时何地举行。"
+    }
+  ],
+  "the course of action": [
+    {
+      "example": "After reviewing the figures, we decided on a course of action.",
+      "example_translation": "审阅数据后，我们确定了下一步行动方案。",
+      "meaning": "行动方针",
+      "pos": "phr.",
+      "usage": "decide on a course of action，表示确定接下来采取的一套行动。"
+    }
+  ],
+  "transfer": [
+    {
+      "example": "I transferred the payment to the supplier's account.",
+      "example_translation": "我已把款项转入供应商的账户。",
+      "meaning": "转账",
+      "pos": "v.",
+      "usage": "transfer money to an account，表示把钱转到某个账户。"
+    },
+    {
+      "example": "The firm transferred ownership of the building last year.",
+      "example_translation": "这家公司去年移交了大楼的所有权。",
+      "meaning": "移交",
+      "pos": "v.",
+      "usage": "transfer ownership of something，表示移交所有权。"
+    },
+    {
+      "example": "The company transferred her to its regional office.",
+      "example_translation": "公司把她调到了地区办事处。",
+      "meaning": "调",
+      "pos": "v.",
+      "usage": "transfer someone to another office，表示把某人调到另一办公室。"
+    }
+  ],
+  "volunteer": [
+    {
+      "example": "A volunteer at the job fair directed visitors to the interview rooms.",
+      "example_translation": "招聘会上的一名志愿者引导来访者前往面试室。",
+      "meaning": "志愿者",
+      "pos": "n.",
+      "spelling_prompt": "志愿者，指自愿且通常不领取报酬、为公益或活动提供服务的人",
+      "usage": "a volunteer at + 场所或活动，指在该处服务的志愿者。"
+    },
+    {
+      "example": "Two employees volunteered to help at the charity event.",
+      "example_translation": "两名员工自愿在慈善活动上帮忙。",
+      "meaning": "自愿",
+      "pos": "v.",
+      "usage": "volunteer to do something，表示主动提出承担某项任务。"
+    }
+  ],
+  "warehouse": [
+    {
+      "example": "We store spare parts in a warehouse near the port.",
+      "example_translation": "我们把备件存放在港口附近的一座仓库里。",
+      "meaning": "仓库",
+      "pos": "n.",
+      "spelling_prompt": "仓库，专门存放货物的大型设施",
+      "usage": "store goods in a warehouse，表示把货物存放在仓库内。"
+    }
+  ],
+  "working conditions": [
+    {
+      "example": "The agreement will improve working conditions at the factory.",
+      "example_translation": "该协议将改善工厂员工的工作条件。",
+      "meaning": "工作条件",
+      "pos": "phr.",
+      "usage": "improve working conditions，表示改善员工的工作环境和待遇。"
+    }
+  ],
+  "workplace": [
+    {
+      "example": "All staff must attend the workplace safety training.",
+      "example_translation": "所有员工都必须参加工作场所安全培训。",
+      "meaning": "工作",
+      "pos": "n.",
+      "usage": "workplace safety，指工作场所安全。"
+    }
+  ]
+}
