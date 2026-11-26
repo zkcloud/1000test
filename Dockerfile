@@ -24,7 +24,7 @@ COPY --from=dependencies /opt/venv /opt/venv
 COPY --chown=app:app backend/__init__.py backend/__init__.py
 COPY --chown=app:app backend/app/ backend/app/
 COPY --chown=app:app backend/scripts/__init__.py backend/scripts/backup_runtime.py backend/scripts/
-COPY --chown=app:app data/questions.sqlite3 data/questions.sqlite3
+COPY --chown=app:app data/questions.sqlite3 data/vocabulary.sqlite3 data/
 COPY --from=frontend --chown=app:app /frontend/dist/ frontend/dist/
 USER 10001:10001
 EXPOSE 8000

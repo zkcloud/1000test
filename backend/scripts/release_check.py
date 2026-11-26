@@ -162,6 +162,7 @@ def main():
             "README.md",
             "backend/__init__.py",
             "data/questions.sqlite3",
+            "data/vocabulary.sqlite3",
             "docs/deployment.md",
             "deploy/nginx.conf.example",
             "backend/scripts/__init__.py",

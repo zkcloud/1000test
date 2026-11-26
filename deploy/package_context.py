@@ -10,6 +10,7 @@ release=datetime.now(timezone(timedelta(hours=8))).strftime('%Y%m%d-%H%M%S')
 target=root/'tmp'/f'deploy-{release}.tar.gz'
 target.parent.mkdir(exist_ok=True)
 files=[root/n for n in ['Dockerfile','.dockerignore','compose.yaml','pyproject.toml','uv.lock','backend/__init__.py','backend/scripts/__init__.py','backend/scripts/backup_runtime.py','data/questions.sqlite3','frontend/package.json','frontend/package-lock.json','frontend/index.html','frontend/vite.config.ts','frontend/tsconfig.json','frontend/tsconfig.app.json','frontend/tsconfig.node.json']]
+files.append(root/'data/vocabulary.sqlite3')
 for directory in ['backend/app','frontend/src','frontend/public','deploy']:
     files.extend(p for p in (root/directory).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
 files=sorted(set(files))

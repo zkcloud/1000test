@@ -1,24 +1,33 @@
 """阅读练习平台 API 与生产静态资源入口。"""
 
 import asyncio
-from contextlib import asynccontextmanager, suppress
 import logging
 import os
-from pathlib import Path
 import sqlite3
+from contextlib import asynccontextmanager, suppress
+from pathlib import Path
 from urllib.parse import urlsplit
+
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.middleware.trustedhost import TrustedHostMiddleware
+
+from backend.app.api.platform import router
+from backend.app.api.vocabulary import router as vocabulary_router
 from backend.app.db.database import DEFAULT_DATABASE
 from backend.app.services.platform import Platform
-from backend.app.api.platform import router
+from backend.app.services.vocabulary import Vocabulary
 
 ROOT = Path(__file__).resolve().parents[2]
 
 
-def create_app(bank: Path = DEFAULT_DATABASE, runtime: Path | None = None):
+def create_app(
+    bank: Path = DEFAULT_DATABASE,
+    runtime: Path | None = None,
+    *,
+    vocabulary_bank: Path | None = None,
+):
     if os.getenv("APP_ENV") == "production":
         origin = urlsplit(os.getenv("PUBLIC_ORIGIN", ""))
         hosts = os.getenv("ALLOWED_HOSTS", "")
@@ -38,6 +47,10 @@ def create_app(bank: Path = DEFAULT_DATABASE, runtime: Path | None = None):
             )
     store = Platform(
         bank, runtime or Path(os.getenv("APP_DATABASE", ROOT / "data/practice.sqlite3"))
+    )
+    vocabulary = Vocabulary(
+        vocabulary_bank
+        or Path(os.getenv("VOCABULARY_DATABASE", ROOT / "data/vocabulary.sqlite3"))
     )
 
     @asynccontextmanager
@@ -110,6 +123,7 @@ def create_app(bank: Path = DEFAULT_DATABASE, runtime: Path | None = None):
         )
 
     app.include_router(router(store))
+    app.include_router(vocabulary_router(vocabulary))
     dist = ROOT / "frontend/dist"
     if dist.is_dir():
         app.mount("/", StaticFiles(directory=dist, html=True), name="frontend")
