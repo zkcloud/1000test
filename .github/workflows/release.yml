@@ -52,7 +52,7 @@ jobs:
           docker build --label "org.opencontainers.image.revision=${RELEASE_SHA}" -t "$image" .
           docker run -d --name reading-smoke -p 127.0.0.1:18080:8000 "$image"
           trap 'docker logs --tail 50 reading-smoke; docker rm -f reading-smoke' EXIT
-          curl --fail --silent --show-error --retry 30 --retry-connrefused --retry-delay 2 http://127.0.0.1:18080/api/health
+          curl --fail --silent --show-error --max-time 5 --retry 30 --retry-all-errors --retry-delay 2 --retry-max-time 65 http://127.0.0.1:18080/api/health
           curl --fail --silent --show-error http://127.0.0.1:18080/ | grep -F 'id="app"'
           curl --fail --silent --show-error 'http://127.0.0.1:18080/api/vocabulary/words?q=additional' | jq -e '.items | any(.word == "additional")'
           mkdir release-artifacts
