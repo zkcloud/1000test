@@ -9,12 +9,18 @@ import type {
   Question,
 } from "./types";
 
+type Landing = "home" | "vocabulary";
+const landingPaths: Record<Landing, string> = {
+  home: "#/",
+  vocabulary: "#/vocabulary",
+};
+
 export function usePlatform() {
   const exams = ref<Exam[]>([]),
     history = ref<Attempt[]>([]),
     attempt = ref<Attempt | null>(null),
     question = ref<Question | null>(null);
-  const page = ref<"home" | "setup" | "work" | "result">("home"),
+  const page = ref<Landing | "setup" | "work" | "result">("home"),
     setupExam = ref<Exam | null>(null),
     mode = ref<Mode>("exam"),
     scope = ref("all");
@@ -23,6 +29,7 @@ export function usePlatform() {
     error = ref(""),
     saveState = ref(""),
     dialog = ref<"submit" | "leave" | null>(null),
+    leaveDestination = ref<Landing>("home"),
     filter = ref("all");
   const pending = ref<PendingAnswer | null>(null),
     conflict = ref(false),
@@ -76,39 +83,52 @@ export function usePlatform() {
   let interval: ReturnType<typeof setInterval> | undefined,
     expiring = false;
   let lastAutoAdvance = -Infinity;
+  let leavingByHistory = false;
+  let routeRevision = 0;
+
+  function captureRoute() {
+    const revision = routeRevision;
+    return () => revision === routeRevision;
+  }
 
   function apply(a: Attempt) {
     attempt.value = a;
     offset.value = a.server_time - Date.now() / 1000;
   }
   function location(hash: string) {
-    window.history.pushState({}, "", hash);
+    if (window.location.hash !== hash) window.history.pushState({}, "", hash);
   }
   function storePending(p: PendingAnswer | null) {
     if (p) localStorage.setItem("reader-pending", JSON.stringify(p));
     else localStorage.removeItem("reader-pending");
     pending.value = p;
   }
-  async function run(fn: () => Promise<void>) {
+  async function run(fn: () => Promise<void>, isCurrent = () => true) {
     if (busy.value) return;
     busy.value = true;
     error.value = "";
     try {
       await fn();
     } catch (e) {
-      error.value = e instanceof Error ? e.message : "操作失败，请重试";
+      if (isCurrent())
+        error.value = e instanceof Error ? e.message : "操作失败，请重试";
     } finally {
       busy.value = false;
     }
   }
-  async function loadQuestion() {
+  async function loadQuestion(isCurrent = () => true) {
     const a = attempt.value;
     if (!a) return;
     const q = a.questions[a.current_index];
     if (!q) return;
-    question.value = await api<Question>(`/attempts/${a.id}/questions/${q.id}`);
+    const loaded = await api<Question>(`/attempts/${a.id}/questions/${q.id}`);
+    if (isCurrent()) question.value = loaded;
   }
-  async function loadAttempt(id: string, result = false) {
+  async function loadAttempt(
+    id: string,
+    result = false,
+    isCurrent = () => true,
+  ) {
     const saved = readPending();
     if (saved && saved.aid !== id) {
       pending.value = saved;
@@ -116,7 +136,9 @@ export function usePlatform() {
         "另一次作答仍有未同步选择，请先打开关联记录处理，避免覆盖本地数据。",
       );
     }
-    apply(await api<Attempt>(`/attempts/${encodeURIComponent(id)}`));
+    const loaded = await api<Attempt>(`/attempts/${encodeURIComponent(id)}`);
+    if (!isCurrent()) return;
+    apply(loaded);
     const raw = localStorage.getItem("reader-pending");
     if (raw) {
       try {
@@ -134,33 +156,42 @@ export function usePlatform() {
       !window.location.hash.includes("review")
     )
       page.value = "result";
-    await loadQuestion();
+    await loadQuestion(isCurrent);
   }
-  async function home() {
-    history.value = await api<Attempt[]>("/attempts");
-    page.value = "home";
+  function setLanding(destination: Landing) {
+    page.value = destination;
     attempt.value = null;
     question.value = null;
     pending.value = readPending();
+    leavingByHistory = false;
     dialog.value = null;
-    location("#/");
   }
   async function init() {
+    routeRevision++;
+    const isCurrent = captureRoute();
     loading.value = true;
     error.value = "";
-    pending.value = readPending();
+    const hash = window.location.hash;
+    const destination =
+      hash === landingPaths.vocabulary ? "vocabulary" : "home";
+    setLanding(destination);
     try {
+      if (destination === "vocabulary") return;
       await identify();
-      exams.value = await api<Exam[]>("/exams");
-      history.value = await api<Attempt[]>("/attempts");
-      const match = window.location.hash.match(
-        /^#\/attempt\/([\w-]+)(?:\/(review|result))?$/,
-      );
-      if (match) await loadAttempt(match[1]!, match[2] !== "review");
+      if (!isCurrent()) return;
+      const loadedExams = await api<Exam[]>("/exams");
+      if (!isCurrent()) return;
+      exams.value = loadedExams;
+      const loadedHistory = await api<Attempt[]>("/attempts");
+      if (!isCurrent()) return;
+      history.value = loadedHistory;
+      const match = hash.match(/^#\/attempt\/([\w-]+)(?:\/(review|result))?$/);
+      if (match) await loadAttempt(match[1]!, match[2] !== "review", isCurrent);
     } catch (e) {
-      error.value = e instanceof Error ? e.message : "加载失败";
+      if (isCurrent())
+        error.value = e instanceof Error ? e.message : "加载失败";
     } finally {
-      loading.value = false;
+      if (isCurrent()) loading.value = false;
     }
   }
   function readPending(): PendingAnswer | null {
@@ -184,6 +215,7 @@ export function usePlatform() {
     const saved = pending.value;
     if (saved)
       await run(async () => {
+        if (page.value === "vocabulary") await identify();
         await loadAttempt(saved.aid);
         location(`#/attempt/${saved.aid}`);
       });
@@ -366,12 +398,39 @@ export function usePlatform() {
     location(`#/attempt/${a.id}/review`);
     await run(loadQuestion);
   }
-  async function backHome() {
+  async function navigateLanding(destination: Landing) {
+    const isCurrent = captureRoute();
+    const updateLocation = !leavingByHistory;
     await run(async () => {
-      if (active.value && attempt.value?.mode === "practice")
-        await api(`/attempts/${attempt.value.id}/pause`, "POST");
-      await home();
-    });
+      if (active.value && pending.value) return;
+      const a = attempt.value;
+      if (active.value && a?.mode === "practice" && !a.paused) {
+        const paused = await api<Attempt>(`/attempts/${a.id}/pause`, "POST");
+        if (
+          attempt.value?.id === a.id &&
+          attempt.value.revision <= paused.revision
+        )
+          apply(paused);
+        if (!isCurrent()) return;
+      }
+      if (destination === "home") {
+        if (!exams.value.length) {
+          await identify();
+          if (!isCurrent()) return;
+          const loadedExams = await api<Exam[]>("/exams");
+          if (!isCurrent()) return;
+          exams.value = loadedExams;
+        }
+        const loadedHistory = await api<Attempt[]>("/attempts");
+        if (!isCurrent()) return;
+        history.value = loadedHistory;
+      }
+      setLanding(destination);
+      if (updateLocation) location(landingPaths[destination]);
+    }, isCurrent);
+  }
+  function backHome() {
+    return navigateLanding("home");
   }
   async function pause() {
     if (pending.value) return;
@@ -400,9 +459,28 @@ export function usePlatform() {
       await loadQuestion();
     });
   }
-  function leave() {
-    if (active.value) dialog.value = "leave";
-    else void backHome();
+  function leave(destination: Landing = "home", byHistory = false) {
+    if (
+      loading.value ||
+      (destination === "vocabulary" && page.value === destination)
+    )
+      return;
+    if (!active.value) {
+      void navigateLanding(destination);
+      return;
+    }
+    leaveDestination.value = destination;
+    leavingByHistory = byHistory;
+    dialog.value = "leave";
+  }
+  function closeDialog() {
+    if (leavingByHistory && attempt.value)
+      location(`#/attempt/${attempt.value.id}`);
+    leavingByHistory = false;
+    dialog.value = null;
+  }
+  function confirmLeave() {
+    return navigateLanding(leaveDestination.value);
   }
   function beforeUnload(e: BeforeUnloadEvent) {
     if (pending.value) {
@@ -411,7 +489,21 @@ export function usePlatform() {
     }
   }
   function popstate() {
-    page.value = "home";
+    if (
+      !loading.value &&
+      active.value &&
+      (window.location.hash === "" ||
+        Object.values(landingPaths).includes(window.location.hash))
+    ) {
+      routeRevision++;
+      leave(
+        window.location.hash === landingPaths.vocabulary
+          ? "vocabulary"
+          : "home",
+        true,
+      );
+      return;
+    }
     void init();
   }
   function online() {
@@ -464,6 +556,7 @@ export function usePlatform() {
     error,
     saveState,
     dialog,
+    leaveDestination,
     filter,
     pending,
     openPending,
@@ -494,6 +587,8 @@ export function usePlatform() {
     review,
     backHome,
     leave,
+    closeDialog,
+    confirmLeave,
     init,
   };
 }

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, ref, watch } from "vue";
 import MaterialPanel from "./components/MaterialPanel.vue";
+import VocabularyPage from "./components/VocabularyPage.vue";
 import { usePlatform } from "./usePlatform";
 const p = usePlatform();
 const {
@@ -17,6 +18,7 @@ const {
   error,
   saveState,
   dialog,
+  leaveDestination,
   filter,
   pending,
   conflict,
@@ -30,6 +32,7 @@ const {
 } = p;
 const { passages, passageId, practiceElapsed } = p;
 const modal = ref<HTMLDialogElement | null>(null),
+  main = ref<HTMLElement | null>(null),
   answerCardOpen = ref(false),
   showAllHistory = ref(false);
 const time = (seconds: number) =>
@@ -99,18 +102,40 @@ function discard() {
 </script>
 
 <template>
-  <a class="skip-link" href="#main">跳到主要内容</a>
+  <a class="skip-link" href="#main" @click.prevent="main?.focus()"
+    >跳到主要内容</a
+  >
   <header class="site-header">
-    <button class="brand" aria-label="阅读练习室首页" @click="p.leave">
+    <button class="brand" aria-label="阅读练习室首页" @click="p.leave('home')">
       <span class="brand-symbol">阅</span
       ><span>阅读练习室<small>READ. PRACTICE. PROGRESS.</small></span>
     </button>
     <nav aria-label="主导航">
-      <span class="device-note">记录保存在当前浏览器身份下</span
-      ><button class="quiet" @click="p.leave">试卷大厅</button>
+      <span v-if="page !== 'vocabulary'" class="device-note"
+        >记录保存在当前浏览器身份下</span
+      >
+      <button
+        class="quiet site-nav-link"
+        :aria-current="page !== 'vocabulary' ? 'page' : undefined"
+        @click="p.leave('home')"
+      >
+        试卷大厅
+      </button>
+      <button
+        class="quiet site-nav-link"
+        :aria-current="page === 'vocabulary' ? 'page' : undefined"
+        @click="p.leave('vocabulary')"
+      >
+        我要背单词
+      </button>
     </nav>
   </header>
-  <main id="main" :class="{ 'workspace-main': page === 'work' }">
+  <main
+    id="main"
+    ref="main"
+    tabindex="-1"
+    :class="{ 'workspace-main': page === 'work' }"
+  >
     <div v-if="error" class="notice error-notice" role="alert">
       <span>{{ error }}</span><button v-if="!attempt" @click="p.init">
         重新加载</button
@@ -143,6 +168,8 @@ function discard() {
     <div v-if="loading" class="loading" role="status">
       正在准备你的阅读空间…
     </div>
+
+    <VocabularyPage v-else-if="page === 'vocabulary'" />
 
     <template v-else-if="page === 'home'">
       <section class="hero">
@@ -708,14 +735,16 @@ function discard() {
     </section>
     <footer v-if="page !== 'work'" class="site-footer">
       <span>阅读练习室 · 每一次理解都算数</span
-      ><span>仅保留当前浏览器访客记录；清除 Cookie 后将无法找回。</span>
+      ><span v-if="page !== 'vocabulary'"
+        >仅保留当前浏览器访客记录；清除 Cookie 后将无法找回。</span
+      >
     </footer>
   </main>
   <dialog
     ref="modal"
     class="confirm-dialog"
-    @cancel.prevent="dialog = null"
-    @close="dialog = null"
+    @cancel.prevent="p.closeDialog()"
+    @close="p.closeDialog()"
   >
     <div v-if="attempt" class="dialog-content">
       <p class="eyebrow">
@@ -724,7 +753,9 @@ function discard() {
       <h2>
         {{
           dialog === "leave"
-            ? "返回试卷大厅？"
+            ? leaveDestination === "vocabulary"
+              ? "前往背单词？"
+              : "返回试卷大厅？"
             : attempt.mode === "exam"
               ? "确认交卷？"
               : "结束本次练习？"
@@ -747,15 +778,21 @@ function discard() {
       </p>
       <p v-if="pending" class="notice">请先处理尚未同步的本地作答。</p>
       <div class="button-row">
-        <button autofocus :disabled="busy" @click="dialog = null">
+        <button autofocus :disabled="busy" @click="p.closeDialog()">
           返回检查</button
         ><button
           class="primary"
           :disabled="busy || !!pending"
-          @click="dialog === 'leave' ? p.backHome() : p.finish()"
+          @click="dialog === 'leave' ? p.confirmLeave() : p.finish()"
         >
           {{
-            busy ? "正在处理…" : dialog === "leave" ? "返回大厅" : "确认提交"
+            busy
+              ? "正在处理…"
+              : dialog === "leave"
+                ? leaveDestination === "vocabulary"
+                  ? "前往背单词"
+                  : "返回大厅"
+                : "确认提交"
           }}
         </button>
       </div>

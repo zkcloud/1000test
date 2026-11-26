@@ -70,6 +70,18 @@ npm run build
 
 题库在 `data/questions.sqlite3`（运行时只读），作答记录在 `data/practice.sqlite3`（SQLite WAL，首次启动自动建表）。不能将两个路径设为同一文件。匿名访客 Cookie 丢失后无法找回原历史记录，首期不包含账号登录和跨设备同步。
 
+## 我要背单词
+
+主导航进入「我要背单词」后，可用英文或中文查词，并按 Test 筛选。词库来自原书 Test 01–10 的 270 个 `Vocabulary Check` 板块。词条保留原书位置，例句标注为原书例句或补充例句。用法或例句待核对的义项仍可查阅释义，练习从资料完整的义项中出题。两种练习每轮最多 10 题，提交后显示答案与解析，进度保留在本轮页面。
+
+应用仅读取随代码提供的 `data/vocabulary.sqlite3`。需要从原书重建词库时，在项目根目录执行以下命令。
+
+```shell
+uv run python -m backend.scripts.import_vocabulary
+```
+
+导入会核对 PDF 与试卷题库的来源，按套次检查板块覆盖，并在通过 SQLite 完整性检查后替换词库。可用 `--pdf`、`--question-bank` 和 `--database` 指定输入与输出。
+
 ## 题库
 
 - 数据结构：`docs/data-model.md`
