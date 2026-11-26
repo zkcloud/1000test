@@ -36,3 +36,5 @@ NGINX 开启 `listen 443 quic reuseport`、`http3 on` 和 `http2 on`，Compose �
 功能变更先合入 `master`，发布时向 `release` 提交 PR。面向这两个分支的 PR 会运行 CI，包括 Python 测试和 Chromium 桌面、手机端到端测试。PR 合入 `release` 后，Release 流水线会构建该次合入提交的 Linux amd64 Docker 镜像，检查网页、健康接口和词库接口，再将镜像压缩包与 SHA-256 校验文件发布到 GitHub Releases。关闭未合并的 PR 会跳过发布。
 
 生产服务器可从对应 GitHub Release 下载两个文件，在同一目录运行 `sha256sum -c SHA256SUMS` 和 `docker load -i reading-platform-linux-amd64.tar.gz`。镜像名为 `reading-platform:<合入提交的完整 SHA>`。接下来按上文更新流程备份数据、设置 `APP_IMAGE` 并更新服务。
+
+如果上传发布资产失败，可在 Actions 中重新运行该次 Release。流水线沿用该次合入提交对应的标签，校验镜像归档后重新上传资产。
