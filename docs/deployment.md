@@ -30,3 +30,9 @@ systemctl start reading-backup.service
 NGINX 开启 `listen 443 quic reuseport`、`http3 on` 和 `http2 on`，Compose 发布 `443:443/udp`。响应通告 `Alt-Svc: h3=":443"; ma=86400`，支持 HTTP/3 的客户端可尝试 QUIC，不可用时仍可通过 TCP/HTTP/2 连接。实际协议由客户端和网络协商，首次访问尚未获知 Alt-Svc 时可能先使用 HTTP/2。
 
 域名经过 Cloudflare，浏览器与 Cloudflare、Cloudflare 与源站属于两段连接。Cloudflare 官方文档说明目前回源不支持 HTTP/3；开启源站 HTTP/3 可供直连源站的客户端使用，不改变 Cloudflare 回源行为。参考：https://developers.cloudflare.com/speed/optimization/protocol/http3/ 。验收见 `reports/deployment/http3-report.md`。
+
+## GitHub Actions 发布
+
+功能变更先合入 `master`，发布时向 `release` 提交 PR。面向这两个分支的 PR 会运行 CI，包括 Python 测试和 Chromium 桌面、手机端到端测试。PR 合入 `release` 后，Release 流水线会构建该次合入提交的 Linux amd64 Docker 镜像，检查网页、健康接口和词库接口，再将镜像压缩包与 SHA-256 校验文件发布到 GitHub Releases。关闭未合并的 PR 会跳过发布。
+
+生产服务器可从对应 GitHub Release 下载两个文件，在同一目录运行 `sha256sum -c SHA256SUMS` 和 `docker load -i reading-platform-linux-amd64.tar.gz`。镜像名为 `reading-platform:<合入提交的完整 SHA>`。接下来按上文更新流程备份数据、设置 `APP_IMAGE` 并更新服务。

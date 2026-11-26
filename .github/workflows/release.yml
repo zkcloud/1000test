@@ -1,0 +1,66 @@
+name: Release
+on:
+  pull_request_target:
+    branches: [release]
+    types: [closed]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    # Only a commit already accepted into release can be built here.
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      RELEASE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.RELEASE_SHA }}
+          persist-credentials: false
+      - name: Build and smoke-test release image
+        run: |
+          set -euo pipefail
+          image="reading-platform:${RELEASE_SHA}"
+          docker build --label "org.opencontainers.image.revision=${RELEASE_SHA}" -t "$image" .
+          docker run -d --name reading-smoke -p 127.0.0.1:18080:8000 "$image"
+          trap 'docker logs --tail 50 reading-smoke; docker rm -f reading-smoke' EXIT
+          curl --fail --silent --show-error --retry 30 --retry-connrefused --retry-delay 2 http://127.0.0.1:18080/api/health
+          curl --fail --silent --show-error http://127.0.0.1:18080/ | grep -F 'id="app"'
+          curl --fail --silent --show-error 'http://127.0.0.1:18080/api/vocabulary/words?q=additional' | jq -e '.items | any(.word == "additional")'
+          mkdir release-artifacts
+          docker save "$image" | gzip > release-artifacts/reading-platform-linux-amd64.tar.gz
+          cd release-artifacts
+          sha256sum reading-platform-linux-amd64.tar.gz > SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-image
+          path: release-artifacts/
+          if-no-files-found: error
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RELEASE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-image
+      - name: Publish Docker image to GitHub Releases
+        run: |
+          set -euo pipefail
+          sha256sum -c SHA256SUMS
+          tag="release-${RELEASE_SHA}"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --target "$RELEASE_SHA" --title "Release ${RELEASE_SHA:0:12}" --generate-notes --draft
+          fi
+          gh release upload "$tag" reading-platform-linux-amd64.tar.gz SHA256SUMS --clobber
+          gh release edit "$tag" --draft=false
