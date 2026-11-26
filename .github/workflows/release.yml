@@ -1,20 +1,45 @@
 name: Release
 on:
-  pull_request_target:
+  push:
     branches: [release]
-    types: [closed]
 
 permissions:
   contents: read
 
 jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      merged: ${{ steps.pr.outputs.merged }}
+    steps:
+      - id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          for attempt in {1..5}; do
+            prs=$(gh api "repos/$GH_REPO/commits/$RELEASE_SHA/pulls")
+            if jq -e --arg sha "$RELEASE_SHA" 'any(.[]; .base.ref == "release" and .merged_at != null and .merge_commit_sha == $sha)' <<<"$prs"; then
+              echo "merged=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "No merged release PR for this commit; skipping publication."
+
   build:
-    # Only a commit already accepted into release can be built here.
-    if: github.event.pull_request.merged == true
+    needs: verify
+    if: needs.verify.outputs.merged == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
-      RELEASE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+      RELEASE_SHA: ${{ github.sha }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,7 +74,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
-      RELEASE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+      RELEASE_SHA: ${{ github.sha }}
     steps:
       - uses: actions/download-artifact@v4
         with:
